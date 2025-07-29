@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 4.1.2)
+set(CMAKE_SUPPRESS_DEVELOPER_WARNINGS ON CACHE BOOL "" FORCE)
 set(CMAKE_EXPERIMENTAL_CXX_IMPORT_STD "d0edc3af-4c50-42ea-a356-e2862fe7a444")
 set(CMAKE_CXX_MODULE_STD ON)
 set(CMAKE_CXX_FLAGS -stdlib=libc++)
-
 project(
     CrossFun
     VERSION 1.0
@@ -20,3 +20,4 @@ add_subdirectory(deps)
 add_subdirectory(src)
 add_subdirectory(apps)
 add_subdirectory(tests)
+add_compile_options(-Wno-unused-command-line-argument)

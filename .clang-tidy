@@ -3,8 +3,10 @@ Checks: >
     concurrency-*,
     bugprone-*,
     cppcoreguidelines-*,
+    -cppcoreguidelines-avoid-magic-numbers,
     modernize-*,
     readability-*,
+    -readability-magic-numbers,
     portability-*,
     performance-*,
     misc-*
