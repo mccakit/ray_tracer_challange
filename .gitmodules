@@ -1,0 +1,3 @@
+[submodule "deps/ut"]
+	path = deps/ut
+	url = git@github.com:boost-ext/ut.git
