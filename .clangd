@@ -1,0 +1,4 @@
+CompileFlags:
+  CompilationDatabase: build/debian-x64
+Documentation:
+  CommentFormat: Doxygen

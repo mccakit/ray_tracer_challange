@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a7125d0747a44db58115899727ac5f6be" kind="function"><name>getRandomInt</name></member>
+  </compound>
+  <compound refid="dir_9654b8d08f4bba4e84b362c5fd320bee" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/apps</name>
+  </compound>
+</doxygenindex>
