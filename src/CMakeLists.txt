@@ -1,2 +1,7 @@
 add_library(tuple STATIC)
 target_sources(tuple PUBLIC FILE_SET CXX_MODULES FILES tuple.cpp)
+add_library(color STATIC)
+target_sources(color PUBLIC FILE_SET CXX_MODULES FILES color.cpp)
+add_library(canvas STATIC)
+target_sources(canvas PUBLIC FILE_SET CXX_MODULES FILES canvas.cpp)
+target_link_libraries(canvas PRIVATE color)

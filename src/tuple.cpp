@@ -75,7 +75,7 @@ bool operator==(const tuple &ls_tuple, const tuple &rs_tuple)
 {
     for (int i{0}; i < 4; ++i)
     {
-        if (std::abs(ls_tuple[i] - rs_tuple[i]) > 1e-7)
+        if (std::abs(ls_tuple[i] - rs_tuple[i]) > 1e-5)
         {
             return false;
         }
