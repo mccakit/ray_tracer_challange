@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="module_canvas" kind="module">
+    <compoundname>canvas</compoundname>
+    <innerfile refid="canvas_8cpp">canvas.cpp</innerfile>
+    <innerclass refid="classcanvas_1_1canvas" prot="public">canvas::canvas</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="classcanvas_1_1canvas_1abae92a469aeab6a007267c6fd2d84a29" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t canvas::canvas&lt; w, h &gt;::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>canvas::canvas::width</qualifiedname>
+        <initializer>{w}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="9" column="34" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcanvas_1_1canvas_1a92489d7279b9c5d4bced9d3b6c28047b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>constexpr std::size_t</type>
+        <definition>constexpr std::size_t canvas::canvas&lt; w, h &gt;::height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>canvas::canvas::height</qualifiedname>
+        <initializer>{h}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="10" column="34" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcanvas_1_1canvas_1a6231f1896e4101506462e492b8b7fe2e" prot="public" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="classcolor_1_1color" kindref="compound">color::color</ref>, width *height &gt;</type>
+        <definition>std::array&lt;color::color, width * height&gt; canvas::canvas&lt; w, h &gt;::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <qualifiedname>canvas::canvas::pixels</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="11" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcanvas_1_1canvas_1adc1ada05588aeb70570cd40dd81e05b8" prot="public" static="no" mutable="no">
+        <type>std::array&lt; char,(width *height *11)+30 &gt;</type>
+        <definition>std::array&lt;char, (width * height * 11) + 30&gt; canvas::canvas&lt; w, h &gt;::ppm_string</definition>
+        <argsstring></argsstring>
+        <name>ppm_string</name>
+        <qualifiedname>canvas::canvas::ppm_string</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="12" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="classcanvas_1_1canvas_1a66259278f113776661a9cbfc57b37b6b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void canvas::canvas&lt; w, h &gt;::write_pixel</definition>
+        <argsstring>(const std::size_t x, const std::size_t y, color::color input_color)</argsstring>
+        <name>write_pixel</name>
+        <qualifiedname>canvas::canvas::write_pixel</qualifiedname>
+        <param>
+          <type>const std::size_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const std::size_t</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type><ref refid="classcolor_1_1color" kindref="compound">color::color</ref></type>
+          <declname>input_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="13" column="10" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classcanvas_1_1canvas_1afe86b2d3873049091edcf557dbddb9e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="classcolor_1_1color" kindref="compound">color::color</ref> &amp;</type>
+        <definition>const color::color &amp; canvas::canvas&lt; w, h &gt;::pixel_at</definition>
+        <argsstring>(const std::size_t x, const std::size_t y)</argsstring>
+        <name>pixel_at</name>
+        <qualifiedname>canvas::canvas::pixel_at</qualifiedname>
+        <param>
+          <type>const std::size_t</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const std::size_t</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="17" column="24" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classcanvas_1_1canvas_1aaf9180ed3e5f7f19014ff202c67e2bed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::array&lt; char,(width *height *11)+30 &gt; &amp;</type>
+        <definition>const std::array&lt; char,(width *height *11)+30 &gt; &amp; canvas::canvas&lt; w, h &gt;::to_ppm</definition>
+        <argsstring>()</argsstring>
+        <name>to_ppm</name>
+        <qualifiedname>canvas::canvas::to_ppm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="21" column="22" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="21" bodyend="47"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="1" column="15"/>
+  </compounddef>
+</doxygen>

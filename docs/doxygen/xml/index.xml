@@ -1,8 +1,126 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="classcanvas_1_1canvas" kind="class"><name>canvas::canvas</name>
+    <member refid="classcanvas_1_1canvas_1abae92a469aeab6a007267c6fd2d84a29" kind="variable"><name>width</name></member>
+    <member refid="classcanvas_1_1canvas_1a92489d7279b9c5d4bced9d3b6c28047b" kind="variable"><name>height</name></member>
+    <member refid="classcanvas_1_1canvas_1a6231f1896e4101506462e492b8b7fe2e" kind="variable"><name>pixels</name></member>
+    <member refid="classcanvas_1_1canvas_1adc1ada05588aeb70570cd40dd81e05b8" kind="variable"><name>ppm_string</name></member>
+    <member refid="classcanvas_1_1canvas_1a66259278f113776661a9cbfc57b37b6b" kind="function"><name>write_pixel</name></member>
+    <member refid="classcanvas_1_1canvas_1afe86b2d3873049091edcf557dbddb9e6" kind="function"><name>pixel_at</name></member>
+    <member refid="classcanvas_1_1canvas_1aaf9180ed3e5f7f19014ff202c67e2bed" kind="function"><name>to_ppm</name></member>
+  </compound>
+  <compound refid="classcolor_1_1color" kind="class"><name>color::color</name>
+    <member refid="classcolor_1_1color_1a17f00b60230b1d4b6e1fe02d25dfe106" kind="variable"><name>channels</name></member>
+    <member refid="classcolor_1_1color_1a897a926b90daa8cbdc449ac826b8a208" kind="function"><name>color</name></member>
+    <member refid="classcolor_1_1color_1a77bb51e0781547f70790f818ddb3d871" kind="function"><name>color</name></member>
+    <member refid="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" kind="function"><name>operator[]</name></member>
+    <member refid="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" kind="function"><name>operator[]</name></member>
+  </compound>
+  <compound refid="classtuple_1_1tuple" kind="class"><name>tuple::tuple</name>
+    <member refid="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" kind="variable"><name>data</name></member>
+    <member refid="classtuple_1_1tuple_1a15163d952127e5a65184f7d8376fb780" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1aff9a7a2f63fa5ed800cd02498745a897" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" kind="function"><name>is_point</name></member>
+    <member refid="classtuple_1_1tuple_1a8d54e202594b535034f27877da4e10ea" kind="function"><name>is_vector</name></member>
+    <member refid="classtuple_1_1tuple_1aa13409e279b8a744486ea7c35c9e89f0" kind="function"><name>x</name></member>
+    <member refid="classtuple_1_1tuple_1af1a14b1190894867622b314f7f63d7ba" kind="function"><name>y</name></member>
+    <member refid="classtuple_1_1tuple_1a35345c4d2926d1141f67b1c20fedd716" kind="function"><name>z</name></member>
+    <member refid="classtuple_1_1tuple_1ad1c3684b31700700e06ec5c60c5f307e" kind="function"><name>w</name></member>
+    <member refid="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" kind="function"><name>operator[]</name></member>
+    <member refid="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" kind="function"><name>operator[]</name></member>
+  </compound>
+  <compound refid="namespacecanvas" kind="namespace"><name>canvas</name>
+  </compound>
+  <compound refid="namespacecolor" kind="namespace"><name>color</name>
+    <member refid="namespacecolor_1a8588d7afe41d3f541b62b2b4b78ff0c7" kind="function"><name>operator==</name></member>
+    <member refid="namespacecolor_1a90e18683cacefcc90a3c384cbdba176f" kind="function"><name>operator+</name></member>
+    <member refid="namespacecolor_1a024ddfc4222d81fefa8f0ff061b51547" kind="function"><name>operator-</name></member>
+    <member refid="namespacecolor_1aebb41bfc6f05ccbcc6460d814bce6fb0" kind="function"><name>operator*</name></member>
+    <member refid="namespacecolor_1a683ea01fdaa3ebf831e5e248112abfde" kind="function"><name>operator/</name></member>
+    <member refid="namespacecolor_1af0a551a079831b4b34a9069937afdd62" kind="function"><name>operator*</name></member>
+  </compound>
+  <compound refid="namespacetuple" kind="namespace"><name>tuple</name>
+    <member refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kind="function"><name>point</name></member>
+    <member refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kind="function"><name>vector</name></member>
+    <member refid="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" kind="function"><name>operator==</name></member>
+    <member refid="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" kind="function"><name>operator+</name></member>
+    <member refid="namespacetuple_1ab8721382f213f496c8d291019f979841" kind="function"><name>operator-</name></member>
+    <member refid="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" kind="function"><name>operator*</name></member>
+    <member refid="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" kind="function"><name>operator/</name></member>
+    <member refid="namespacetuple_1a8a96856c45d7fd630882613deef86886" kind="function"><name>magnitude</name></member>
+    <member refid="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" kind="function"><name>normalize</name></member>
+    <member refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kind="function"><name>dot_product</name></member>
+    <member refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kind="function"><name>cross_product</name></member>
+  </compound>
   <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
-    <member refid="main_8cpp_1a7125d0747a44db58115899727ac5f6be" kind="function"><name>getRandomInt</name></member>
+    <member refid="main_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="canvas_8cpp" kind="file"><name>canvas.cpp</name>
+  </compound>
+  <compound refid="color_8cpp" kind="file"><name>color.cpp</name>
+  </compound>
+  <compound refid="tuple_8cpp" kind="file"><name>tuple.cpp</name>
+  </compound>
+  <compound refid="canvas__test_8cpp" kind="file"><name>canvas_test.cpp</name>
+    <member refid="canvas__test_8cpp_1aa05140fc73a9f42ac9665f98780e96a0" kind="function"><name>get_line</name></member>
+    <member refid="canvas__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="color__test_8cpp" kind="file"><name>color_test.cpp</name>
+    <member refid="color__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="tuple__test_8cpp" kind="file"><name>tuple_test.cpp</name>
+    <member refid="tuple__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
   </compound>
   <compound refid="dir_9654b8d08f4bba4e84b362c5fd320bee" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/apps</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/src</name>
+  </compound>
+  <compound refid="dir_59425e443f801f1f2fd8bbe4959a3ccf" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/tests</name>
+  </compound>
+  <compound refid="module_canvas" kind="module"><name>canvas</name>
+    <member refid="classcanvas_1_1canvas_1abae92a469aeab6a007267c6fd2d84a29" kind="variable"><name>width</name></member>
+    <member refid="classcanvas_1_1canvas_1a92489d7279b9c5d4bced9d3b6c28047b" kind="variable"><name>height</name></member>
+    <member refid="classcanvas_1_1canvas_1a6231f1896e4101506462e492b8b7fe2e" kind="variable"><name>pixels</name></member>
+    <member refid="classcanvas_1_1canvas_1adc1ada05588aeb70570cd40dd81e05b8" kind="variable"><name>ppm_string</name></member>
+    <member refid="classcanvas_1_1canvas_1a66259278f113776661a9cbfc57b37b6b" kind="function"><name>write_pixel</name></member>
+    <member refid="classcanvas_1_1canvas_1afe86b2d3873049091edcf557dbddb9e6" kind="function"><name>pixel_at</name></member>
+    <member refid="classcanvas_1_1canvas_1aaf9180ed3e5f7f19014ff202c67e2bed" kind="function"><name>to_ppm</name></member>
+  </compound>
+  <compound refid="module_color" kind="module"><name>color</name>
+    <member refid="classcolor_1_1color_1a17f00b60230b1d4b6e1fe02d25dfe106" kind="variable"><name>channels</name></member>
+    <member refid="classcolor_1_1color_1a897a926b90daa8cbdc449ac826b8a208" kind="function"><name>color</name></member>
+    <member refid="classcolor_1_1color_1a77bb51e0781547f70790f818ddb3d871" kind="function"><name>color</name></member>
+    <member refid="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" kind="function"><name>operator[]</name></member>
+    <member refid="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" kind="function"><name>operator[]</name></member>
+    <member refid="namespacecolor_1a8588d7afe41d3f541b62b2b4b78ff0c7" kind="function"><name>operator==</name></member>
+    <member refid="namespacecolor_1a90e18683cacefcc90a3c384cbdba176f" kind="function"><name>operator+</name></member>
+    <member refid="namespacecolor_1a024ddfc4222d81fefa8f0ff061b51547" kind="function"><name>operator-</name></member>
+    <member refid="namespacecolor_1aebb41bfc6f05ccbcc6460d814bce6fb0" kind="function"><name>operator*</name></member>
+    <member refid="namespacecolor_1a683ea01fdaa3ebf831e5e248112abfde" kind="function"><name>operator/</name></member>
+    <member refid="namespacecolor_1af0a551a079831b4b34a9069937afdd62" kind="function"><name>operator*</name></member>
+  </compound>
+  <compound refid="module_tuple" kind="module"><name>tuple</name>
+    <member refid="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" kind="variable"><name>data</name></member>
+    <member refid="classtuple_1_1tuple_1a15163d952127e5a65184f7d8376fb780" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1aff9a7a2f63fa5ed800cd02498745a897" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" kind="function"><name>is_point</name></member>
+    <member refid="classtuple_1_1tuple_1a8d54e202594b535034f27877da4e10ea" kind="function"><name>is_vector</name></member>
+    <member refid="classtuple_1_1tuple_1aa13409e279b8a744486ea7c35c9e89f0" kind="function"><name>x</name></member>
+    <member refid="classtuple_1_1tuple_1af1a14b1190894867622b314f7f63d7ba" kind="function"><name>y</name></member>
+    <member refid="classtuple_1_1tuple_1a35345c4d2926d1141f67b1c20fedd716" kind="function"><name>z</name></member>
+    <member refid="classtuple_1_1tuple_1ad1c3684b31700700e06ec5c60c5f307e" kind="function"><name>w</name></member>
+    <member refid="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" kind="function"><name>operator[]</name></member>
+    <member refid="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" kind="function"><name>operator[]</name></member>
+    <member refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kind="function"><name>point</name></member>
+    <member refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kind="function"><name>vector</name></member>
+    <member refid="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" kind="function"><name>operator==</name></member>
+    <member refid="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" kind="function"><name>operator+</name></member>
+    <member refid="namespacetuple_1ab8721382f213f496c8d291019f979841" kind="function"><name>operator-</name></member>
+    <member refid="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" kind="function"><name>operator*</name></member>
+    <member refid="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" kind="function"><name>operator/</name></member>
+    <member refid="namespacetuple_1a8a96856c45d7fd630882613deef86886" kind="function"><name>magnitude</name></member>
+    <member refid="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" kind="function"><name>normalize</name></member>
+    <member refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kind="function"><name>dot_product</name></member>
+    <member refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kind="function"><name>cross_product</name></member>
   </compound>
 </doxygenindex>

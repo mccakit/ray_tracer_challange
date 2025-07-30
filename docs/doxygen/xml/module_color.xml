@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="module_color" kind="module">
+    <compoundname>color</compoundname>
+    <innerfile refid="color_8cpp">color.cpp</innerfile>
+    <innerclass refid="classcolor_1_1color" prot="public">color::color</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="classcolor_1_1color_1a17f00b60230b1d4b6e1fe02d25dfe106" prot="public" static="no" mutable="no">
+        <type>std::array&lt; float, 3 &gt;</type>
+        <definition>std::array&lt;float, 3&gt; color::color::channels</definition>
+        <argsstring></argsstring>
+        <name>channels</name>
+        <qualifiedname>color::color::channels</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="8" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="classcolor_1_1color_1a897a926b90daa8cbdc449ac826b8a208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>color::color::color</definition>
+        <argsstring>(const std::array&lt; float, 3 &gt; &amp;input_data)</argsstring>
+        <name>color</name>
+        <qualifiedname>color::color::color</qualifiedname>
+        <param>
+          <type>const std::array&lt; float, 3 &gt; &amp;</type>
+          <declname>input_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="9" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classcolor_1_1color_1a77bb51e0781547f70790f818ddb3d871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>color::color::color</definition>
+        <argsstring>(const std::initializer_list&lt; float &gt; &amp;input_data)</argsstring>
+        <name>color</name>
+        <qualifiedname>color::color::color</qualifiedname>
+        <param>
+          <type>const std::initializer_list&lt; float &gt; &amp;</type>
+          <declname>input_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="12" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; color::color::operator[]</definition>
+        <argsstring>(const int i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>color::color::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="16" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float color::color::operator[]</definition>
+        <argsstring>(const int i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>color::color::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="21" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecolor_1a8588d7afe41d3f541b62b2b4b78ff0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool color::operator==</definition>
+        <argsstring>(const color &amp;ls_color, const color &amp;rs_color)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>color::operator==</qualifiedname>
+        <param>
+          <type>const color &amp;</type>
+          <declname>ls_color</declname>
+        </param>
+        <param>
+          <type>const color &amp;</type>
+          <declname>rs_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="27" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="27" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecolor_1a90e18683cacefcc90a3c384cbdba176f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>color</type>
+        <definition>color color::operator+</definition>
+        <argsstring>(const color &amp;ls_color, const color &amp;rs_color)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>color::operator+</qualifiedname>
+        <param>
+          <type>const color &amp;</type>
+          <declname>ls_color</declname>
+        </param>
+        <param>
+          <type>const color &amp;</type>
+          <declname>rs_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="38" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="38" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecolor_1a024ddfc4222d81fefa8f0ff061b51547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>color</type>
+        <definition>color color::operator-</definition>
+        <argsstring>(const color &amp;ls_color, const color &amp;rs_color)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>color::operator-</qualifiedname>
+        <param>
+          <type>const color &amp;</type>
+          <declname>ls_color</declname>
+        </param>
+        <param>
+          <type>const color &amp;</type>
+          <declname>rs_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="47" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecolor_1aebb41bfc6f05ccbcc6460d814bce6fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>color</type>
+        <definition>color color::operator*</definition>
+        <argsstring>(const color &amp;ls_color, const float num)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>color::operator*</qualifiedname>
+        <param>
+          <type>const color &amp;</type>
+          <declname>ls_color</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="56" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="56" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecolor_1a683ea01fdaa3ebf831e5e248112abfde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>color</type>
+        <definition>color color::operator/</definition>
+        <argsstring>(const color &amp;ls_color, const float num)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>color::operator/</qualifiedname>
+        <param>
+          <type>const color &amp;</type>
+          <declname>ls_color</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="65" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="65" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacecolor_1af0a551a079831b4b34a9069937afdd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>color</type>
+        <definition>color color::operator*</definition>
+        <argsstring>(const color &amp;ls_color, const color &amp;rs_color)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>color::operator*</qualifiedname>
+        <param>
+          <type>const color &amp;</type>
+          <declname>ls_color</declname>
+        </param>
+        <param>
+          <type>const color &amp;</type>
+          <declname>rs_color</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="74" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="74" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="1" column="15"/>
+  </compounddef>
+</doxygen>

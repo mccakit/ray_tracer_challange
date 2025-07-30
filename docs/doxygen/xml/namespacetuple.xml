@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacetuple" kind="namespace" language="C++">
+    <compoundname>tuple</compoundname>
+    <innerclass refid="classtuple_1_1tuple" prot="public">tuple::tuple</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>constexpr tuple tuple::point</definition>
+        <argsstring>(Ts... args)</argsstring>
+        <name>point</name>
+        <qualifiedname>tuple::point</qualifiedname>
+        <param>
+          <type>Ts...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="51" column="29" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="51" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>constexpr <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>constexpr tuple tuple::vector</definition>
+        <argsstring>(Ts... args)</argsstring>
+        <name>vector</name>
+        <qualifiedname>tuple::vector</qualifiedname>
+        <param>
+          <type>Ts...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="62" column="29" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="62" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool tuple::operator==</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>tuple::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>rs_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="74" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="74" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>tuple tuple::operator+</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>tuple::operator+</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>rs_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="85" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="85" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1ab8721382f213f496c8d291019f979841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>tuple tuple::operator-</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <name>operator-</name>
+        <qualifiedname>tuple::operator-</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>rs_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="94" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="94" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>tuple tuple::operator*</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const float num)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>tuple::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="103" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="103" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>tuple tuple::operator/</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const float num)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>tuple::operator/</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="112" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="112" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1a8a96856c45d7fd630882613deef86886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float tuple::magnitude</definition>
+        <argsstring>(const tuple &amp;in_tuple)</argsstring>
+        <name>magnitude</name>
+        <qualifiedname>tuple::magnitude</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>in_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="121" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="121" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>tuple tuple::normalize</definition>
+        <argsstring>(const tuple &amp;in_tuple)</argsstring>
+        <name>normalize</name>
+        <qualifiedname>tuple::normalize</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>in_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="130" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="130" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float tuple::dot_product</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <name>dot_product</name>
+        <qualifiedname>tuple::dot_product</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>rs_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="140" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="140" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
+        <definition>tuple tuple::cross_product</definition>
+        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <name>cross_product</name>
+        <qualifiedname>tuple::cross_product</qualifiedname>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>ls_tuple</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <declname>rs_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="149" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="149" bodyend="156"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="3" column="1"/>
+  </compounddef>
+</doxygen>

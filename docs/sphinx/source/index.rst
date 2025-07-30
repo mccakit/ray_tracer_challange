@@ -1,9 +1,11 @@
-#######################
-Ray Tracer Challenge
-#######################
+######################
+ Ray Tracer Challenge
+######################
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
-   doxygen.rst
+   tuple.rst
+   color.rst
+   canvas.rst

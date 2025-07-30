@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classcolor_1_1color" kind="class" language="C++" prot="public">
+    <compoundname>color::color</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classcolor_1_1color_1a17f00b60230b1d4b6e1fe02d25dfe106" prot="public" static="no" mutable="no">
+        <type>std::array&lt; float, 3 &gt;</type>
+        <definition>std::array&lt;float, 3&gt; color::color::channels</definition>
+        <argsstring></argsstring>
+        <name>channels</name>
+        <qualifiedname>color::color::channels</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="8" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="8" bodyend="8"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcolor_1_1color_1a897a926b90daa8cbdc449ac826b8a208" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>color::color::color</definition>
+        <argsstring>(const std::array&lt; float, 3 &gt; &amp;input_data)</argsstring>
+        <name>color</name>
+        <qualifiedname>color::color::color</qualifiedname>
+        <param>
+          <type>const std::array&lt; float, 3 &gt; &amp;</type>
+          <declname>input_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="9" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classcolor_1_1color_1a77bb51e0781547f70790f818ddb3d871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>color::color::color</definition>
+        <argsstring>(const std::initializer_list&lt; float &gt; &amp;input_data)</argsstring>
+        <name>color</name>
+        <qualifiedname>color::color::color</qualifiedname>
+        <param>
+          <type>const std::initializer_list&lt; float &gt; &amp;</type>
+          <declname>input_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="12" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; color::color::operator[]</definition>
+        <argsstring>(const int i)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>color::color::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="16" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float color::color::operator[]</definition>
+        <argsstring>(const int i) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>color::color::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="21" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="5" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="classcolor_1_1color_1a17f00b60230b1d4b6e1fe02d25dfe106" prot="public" virt="non-virtual"><scope>color::color</scope><name>channels</name></member>
+      <member refid="classcolor_1_1color_1a897a926b90daa8cbdc449ac826b8a208" prot="public" virt="non-virtual"><scope>color::color</scope><name>color</name></member>
+      <member refid="classcolor_1_1color_1a77bb51e0781547f70790f818ddb3d871" prot="public" virt="non-virtual"><scope>color::color</scope><name>color</name></member>
+      <member refid="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" prot="public" virt="non-virtual"><scope>color::color</scope><name>operator[]</name></member>
+      <member refid="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" prot="public" virt="non-virtual"><scope>color::color</scope><name>operator[]</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

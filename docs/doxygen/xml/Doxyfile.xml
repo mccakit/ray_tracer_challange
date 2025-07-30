@@ -122,8 +122,9 @@
   <option  id='WARN_LOGFILE' default='yes' type='string'><value><![CDATA[]]></value></option>
   <option  id='INPUT' default='no' type='stringlist'>
     <value><![CDATA[../../apps]]></value>
-    <value><![CDATA[../../libs]]></value>
+    <value><![CDATA[../../deps]]></value>
     <value><![CDATA[../../tests]]></value>
+    <value><![CDATA[../../src]]></value>
   </option>
   <option  id='INPUT_ENCODING' default='yes' type='string'><value><![CDATA[UTF-8]]></value></option>
   <option  id='INPUT_FILE_ENCODING' default='yes' type='stringlist'>
