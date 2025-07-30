@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classtest__has__member__object_1_1private__member__object__epsilon" kind="class" language="C++" prot="public">
+    <compoundname>test_has_member_object::private_member_object_epsilon</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classtest__has__member__object_1_1private__member__object__epsilon_1a06feffde0d023024c5c64ec8c0c3fbf1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int test_has_member_object::private_member_object_epsilon::epsilon</definition>
+        <argsstring></argsstring>
+        <name>epsilon</name>
+        <qualifiedname>test_has_member_object::private_member_object_epsilon::epsilon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="55" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtest__has__member__object_1_1private__member__object__epsilon_1a099db39ab97325a5f83fb482f64cbd5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>test_has_member_object::private_member_object_epsilon::private_member_object_epsilon</definition>
+        <argsstring>(int epsilon_)</argsstring>
+        <name>private_member_object_epsilon</name>
+        <qualifiedname>test_has_member_object::private_member_object_epsilon::private_member_object_epsilon</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>epsilon_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="58" column="3" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="58" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="54" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="54" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classtest__has__member__object_1_1private__member__object__epsilon_1a06feffde0d023024c5c64ec8c0c3fbf1" prot="private" virt="non-virtual"><scope>test_has_member_object::private_member_object_epsilon</scope><name>epsilon</name></member>
+      <member refid="classtest__has__member__object_1_1private__member__object__epsilon_1a099db39ab97325a5f83fb482f64cbd5a" prot="public" virt="non-virtual"><scope>test_has_member_object::private_member_object_epsilon</scope><name>private_member_object_epsilon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

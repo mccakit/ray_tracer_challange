@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtest__has__member__object_1_1public__static__member__object__epsilon" kind="struct" language="C++" prot="public">
+    <compoundname>test_has_member_object::public_static_member_object_epsilon</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structtest__has__member__object_1_1public__static__member__object__epsilon_1ae593d4c62fae327983bcea0bd14170ee" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int test_has_member_object::public_static_member_object_epsilon::epsilon</definition>
+        <argsstring></argsstring>
+        <name>epsilon</name>
+        <qualifiedname>test_has_member_object::public_static_member_object_epsilon::epsilon</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="66" column="14" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="66" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="65" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="65" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structtest__has__member__object_1_1public__static__member__object__epsilon_1ae593d4c62fae327983bcea0bd14170ee" prot="public" virt="non-virtual"><scope>test_has_member_object::public_static_member_object_epsilon</scope><name>epsilon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

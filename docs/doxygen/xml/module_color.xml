@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="8" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="8" bodyend="8"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="17" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="17" bodyend="17"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -33,12 +33,13 @@
           <declname>input_data</declname>
         </param>
         <briefdescription>
+<para>Construct from array of 3 floats. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="9" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="9" bodyend="11"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="22" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="22" bodyend="22"/>
       </memberdef>
       <memberdef kind="function" id="classcolor_1_1color_1a77bb51e0781547f70790f818ddb3d871" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -51,12 +52,13 @@
           <declname>input_data</declname>
         </param>
         <briefdescription>
+<para>Construct from initializer list of floats. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="12" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="12" bodyend="15"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="27" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="27" bodyend="30"/>
       </memberdef>
       <memberdef kind="function" id="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float &amp;</type>
@@ -74,7 +76,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="16" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="16" bodyend="19"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="32" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
@@ -92,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="21" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="21" bodyend="24"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="37" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="37" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="namespacecolor_1a8588d7afe41d3f541b62b2b4b78ff0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -109,12 +111,13 @@
           <declname>rs_color</declname>
         </param>
         <briefdescription>
+<para>Compares two colors with epsilon 1e-5. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="27" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="27" bodyend="37"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="46" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="46" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="namespacecolor_1a90e18683cacefcc90a3c384cbdba176f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>color</type>
@@ -131,12 +134,13 @@
           <declname>rs_color</declname>
         </param>
         <briefdescription>
+<para>Component-wise addition. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="38" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="38" bodyend="46"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="61" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="61" bodyend="67"/>
       </memberdef>
       <memberdef kind="function" id="namespacecolor_1a024ddfc4222d81fefa8f0ff061b51547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>color</type>
@@ -153,12 +157,13 @@
           <declname>rs_color</declname>
         </param>
         <briefdescription>
+<para>Component-wise subtraction. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="47" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="47" bodyend="55"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="72" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="72" bodyend="78"/>
       </memberdef>
       <memberdef kind="function" id="namespacecolor_1aebb41bfc6f05ccbcc6460d814bce6fb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>color</type>
@@ -175,12 +180,13 @@
           <declname>num</declname>
         </param>
         <briefdescription>
+<para>Multiply color by scalar. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="56" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="56" bodyend="64"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="83" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="83" bodyend="89"/>
       </memberdef>
       <memberdef kind="function" id="namespacecolor_1a683ea01fdaa3ebf831e5e248112abfde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>color</type>
@@ -197,12 +203,13 @@
           <declname>num</declname>
         </param>
         <briefdescription>
+<para>Divide color by scalar. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="65" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="65" bodyend="73"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="94" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="94" bodyend="100"/>
       </memberdef>
       <memberdef kind="function" id="namespacecolor_1af0a551a079831b4b34a9069937afdd62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>color</type>
@@ -219,12 +226,13 @@
           <declname>rs_color</declname>
         </param>
         <briefdescription>
+<para>Component-wise multiplication of two colors. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="74" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="74" bodyend="82"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" line="105" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/color.cpp" bodystart="105" bodyend="111"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

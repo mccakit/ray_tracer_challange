@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtest__summary__reporter" kind="struct" language="C++" prot="public">
+    <compoundname>test_summary_reporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::ut::reporter&lt; ut::printer &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtest__summary__reporter_1af52041498f9da34e713b07a1200e9ffd" prot="public" static="no" mutable="no">
+        <type>std::size_t *</type>
+        <definition>std::size_t* test_summary_reporter::summary_counter_</definition>
+        <argsstring></argsstring>
+        <name>summary_counter_</name>
+        <qualifiedname>test_summary_reporter::summary_counter_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="306" column="15" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="306" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtest__summary__reporter_1ac96da1779fb02cdf2ad8296886847ee0" prot="public" static="no" mutable="no">
+        <type>std::size_t *</type>
+        <definition>std::size_t* test_summary_reporter::runs_counter_</definition>
+        <argsstring></argsstring>
+        <name>runs_counter_</name>
+        <qualifiedname>test_summary_reporter::runs_counter_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="307" column="15" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="307" bodyend="307"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtest__summary__reporter_1a31476c6c516ace6c9ce3cf67877370ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto test_summary_reporter::count_summaries</definition>
+        <argsstring>(std::size_t &amp;counter) -&gt; void</argsstring>
+        <name>count_summaries</name>
+        <qualifiedname>test_summary_reporter::count_summaries</qualifiedname>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>counter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="288" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="288" bodyend="290"/>
+      </memberdef>
+      <memberdef kind="function" id="structtest__summary__reporter_1a0502de631c99cb5cd3b42b6f8a55a9c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto test_summary_reporter::count_runs</definition>
+        <argsstring>(std::size_t &amp;counter) -&gt; void</argsstring>
+        <name>count_runs</name>
+        <qualifiedname>test_summary_reporter::count_runs</qualifiedname>
+        <param>
+          <type>std::size_t &amp;</type>
+          <declname>counter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="292" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="292" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="structtest__summary__reporter_1a34a0e36156370c06dd1b632deb102606" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto test_summary_reporter::on</definition>
+        <argsstring>(ut::events::summary) const -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>test_summary_reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::summary</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="294" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="294" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="structtest__summary__reporter_1a76a50b7141f961b90bc6b6f25b02117e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto test_summary_reporter::on</definition>
+        <argsstring>(ut::events::run_begin) const -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>test_summary_reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::run_begin</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="300" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="300" bodyend="304"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>boost::ut::reporter&lt; ut::printer &gt;</label>
+      </node>
+      <node id="1">
+        <label>test_summary_reporter</label>
+        <link refid="structtest__summary__reporter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>boost::ut::reporter&lt; ut::printer &gt;</label>
+      </node>
+      <node id="1">
+        <label>test_summary_reporter</label>
+        <link refid="structtest__summary__reporter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="287" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="287" bodyend="308"/>
+    <listofallmembers>
+      <member refid="structtest__summary__reporter_1a0502de631c99cb5cd3b42b6f8a55a9c2" prot="public" virt="non-virtual"><scope>test_summary_reporter</scope><name>count_runs</name></member>
+      <member refid="structtest__summary__reporter_1a31476c6c516ace6c9ce3cf67877370ce" prot="public" virt="non-virtual"><scope>test_summary_reporter</scope><name>count_summaries</name></member>
+      <member refid="structtest__summary__reporter_1a34a0e36156370c06dd1b632deb102606" prot="public" virt="non-virtual"><scope>test_summary_reporter</scope><name>on</name></member>
+      <member refid="structtest__summary__reporter_1a76a50b7141f961b90bc6b6f25b02117e" prot="public" virt="non-virtual"><scope>test_summary_reporter</scope><name>on</name></member>
+      <member refid="structtest__summary__reporter_1ac96da1779fb02cdf2ad8296886847ee0" prot="public" virt="non-virtual"><scope>test_summary_reporter</scope><name>runs_counter_</name></member>
+      <member refid="structtest__summary__reporter_1af52041498f9da34e713b07a1200e9ffd" prot="public" virt="non-virtual"><scope>test_summary_reporter</scope><name>summary_counter_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

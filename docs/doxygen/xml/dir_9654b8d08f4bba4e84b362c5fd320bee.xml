@@ -2,7 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
   <compounddef id="dir_9654b8d08f4bba4e84b362c5fd320bee" kind="dir">
     <compoundname>/home/mccakit/desktop/projects/ray_tracer_challange/apps</compoundname>
-    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="apps_2main_8cpp">main.cpp</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtest__assertions" kind="struct" language="C++" prot="public">
+    <compoundname>test_assertions</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structtest__assertions_1a899387fd0d79b2be1f3a82f88cc4d8b8" prot="private" static="no" mutable="no">
+        <type><ref refid="structtest__runner" kindref="compound">test_runner</ref> &amp;</type>
+        <definition>test_runner&amp; test_assertions::run</definition>
+        <argsstring></argsstring>
+        <name>run</name>
+        <qualifiedname>test_assertions::run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="249" column="15" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="249" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtest__assertions_1a84fd691e4c608e868d100ab3ec721f2b" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>test_assertions::test_assertions</definition>
+        <argsstring>(test_runner &amp;_run)</argsstring>
+        <name>test_assertions</name>
+        <qualifiedname>test_assertions::test_assertions</qualifiedname>
+        <param>
+          <type><ref refid="structtest__runner" kindref="compound">test_runner</ref> &amp;</type>
+          <declname>_run</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="240" column="12" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="240" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="structtest__assertions_1a180ef00972b38219a50cbca1512eebfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto test_assertions::operator()</definition>
+        <argsstring>() -&gt; void</argsstring>
+        <name>operator()</name>
+        <qualifiedname>test_assertions::operator()</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="242" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="242" bodyend="246"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="239" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="239" bodyend="250"/>
+    <listofallmembers>
+      <member refid="structtest__assertions_1a180ef00972b38219a50cbca1512eebfc" prot="public" virt="non-virtual"><scope>test_assertions</scope><name>operator()</name></member>
+      <member refid="structtest__assertions_1a899387fd0d79b2be1f3a82f88cc4d8b8" prot="private" virt="non-virtual"><scope>test_assertions</scope><name>run</name></member>
+      <member refid="structtest__assertions_1a84fd691e4c608e868d100ab3ec721f2b" prot="public" virt="non-virtual"><scope>test_assertions</scope><name>test_assertions</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

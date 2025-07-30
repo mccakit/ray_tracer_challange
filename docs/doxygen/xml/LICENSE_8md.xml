@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="LICENSE_8md" kind="file" language="Markdown">
+    <compoundname>LICENSE.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">Boost<sp/>Software<sp/>License<sp/>-<sp/>Version<sp/>1.0<sp/>-<sp/>August<sp/>17th,<sp/>2003</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Permission<sp/>is<sp/>hereby<sp/>granted,<sp/>free<sp/>of<sp/>charge,<sp/>to<sp/>any<sp/>person<sp/>or<sp/>organization</highlight></codeline>
+<codeline><highlight class="normal">obtaining<sp/>a<sp/>copy<sp/>of<sp/>the<sp/>software<sp/>and<sp/>accompanying<sp/>documentation<sp/>covered<sp/>by</highlight></codeline>
+<codeline><highlight class="normal">this<sp/>license<sp/>(the<sp/>&quot;Software&quot;)<sp/>to<sp/>use,<sp/>reproduce,<sp/>display,<sp/>distribute,</highlight></codeline>
+<codeline><highlight class="normal">execute,<sp/>and<sp/>transmit<sp/>the<sp/>Software,<sp/>and<sp/>to<sp/>prepare<sp/>derivative<sp/>works<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">Software,<sp/>and<sp/>to<sp/>permit<sp/>third-parties<sp/>to<sp/>whom<sp/>the<sp/>Software<sp/>is<sp/>furnished<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">do<sp/>so,<sp/>all<sp/>subject<sp/>to<sp/>the<sp/>following:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>copyright<sp/>notices<sp/>in<sp/>the<sp/>Software<sp/>and<sp/>this<sp/>entire<sp/>statement,<sp/>including</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>above<sp/>license<sp/>grant,<sp/>this<sp/>restriction<sp/>and<sp/>the<sp/>following<sp/>disclaimer,</highlight></codeline>
+<codeline><highlight class="normal">must<sp/>be<sp/>included<sp/>in<sp/>all<sp/>copies<sp/>of<sp/>the<sp/>Software,<sp/>in<sp/>whole<sp/>or<sp/>in<sp/>part,<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">all<sp/>derivative<sp/>works<sp/>of<sp/>the<sp/>Software,<sp/>unless<sp/>such<sp/>copies<sp/>or<sp/>derivative</highlight></codeline>
+<codeline><highlight class="normal">works<sp/>are<sp/>solely<sp/>in<sp/>the<sp/>form<sp/>of<sp/>machine-executable<sp/>object<sp/>code<sp/>generated<sp/>by</highlight></codeline>
+<codeline><highlight class="normal">a<sp/>source<sp/>language<sp/>processor.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">THE<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>&quot;AS<sp/>IS&quot;,<sp/>WITHOUT<sp/>WARRANTY<sp/>OF<sp/>ANY<sp/>KIND,<sp/>EXPRESS<sp/>OR</highlight></codeline>
+<codeline><highlight class="normal">IMPLIED,<sp/>INCLUDING<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO<sp/>THE<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY,</highlight></codeline>
+<codeline><highlight class="normal">FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE,<sp/>TITLE<sp/>AND<sp/>NON-INFRINGEMENT.<sp/>IN<sp/>NO<sp/>EVENT</highlight></codeline>
+<codeline><highlight class="normal">SHALL<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>OR<sp/>ANYONE<sp/>DISTRIBUTING<sp/>THE<sp/>SOFTWARE<sp/>BE<sp/>LIABLE</highlight></codeline>
+<codeline><highlight class="normal">FOR<sp/>ANY<sp/>DAMAGES<sp/>OR<sp/>OTHER<sp/>LIABILITY,<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>TORT<sp/>OR<sp/>OTHERWISE,</highlight></codeline>
+<codeline><highlight class="normal">ARISING<sp/>FROM,<sp/>OUT<sp/>OF<sp/>OR<sp/>IN<sp/>CONNECTION<sp/>WITH<sp/>THE<sp/>SOFTWARE<sp/>OR<sp/>THE<sp/>USE<sp/>OR<sp/>OTHER</highlight></codeline>
+<codeline><highlight class="normal">DEALINGS<sp/>IN<sp/>THE<sp/>SOFTWARE.</highlight></codeline>
+    </programlisting>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/LICENSE.md"/>
+  </compounddef>
+</doxygen>

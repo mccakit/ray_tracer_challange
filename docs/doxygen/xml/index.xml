@@ -1,5 +1,32 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.8" xml:lang="en-US">
+  <compound refid="classany__of" kind="class"><name>any_of</name>
+    <member refid="classany__of_1a8c92d93dd4c8dbf768fe770899d06823" kind="variable"><name>ts_</name></member>
+    <member refid="classany__of_1ace7e70b463ed64d7381a2800ae823c2f" kind="function"><name>any_of</name></member>
+    <member refid="classany__of_1a9e39ce8d08b4239e104c51b8923cb7a1" kind="function"><name>operator==</name></member>
+    <member refid="classany__of_1a93800d1f2cc37d13f849b573e6b9bfa7" kind="function"><name>eq</name></member>
+  </compound>
+  <compound refid="structfake__cfg_1_1assertion__call" kind="struct"><name>fake_cfg::assertion_call</name>
+    <member refid="structfake__cfg_1_1assertion__call_1a53d3b3311d99187c605a31b774fc7cbe" kind="variable"><name>expr</name></member>
+    <member refid="structfake__cfg_1_1assertion__call_1a98ec00ffd67b1528ebcba2b7a94a7902" kind="variable"><name>location</name></member>
+    <member refid="structfake__cfg_1_1assertion__call_1a9887eea90191765215b91af793c576b8" kind="variable"><name>result</name></member>
+  </compound>
+  <compound refid="structbenchmark_1_1benchmark" kind="struct"><name>benchmark::benchmark</name>
+    <member refid="structbenchmark_1_1benchmark_1aacfc5b29cfdc3b2f1ab8d5f0b79d545d" kind="function"><name>benchmark</name></member>
+    <member refid="structbenchmark_1_1benchmark_1a134450bdb5ba8426fc11ec65b23edf73" kind="function"><name>operator=</name></member>
+  </compound>
+  <compound refid="structcalc" kind="struct"><name>calc</name>
+    <member refid="structcalc_1a3868d19bec1fbfcd51152891f442efbd" kind="variable"><name>sum_suite</name></member>
+    <member refid="structcalc_1ab8bffaae1db3a3de8cf78459ac996e91" kind="function"><name>sum</name></member>
+  </compound>
+  <compound refid="classcalculator" kind="class"><name>calculator</name>
+    <member refid="classcalculator_1a16664c39efec21044353606ed5cea90b" kind="variable"><name>values_</name></member>
+    <member refid="classcalculator_1aeee61015a0eba54442f39cc7b18f4939" kind="variable"><name>result_</name></member>
+    <member refid="classcalculator_1a4a60ddcf4103d798ec184340cc463302" kind="function"><name>enter</name></member>
+    <member refid="classcalculator_1a13d1a78226a133be91686cd6a6fc98b3" kind="function"><name>add</name></member>
+    <member refid="classcalculator_1a5c5971d1e0547e32b33ee474b4ebee8a" kind="function"><name>sub</name></member>
+    <member refid="classcalculator_1ae62094ce2cdc110650a322991ecf217a" kind="function"><name>get</name></member>
+  </compound>
   <compound refid="classcanvas_1_1canvas" kind="class"><name>canvas::canvas</name>
     <member refid="classcanvas_1_1canvas_1abae92a469aeab6a007267c6fd2d84a29" kind="variable"><name>width</name></member>
     <member refid="classcanvas_1_1canvas_1a92489d7279b9c5d4bced9d3b6c28047b" kind="variable"><name>height</name></member>
@@ -16,6 +43,182 @@
     <member refid="classcolor_1_1color_1a7a0d9d0ecb59620d6477dca8b1bff353" kind="function"><name>operator[]</name></member>
     <member refid="classcolor_1_1color_1a45f83b5a4d811d2f99eb6a83fd5d9ae1" kind="function"><name>operator[]</name></member>
   </compound>
+  <compound refid="structcustom" kind="struct"><name>custom</name>
+    <member refid="structcustom_1a497f8023525ffc3936cb9a1c09594f60" kind="variable"><name>i</name></member>
+    <member refid="structcustom_1a256f5f5cf20d0ed110de1e31bb7bdbc6" kind="friend"><name>operator==</name></member>
+    <member refid="structcustom_1aca2e622204be895f29325bb2f787bcaa" kind="friend"><name>operator!=</name></member>
+    <member refid="structcustom_1ad8a24176c7c91d8a2c7b4115ee7a918b" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structcustom__non__printable__type" kind="struct"><name>custom_non_printable_type</name>
+    <member refid="structcustom__non__printable__type_1a804530baddaeb67180a439d5d13c32b5" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="structcustom__printable__type" kind="struct"><name>custom_printable_type</name>
+    <member refid="structcustom__printable__type_1a11509bbce8bd8a511f9b3210cd307fd7" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="structcustom__vec" kind="struct"><name>custom_vec</name>
+    <member refid="structcustom__vec_1ab5100e2e7e8dec5e9ec6ad2ff70319fc" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structdummy__struct" kind="struct"><name>dummy_struct</name>
+  </compound>
+  <compound refid="classfake__calculator" kind="class"><name>fake_calculator</name>
+    <member refid="classfake__calculator_1a217a64599ddb8f74152d90b517f885ab" kind="variable"><name>values_</name></member>
+    <member refid="classfake__calculator_1af06759b78f5a6ddd2baf53e5f048ab67" kind="variable"><name>result_</name></member>
+    <member refid="classfake__calculator_1a578c815e59a8e80b7b87bd36ce9bd3be" kind="variable"><name>name_</name></member>
+    <member refid="classfake__calculator_1aa58319d88f9bc7cb6a4c6e0f60e20ae7" kind="function"><name>enter</name></member>
+    <member refid="classfake__calculator_1a357be38883e2caa3ffba9793a850c025" kind="function"><name>name</name></member>
+    <member refid="classfake__calculator_1a17351156d3c8fca98acabb1b4b6a6294" kind="function"><name>add</name></member>
+    <member refid="classfake__calculator_1a66af9ce8304f6f14026ed79105d9a3d1" kind="function"><name>sub</name></member>
+    <member refid="classfake__calculator_1ae5cb270f9ab7d12b01af4bef03c9f228" kind="function"><name>get</name></member>
+    <member refid="classfake__calculator_1a5fa211a8be58a065c38cdf41994b0283" kind="function"><name>name</name></member>
+  </compound>
+  <compound refid="structfake__cfg" kind="struct"><name>fake_cfg</name>
+    <member refid="structfake__cfg_1adf1b9b3dc02b8ffd0483de33d4a3be6a" kind="variable"><name>run_calls</name></member>
+    <member refid="structfake__cfg_1a0e18c0b8c64fe563284c404ef2924b6d" kind="variable"><name>skip_calls</name></member>
+    <member refid="structfake__cfg_1ad127b05955f58b13554872b37c62cfd0" kind="variable"><name>log_calls</name></member>
+    <member refid="structfake__cfg_1ae272a3deaf3c28e091fa57da4f7e9267" kind="variable"><name>exception_calls</name></member>
+    <member refid="structfake__cfg_1a82002b69587a6f62922d4850b1deea09" kind="variable"><name>assertion_calls</name></member>
+    <member refid="structfake__cfg_1a1b28dcb15d68c72e3be6e75cfa036188" kind="variable"><name>fatal_assertion_calls</name></member>
+    <member refid="structfake__cfg_1ac6740e611ead5f912dadfe8a8321d82f" kind="variable"><name>test_filter</name></member>
+    <member refid="structfake__cfg_1a968acab350a0d8121651a288b9043c81" kind="function"><name>on</name></member>
+    <member refid="structfake__cfg_1ad6f2838e7b55bd2cfd97f059bb042f57" kind="function"><name>on</name></member>
+    <member refid="structfake__cfg_1a599ee15deabb914097efae80ba8f278a" kind="function"><name>on</name></member>
+    <member refid="structfake__cfg_1af405494163366b4604379e4272085c62" kind="function"><name>on</name></member>
+    <member refid="structfake__cfg_1a10af0e32346faf9ae7a9b82913fcac01" kind="function"><name>on</name></member>
+  </compound>
+  <compound refid="structfoo" kind="struct"><name>foo</name>
+    <member refid="structfoo_1a9dee67bdd7dd530ce96be52a387308ed" kind="variable"><name>a</name></member>
+    <member refid="structfoo_1af365aaf546ba987e692a6638577eb60f" kind="variable"><name>b</name></member>
+    <member refid="structfoo_1ae0a28347ab7c4829ff6d4d302248249c" kind="function"><name>operator==</name></member>
+    <member refid="structfoo_1acbf8e57aec555112e00cf9f5131c1e8d" kind="function"><name>operator!=</name></member>
+    <member refid="structfoo_1afcd30a3edc9aa71160eca9154ad6674f" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structlist" kind="struct"><name>list</name>
+  </compound>
+  <compound refid="classmatcher" kind="class"><name>matcher</name>
+    <member refid="classmatcher_1a718af433786d4ae22387c6270fac867a" kind="variable"><name>result_</name></member>
+    <member refid="classmatcher_1a2f8c70ca1f7a7b770844d594df85630a" kind="variable"><name>str_</name></member>
+    <member refid="classmatcher_1a0f62aa51e11f256834ee8a664d713aae" kind="function"><name>matcher</name></member>
+    <member refid="classmatcher_1a5b33f9e889acba6630559cce240e0b25" kind="function"><name>operator bool</name></member>
+    <member refid="classmatcher_1a149540ae33a13bd95fa34051f39e9b03" kind="friend"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1not__defined" kind="struct"><name>test_has_member_object::not_defined</name>
+  </compound>
+  <compound refid="classcfg_1_1parallel__runner" kind="class"><name>cfg::parallel_runner</name>
+    <member refid="classcfg_1_1parallel__runner_1a2f7a920ca1ba114db6a0fa4ebebdcfa8" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1parallel__runner_1a28ffdfd844b4c36294bee2ae4218ef0a" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="structcfg_1_1printer" kind="struct"><name>cfg::printer</name>
+    <member refid="structcfg_1_1printer_1aade54fb5ba43540bcbf4483d42fe0a2f" kind="function"><name>operator&lt;&lt;</name></member>
+  </compound>
+  <compound refid="classtest__has__member__object_1_1private__member__object__epsilon" kind="class"><name>test_has_member_object::private_member_object_epsilon</name>
+    <member refid="classtest__has__member__object_1_1private__member__object__epsilon_1a06feffde0d023024c5c64ec8c0c3fbf1" kind="variable"><name>epsilon</name></member>
+    <member refid="classtest__has__member__object_1_1private__member__object__epsilon_1a099db39ab97325a5f83fb482f64cbd5a" kind="function"><name>private_member_object_epsilon</name></member>
+  </compound>
+  <compound refid="classtest__has__member__object_1_1private__member__object__value" kind="class"><name>test_has_member_object::private_member_object_value</name>
+    <member refid="classtest__has__member__object_1_1private__member__object__value_1afa986b40dabb60e7ed04e47b05370776" kind="variable"><name>value</name></member>
+    <member refid="classtest__has__member__object_1_1private__member__object__value_1a1ddb636ddf2e78bd250e5a02b6c646e8" kind="function"><name>private_member_object_value</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__member__function__epsilon" kind="struct"><name>test_has_member_object::public_member_function_epsilon</name>
+    <member refid="structtest__has__member__object_1_1public__member__function__epsilon_1a6d6cb023ca6912aa0d4089d2416bb161" kind="function"><name>epsilon</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__member__function__value" kind="struct"><name>test_has_member_object::public_member_function_value</name>
+    <member refid="structtest__has__member__object_1_1public__member__function__value_1ab16b8a0ad65d9a946019e93ad7478a90" kind="function"><name>value</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__member__object__epsilon" kind="struct"><name>test_has_member_object::public_member_object_epsilon</name>
+    <member refid="structtest__has__member__object_1_1public__member__object__epsilon_1aaecff7f1ed6349a87733aeff357acaea" kind="variable"><name>epsilon</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__member__object__value" kind="struct"><name>test_has_member_object::public_member_object_value</name>
+    <member refid="structtest__has__member__object_1_1public__member__object__value_1a9c2c7e6102dd37032a78e5e75c28ef33" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__static__member__function__epsilon" kind="struct"><name>test_has_member_object::public_static_member_function_epsilon</name>
+    <member refid="structtest__has__member__object_1_1public__static__member__function__epsilon_1a4529d98ebfc1ca4911948daadbfa5f0c" kind="function"><name>epsilon</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__static__member__function__value" kind="struct"><name>test_has_member_object::public_static_member_function_value</name>
+    <member refid="structtest__has__member__object_1_1public__static__member__function__value_1a59c466d23e0172cf11baf6c64bc1a21b" kind="function"><name>value</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__static__member__object__epsilon" kind="struct"><name>test_has_member_object::public_static_member_object_epsilon</name>
+    <member refid="structtest__has__member__object_1_1public__static__member__object__epsilon_1ae593d4c62fae327983bcea0bd14170ee" kind="variable"><name>epsilon</name></member>
+  </compound>
+  <compound refid="structtest__has__member__object_1_1public__static__member__object__value" kind="struct"><name>test_has_member_object::public_static_member_object_value</name>
+    <member refid="structtest__has__member__object_1_1public__static__member__object__value_1acd1efffa9ade34e934e2b507a6f2f909" kind="variable"><name>value</name></member>
+  </compound>
+  <compound refid="classcfg_1_1reporter" kind="class"><name>cfg::reporter</name>
+    <member refid="classcfg_1_1reporter_1a5ea104ca73f7367d22dba84b54c6799d" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a548a81af09c68162e1985bbe94768b7d" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a2c80d4488861156709fec11fae766924" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1adc2fc6730564735eae8b92fee26f04c3" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a6e256dd7fadb9bf867cccd01f947ef7d" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1af329a6d9a396967ac9299618d3601095" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a066bde1e4748cd47b07d9e415a646674" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a962d7ad952cdc6c4c935ae673d51d8fa" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a7686bf6d8600e95dfe43af9ae37786ec" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a621df0c5e57f2515b78da78f6e99189d" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1reporter_1a71cbd2bf1d8e97b646e2f36574f46ff5" kind="function"><name>on</name></member>
+  </compound>
+  <compound refid="classcfg_1_1runner" kind="class"><name>cfg::runner</name>
+    <member refid="classcfg_1_1runner_1a8b7c815757d7a835adc13611670d29e3" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1runner_1a62af9296b4c7e88abfa31a1076d8b360" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1runner_1a620a7fcc8f4ad2a9ff71be89acdcd49c" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1runner_1a9702bb615234634c446ff1948d6d3b2f" kind="function"><name>on</name></member>
+    <member refid="classcfg_1_1runner_1ab174762b8639e3dd80f592b64809fed0" kind="function"><name>on</name></member>
+  </compound>
+  <compound refid="structft_1_1runner" kind="struct"><name>ft::runner</name>
+    <member refid="structft_1_1runner_1af7ee6e0a6a6ccfecd3e8ba81dda6edf3" kind="function"><name>on</name></member>
+  </compound>
+  <compound refid="structtest__assertion__false" kind="struct"><name>test_assertion_false</name>
+    <member refid="structtest__assertion__false_1aee66bedd360e573f6dbe0f1b151ef73e" kind="variable"><name>run</name></member>
+    <member refid="structtest__assertion__false_1aeacba79d8fce44dfef620824a9bb343b" kind="function"><name>test_assertion_false</name></member>
+    <member refid="structtest__assertion__false_1aed565b08df7003bcfb5a90a4264152a1" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structtest__assertion__true" kind="struct"><name>test_assertion_true</name>
+    <member refid="structtest__assertion__true_1a35e5b0182b416374105fa7ecc415efa3" kind="variable"><name>run</name></member>
+    <member refid="structtest__assertion__true_1a7cd84fc33b1a7640633e0c276b80d9aa" kind="function"><name>test_assertion_true</name></member>
+    <member refid="structtest__assertion__true_1af62d35e061a94d688f68732a88731e60" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structtest__assertions" kind="struct"><name>test_assertions</name>
+    <member refid="structtest__assertions_1a899387fd0d79b2be1f3a82f88cc4d8b8" kind="variable"><name>run</name></member>
+    <member refid="structtest__assertions_1a84fd691e4c608e868d100ab3ec721f2b" kind="function"><name>test_assertions</name></member>
+    <member refid="structtest__assertions_1a180ef00972b38219a50cbca1512eebfc" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structfake__cfg_1_1test__call" kind="struct"><name>fake_cfg::test_call</name>
+    <member refid="structfake__cfg_1_1test__call_1a105053d11c3e0a2038a8bf55e1190c89" kind="variable"><name>type</name></member>
+    <member refid="structfake__cfg_1_1test__call_1a536830f0a83be27c38abb7b2cdb7d524" kind="variable"><name>name</name></member>
+    <member refid="structfake__cfg_1_1test__call_1abbc6220c318570e17102bf2ded32eac0" kind="variable"><name>location</name></member>
+    <member refid="structfake__cfg_1_1test__call_1a0e523fc18f623d4846755017c5ac647c" kind="variable"><name>arg</name></member>
+  </compound>
+  <compound refid="structtest__empty" kind="struct"><name>test_empty</name>
+    <member refid="structtest__empty_1af741408d05019dabbafcd3e5fed460df" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structtest__reporter" kind="struct"><name>test_reporter</name>
+  </compound>
+  <compound refid="structtest__runner" kind="struct"><name>test_runner</name>
+  </compound>
+  <compound refid="structtest__sub__section" kind="struct"><name>test_sub_section</name>
+    <member refid="structtest__sub__section_1a3c9f76326b4c41f8f541cfff8dbc4907" kind="variable"><name>run</name></member>
+    <member refid="structtest__sub__section_1afeb56d46b1db9ba6b9611a05fbeb2bcd" kind="function"><name>test_sub_section</name></member>
+    <member refid="structtest__sub__section_1a234676dbcffea45459f4abf8e07f4f99" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structtest__sub__sections" kind="struct"><name>test_sub_sections</name>
+    <member refid="structtest__sub__sections_1afcac8b53e3d96dc2ac05700fe00cd346" kind="variable"><name>run</name></member>
+    <member refid="structtest__sub__sections_1a0caabfe552244e3deba44e2d84809eac" kind="function"><name>test_sub_sections</name></member>
+    <member refid="structtest__sub__sections_1a64e0f9109079850cc6e1cb6153b1ef89" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structtest__summary__reporter" kind="struct"><name>test_summary_reporter</name>
+    <member refid="structtest__summary__reporter_1af52041498f9da34e713b07a1200e9ffd" kind="variable"><name>summary_counter_</name></member>
+    <member refid="structtest__summary__reporter_1ac96da1779fb02cdf2ad8296886847ee0" kind="variable"><name>runs_counter_</name></member>
+    <member refid="structtest__summary__reporter_1a31476c6c516ace6c9ce3cf67877370ce" kind="function"><name>count_summaries</name></member>
+    <member refid="structtest__summary__reporter_1a0502de631c99cb5cd3b42b6f8a55a9c2" kind="function"><name>count_runs</name></member>
+    <member refid="structtest__summary__reporter_1a34a0e36156370c06dd1b632deb102606" kind="function"><name>on</name></member>
+    <member refid="structtest__summary__reporter_1a76a50b7141f961b90bc6b6f25b02117e" kind="function"><name>on</name></member>
+  </compound>
+  <compound refid="structtest__summary__runner" kind="struct"><name>test_summary_runner</name>
+  </compound>
+  <compound refid="structtest__throw" kind="struct"><name>test_throw</name>
+    <member refid="structtest__throw_1a6638c0bba5048e661b431a511b19e6c1" kind="function"><name>operator()</name></member>
+  </compound>
+  <compound refid="structtest__throw__runtime__error" kind="struct"><name>test_throw_runtime_error</name>
+    <member refid="structtest__throw__runtime__error_1ac9d61b4a2ef5f63bf2def9d9da1b2a73" kind="function"><name>operator()</name></member>
+  </compound>
   <compound refid="classtuple_1_1tuple" kind="class"><name>tuple::tuple</name>
     <member refid="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" kind="variable"><name>data</name></member>
     <member refid="classtuple_1_1tuple_1a15163d952127e5a65184f7d8376fb780" kind="function"><name>tuple</name></member>
@@ -29,7 +232,21 @@
     <member refid="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" kind="function"><name>operator[]</name></member>
     <member refid="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" kind="function"><name>operator[]</name></member>
   </compound>
+  <compound refid="namespace_0d48" kind="namespace"><name>@48</name>
+  </compound>
+  <compound refid="namespacebenchmark" kind="namespace"><name>benchmark</name>
+    <member refid="namespacebenchmark_1a634e90bfef2943b154b66e98c5e342b8" kind="function"><name>operator&quot;&quot;_benchmark</name></member>
+    <member refid="namespacebenchmark_1af8fee0294b971651a0057fa385ebc1f3" kind="function"><name>do_not_optimize</name></member>
+  </compound>
+  <compound refid="namespaceboost" kind="namespace"><name>boost</name>
+  </compound>
+  <compound refid="namespaceboost_1_1ut" kind="namespace"><name>boost::ut</name>
+  </compound>
+  <compound refid="namespaceboost_1_1ut_1_1detail" kind="namespace"><name>boost::ut::detail</name>
+  </compound>
   <compound refid="namespacecanvas" kind="namespace"><name>canvas</name>
+  </compound>
+  <compound refid="namespacecfg" kind="namespace"><name>cfg</name>
   </compound>
   <compound refid="namespacecolor" kind="namespace"><name>color</name>
     <member refid="namespacecolor_1a8588d7afe41d3f541b62b2b4b78ff0c7" kind="function"><name>operator==</name></member>
@@ -38,6 +255,20 @@
     <member refid="namespacecolor_1aebb41bfc6f05ccbcc6460d814bce6fb0" kind="function"><name>operator*</name></member>
     <member refid="namespacecolor_1a683ea01fdaa3ebf831e5e248112abfde" kind="function"><name>operator/</name></member>
     <member refid="namespacecolor_1af0a551a079831b4b34a9069937afdd62" kind="function"><name>operator*</name></member>
+  </compound>
+  <compound refid="namespaceext" kind="namespace"><name>ext</name>
+  </compound>
+  <compound refid="namespaceext_1_1_0d27" kind="namespace"><name>ext::@27</name>
+  </compound>
+  <compound refid="namespaceft" kind="namespace"><name>ft</name>
+  </compound>
+  <compound refid="namespacens" kind="namespace"><name>ns</name>
+  </compound>
+  <compound refid="namespacens_1_1_0d48" kind="namespace"><name>ns::@48</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="namespacetest__has__member__object" kind="namespace"><name>test_has_member_object</name>
   </compound>
   <compound refid="namespacetuple" kind="namespace"><name>tuple</name>
     <member refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kind="function"><name>point</name></member>
@@ -52,8 +283,198 @@
     <member refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kind="function"><name>dot_product</name></member>
     <member refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kind="function"><name>cross_product</name></member>
   </compound>
-  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
-    <member refid="main_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  <compound refid="apps_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="apps_2main_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="deps_2ut_2example_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="deps_2ut_2example_2main_8cpp_1ab85c3edfd2aada0e059dccf8d002924d" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="deps_2ut_2test_2ft_2main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="deps_2ut_2test_2ft_2main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_8cmake-format_8py" kind="file"><name>.cmake-format.py</name>
+    <member refid="_8cmake-format_8py_1a4f6a7f253bdd17de45549df1fc71b8c0" kind="variable"><name>disable</name></member>
+    <member refid="_8cmake-format_8py_1a5b5068114e71c53f803684b48ffa4b8f" kind="variable"><name>line_width</name></member>
+    <member refid="_8cmake-format_8py_1af634cb3f98b322229c1e701ada444e39" kind="variable"><name>tab_size</name></member>
+    <member refid="_8cmake-format_8py_1a5546a489bf01dfb0f0b6cbd434bc291d" kind="variable"><name>dangle_parens</name></member>
+    <member refid="_8cmake-format_8py_1add95109445456c48a236fa50ced0b8b1" kind="variable"><name>enable_markup</name></member>
+    <member refid="_8cmake-format_8py_1aa0c3d1f54a93bd873dfd8e9de8d677f4" kind="variable"><name>disabled_codes</name></member>
+  </compound>
+  <compound refid="include_8cpp" kind="file"><name>include.cpp</name>
+    <member refid="include_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="abort_8cpp" kind="file"><name>abort.cpp</name>
+    <member refid="abort_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="attr_8cpp" kind="file"><name>attr.cpp</name>
+    <member refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kind="define"><name>expect</name></member>
+    <member refid="attr_8cpp_1ae99a05a203907d1381a00d9e05425ab7" kind="variable"><name>sum</name></member>
+    <member refid="attr_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="BDD_8cpp" kind="file"><name>BDD.cpp</name>
+    <member refid="BDD_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="benchmark_8cpp" kind="file"><name>benchmark.cpp</name>
+    <member refid="benchmark_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="parallel__runner_8cpp" kind="file"><name>parallel_runner.cpp</name>
+    <member refid="parallel__runner_8cpp_1a001500aa4eb8e37df9ebae6e7f50b1fd" kind="variable"><name>parallel_1</name></member>
+    <member refid="parallel__runner_8cpp_1a30b910b35f10a9177f38f5886f9a3924" kind="variable"><name>parallel_2</name></member>
+    <member refid="parallel__runner_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="printer_8cpp" kind="file"><name>printer.cpp</name>
+    <member refid="printer_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="reporter_8cpp" kind="file"><name>reporter.cpp</name>
+    <member refid="reporter_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="runner_8cpp" kind="file"><name>runner.cpp</name>
+    <member refid="runner_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="cli_8cpp" kind="file"><name>cli.cpp</name>
+    <member refid="cli_8cpp_1a217dbf8b442f20279ea00b898af96f52" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="exception_8cpp" kind="file"><name>exception.cpp</name>
+    <member refid="exception_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="benchmark_2expect_8cpp" kind="file"><name>expect.cpp</name>
+    <member refid="benchmark_2expect_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="example_2expect_8cpp" kind="file"><name>expect.cpp</name>
+    <member refid="example_2expect_8cpp_1ae99a05a203907d1381a00d9e05425ab7" kind="variable"><name>sum</name></member>
+    <member refid="example_2expect_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="fatal_8cpp" kind="file"><name>fatal.cpp</name>
+    <member refid="fatal_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="filter_8cpp" kind="file"><name>filter.cpp</name>
+    <member refid="filter_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="gherkin_8cpp" kind="file"><name>gherkin.cpp</name>
+    <member refid="gherkin_8cpp_1a217dbf8b442f20279ea00b898af96f52" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="hello__world_8cpp" kind="file"><name>hello_world.cpp</name>
+    <member refid="hello__world_8cpp_1ae99a05a203907d1381a00d9e05425ab7" kind="variable"><name>sum</name></member>
+    <member refid="hello__world_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="log_8cpp" kind="file"><name>log.cpp</name>
+    <member refid="log_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="macro_8cpp" kind="file"><name>macro.cpp</name>
+    <member refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kind="define"><name>EXPECT</name></member>
+    <member refid="macro_8cpp_1ac259c3f55c7c90396ea276c14641bc01" kind="define"><name>SUITE</name></member>
+    <member refid="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" kind="define"><name>TEST</name></member>
+    <member refid="macro_8cpp_1a88325e11f751ec3d5a7a23f3d54a68b3" kind="define"><name>TEST_P</name></member>
+    <member refid="macro_8cpp_1a58de638fe415745c47ccf5dc4b3f42b9" kind="variable"><name>SUITE</name></member>
+    <member refid="macro_8cpp_1a152ac1ebe3d02c30ebce1e971341e5cc" kind="function"><name>TEST_P</name></member>
+    <member refid="macro_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="matcher_8cpp" kind="file"><name>matcher.cpp</name>
+    <member refid="matcher_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="minimal_8cpp" kind="file"><name>minimal.cpp</name>
+    <member refid="minimal_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="module_8cpp" kind="file"><name>module.cpp</name>
+    <member refid="module_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="mut_8cpp" kind="file"><name>mut.cpp</name>
+    <member refid="mut_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="parameterized_8cpp" kind="file"><name>parameterized.cpp</name>
+    <member refid="parameterized_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="run_8cpp" kind="file"><name>run.cpp</name>
+    <member refid="run_8cpp_1aae35993f1d14ea7095c874d719a7e66e" kind="variable"><name>_</name></member>
+    <member refid="run_8cpp_1a217dbf8b442f20279ea00b898af96f52" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="run__report_8cpp" kind="file"><name>run_report.cpp</name>
+    <member refid="run__report_8cpp_1a49e03409ce9dd786ba601e72b74272e3" kind="variable"><name>basic</name></member>
+    <member refid="run__report_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="section_8cpp" kind="file"><name>section.cpp</name>
+    <member refid="section_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="should_8cpp" kind="file"><name>should.cpp</name>
+    <member refid="should_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="skip_8cpp" kind="file"><name>skip.cpp</name>
+    <member refid="skip_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="sl_8cpp" kind="file"><name>sl.cpp</name>
+    <member refid="sl_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="spec_8cpp" kind="file"><name>spec.cpp</name>
+    <member refid="spec_8cpp_1ae99a05a203907d1381a00d9e05425ab7" kind="variable"><name>sum</name></member>
+    <member refid="spec_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="benchmark_2suite_8cpp" kind="file"><name>suite.cpp</name>
+    <member refid="benchmark_2suite_8cpp_1abf770c0c5d7f2d371e54d12c12b0fa54" kind="variable"><name>_1</name></member>
+    <member refid="benchmark_2suite_8cpp_1af9c832b6672d6bc59cf9617924e75759" kind="variable"><name>_2</name></member>
+    <member refid="benchmark_2suite_8cpp_1a5d6d72b5c1264a2a7c3bbdfa308a14e7" kind="variable"><name>_3</name></member>
+    <member refid="benchmark_2suite_8cpp_1a24aef83b70a6a88f8d3431a7fbae2627" kind="variable"><name>_4</name></member>
+    <member refid="benchmark_2suite_8cpp_1a855475e626160c0b00abd660bd67f04f" kind="variable"><name>_5</name></member>
+    <member refid="benchmark_2suite_8cpp_1ad922ae9fa962635d4366f4dff708927b" kind="variable"><name>_6</name></member>
+    <member refid="benchmark_2suite_8cpp_1a2af8b339f71feb43433d0160d6c2731d" kind="variable"><name>_7</name></member>
+    <member refid="benchmark_2suite_8cpp_1a8c6682d5599605b552bdb5ded004a421" kind="variable"><name>_8</name></member>
+    <member refid="benchmark_2suite_8cpp_1a5c70b5f7ce22640303922347a60219bf" kind="variable"><name>_9</name></member>
+    <member refid="benchmark_2suite_8cpp_1adc56f5d4768ffc6ea27b8da2e80bd291" kind="variable"><name>_10</name></member>
+    <member refid="benchmark_2suite_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="example_2suite_8cpp" kind="file"><name>suite.cpp</name>
+    <member refid="example_2suite_8cpp_1a4cdc464ed0e9d1c57cb06b75f41679df" kind="variable"><name>errors</name></member>
+    <member refid="example_2suite_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="tag_8cpp" kind="file"><name>tag.cpp</name>
+    <member refid="tag_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="terse_8cpp" kind="file"><name>terse.cpp</name>
+    <member refid="terse_8cpp_1ae99a05a203907d1381a00d9e05425ab7" kind="variable"><name>sum</name></member>
+    <member refid="terse_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="benchmark_2test_8cpp" kind="file"><name>test.cpp</name>
+    <member refid="benchmark_2test_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="example_2test_8cpp" kind="file"><name>test.cpp</name>
+    <member refid="example_2test_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="tmp_8cpp" kind="file"><name>tmp.cpp</name>
+    <member refid="tmp_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="using_8cpp" kind="file"><name>using.cpp</name>
+    <member refid="using_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="ut_8cppm" kind="file"><name>ut.cppm</name>
+    <member refid="ut_8cppm_1ae7b677da81cb2b40fb3fb71298bf30d0" kind="define"><name>BOOST_UT_CXX_MODULES</name></member>
+    <member refid="ut_8cppm_1afba6461f12244b5625ef9c9f544e43df" kind="function"><name>::on&lt; boost::ut::detail::fatal_&lt; bool &gt; &gt;</name></member>
+    <member refid="ut_8cppm_1a19d6f9445968eee95336d47001bc1c61" kind="function"><name>::on&lt; boost::ut::detail::fatal_&lt; bool &gt; &gt;</name></member>
+    <member refid="ut_8cppm_1a1e76d6a1720ff1bd484c2320f94d9f39" kind="function"><name>::on&lt; boost::ut::detail::fatal_&lt; bool &gt; &gt;</name></member>
+  </compound>
+  <compound refid="ut_8hpp" kind="file"><name>ut.hpp</name>
+    <member refid="ut_8hpp_1af8cb2d4b02a7463d1fd1fc361c3ba163" kind="define"><name>BOOST_UT_EXPORT</name></member>
+  </compound>
+  <compound refid="LICENSE_8md" kind="file"><name>LICENSE.md</name>
+  </compound>
+  <compound refid="README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="test_8hpp" kind="file"><name>test.hpp</name>
+  </compound>
+  <compound refid="test__suite__1_8cpp" kind="file"><name>test_suite_1.cpp</name>
+    <member refid="test__suite__1_8cpp_1a03eb7d2a4b26ba9cb6c7b990c1439b75" kind="variable"><name>_</name></member>
+  </compound>
+  <compound refid="test__suite__2_8cpp" kind="file"><name>test_suite_2.cpp</name>
+    <member refid="test__suite__2_8cpp_1a3c2890ad681c0377fb1056d934b38042" kind="variable"><name>_</name></member>
+  </compound>
+  <compound refid="test__suite__3_8cpp" kind="file"><name>test_suite_3.cpp</name>
+    <member refid="test__suite__3_8cpp_1ad144e01481404c757813628ffa5d3609" kind="variable"><name>_</name></member>
+  </compound>
+  <compound refid="ut_8cpp" kind="file"><name>ut.cpp</name>
+    <member refid="ut_8cpp_1aa3fb479070239c86673c624a21a845b6" kind="variable"><name>to_string</name></member>
+    <member refid="ut_8cpp_1a92b448eb0e138877a122b496c941962a" kind="function"><name>format_test_parameter</name></member>
+    <member refid="ut_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="win__compat__test_8cpp" kind="file"><name>win_compat_test.cpp</name>
+    <member refid="win__compat__test_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
   </compound>
   <compound refid="canvas_8cpp" kind="file"><name>canvas.cpp</name>
   </compound>
@@ -71,11 +492,39 @@
   <compound refid="tuple__test_8cpp" kind="file"><name>tuple_test.cpp</name>
     <member refid="tuple__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
   </compound>
+  <compound refid="md__2home_2mccakit_2desktop_2projects_2ray__tracer__challange_2deps_2ut_2LICENSE" kind="page"><name>md__2home_2mccakit_2desktop_2projects_2ray__tracer__challange_2deps_2ut_2LICENSE</name>
+  </compound>
+  <compound refid="md__2home_2mccakit_2desktop_2projects_2ray__tracer__challange_2deps_2ut_2README" kind="page"><name>md__2home_2mccakit_2desktop_2projects_2ray__tracer__challange_2deps_2ut_2README</name>
+  </compound>
   <compound refid="dir_9654b8d08f4bba4e84b362c5fd320bee" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/apps</name>
+  </compound>
+  <compound refid="dir_33931a973dd71fa43dd282ab5a2b2bdd" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/benchmark</name>
+  </compound>
+  <compound refid="dir_869310acf784c386de465c3aad83aeef" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/include/boost</name>
+  </compound>
+  <compound refid="dir_01871785049de82a2ef1b35e39b0e9b9" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg</name>
+  </compound>
+  <compound refid="dir_94a36784afa54c0b50996002372b429e" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps</name>
+  </compound>
+  <compound refid="dir_39c54827d249aacb0808747b055198b7" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example</name>
+  </compound>
+  <compound refid="dir_ab19bd8fc61a6a0fa079c6396bdf3d18" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ft</name>
+  </compound>
+  <compound refid="dir_717e0fa22d06b8964a96e0e23840fe86" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/include</name>
+  </compound>
+  <compound refid="dir_c67ceeee1f2ceb2824766c410dcbbc26" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ft/include</name>
   </compound>
   <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/src</name>
   </compound>
+  <compound refid="dir_6873613decfe4a9206394d3ae3e446d9" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test</name>
+  </compound>
   <compound refid="dir_59425e443f801f1f2fd8bbe4959a3ccf" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/tests</name>
+  </compound>
+  <compound refid="dir_d3289b2f67e838ad2c55c003d281fc8e" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut</name>
+  </compound>
+  <compound refid="dir_741ab856481f1cafdcb3efc7ce5afe41" kind="dir"><name>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut</name>
+  </compound>
+  <compound refid="module_boost_8ut" kind="module"><name>boost.ut</name>
   </compound>
   <compound refid="module_canvas" kind="module"><name>canvas</name>
     <member refid="classcanvas_1_1canvas_1abae92a469aeab6a007267c6fd2d84a29" kind="variable"><name>width</name></member>

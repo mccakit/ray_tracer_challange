@@ -4,7 +4,7 @@
     <compoundname>tuple::tuple</compoundname>
     <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" prot="public" static="no" mutable="no">
-        <type>std::array&lt; float, 4 &gt;</type>
+        <type>std::array&lt; <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref>, 4 &gt;</type>
         <definition>std::array&lt;float, 4&gt; tuple::tuple::data</definition>
         <argsstring></argsstring>
         <name>data</name>
@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="8" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="8" bodyend="8"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="18" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="18" bodyend="18"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -27,16 +27,17 @@
         <name>tuple</name>
         <qualifiedname>tuple::tuple::tuple</qualifiedname>
         <param>
-          <type>const std::array&lt; float, 4 &gt; &amp;</type>
+          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> std::array&lt; <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref>, 4 &gt; &amp;</type>
           <declname>input_data</declname>
         </param>
         <briefdescription>
+<para>Constructs a tuple from a 4-element float array. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="9" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="9" bodyend="11"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="22" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="22" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1aff9a7a2f63fa5ed800cd02498745a897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -45,19 +46,20 @@
         <name>tuple</name>
         <qualifiedname>tuple::tuple::tuple</qualifiedname>
         <param>
-          <type>const std::initializer_list&lt; float &gt; &amp;</type>
+          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> std::initializer_list&lt; <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref> &gt; &amp;</type>
           <declname>input_data</declname>
         </param>
         <briefdescription>
+<para>Constructs a tuple from a 4-element initializer list. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="12" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="12" bodyend="15"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="28" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr bool</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">bool</ref></type>
         <definition>constexpr bool tuple::tuple::is_point</definition>
         <argsstring>()</argsstring>
         <name>is_point</name>
@@ -68,10 +70,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="16" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="16" bodyend="19"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="32" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1a8d54e202594b535034f27877da4e10ea" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr bool</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">bool</ref></type>
         <definition>constexpr bool tuple::tuple::is_vector</definition>
         <argsstring>()</argsstring>
         <name>is_vector</name>
@@ -82,10 +84,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="21" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="21" bodyend="24"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="37" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="37" bodyend="40"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1aa13409e279b8a744486ea7c35c9e89f0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr float</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
         <definition>constexpr float tuple::tuple::x</definition>
         <argsstring>()</argsstring>
         <name>x</name>
@@ -96,10 +98,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="25" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="25" bodyend="28"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="41" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="41" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1af1a14b1190894867622b314f7f63d7ba" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr float</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
         <definition>constexpr float tuple::tuple::y</definition>
         <argsstring>()</argsstring>
         <name>y</name>
@@ -110,10 +112,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="29" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="29" bodyend="32"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="45" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="45" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1a35345c4d2926d1141f67b1c20fedd716" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr float</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
         <definition>constexpr float tuple::tuple::z</definition>
         <argsstring>()</argsstring>
         <name>z</name>
@@ -124,10 +126,10 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="33" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="33" bodyend="36"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="49" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1ad1c3684b31700700e06ec5c60c5f307e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>constexpr float</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
         <definition>constexpr float tuple::tuple::w</definition>
         <argsstring>()</argsstring>
         <name>w</name>
@@ -138,50 +140,55 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="37" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="37" bodyend="40"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="53" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="53" bodyend="56"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
-        <type>float &amp;</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref> &amp;</type>
         <definition>float &amp; tuple::tuple::operator[]</definition>
         <argsstring>(const int i)</argsstring>
         <name>operator[]</name>
         <qualifiedname>tuple::tuple::operator[]</qualifiedname>
         <param>
-          <type>const int</type>
+          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">int</ref></type>
           <declname>i</declname>
         </param>
         <briefdescription>
+<para>returns a reference to coordinate </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="41" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="41" bodyend="44"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="60" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="60" bodyend="63"/>
       </memberdef>
       <memberdef kind="function" id="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
-        <type>float</type>
+        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
         <definition>float tuple::tuple::operator[]</definition>
         <argsstring>(const int i) const</argsstring>
         <name>operator[]</name>
         <qualifiedname>tuple::tuple::operator[]</qualifiedname>
         <param>
-          <type>const int</type>
+          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">int</ref></type>
           <declname>i</declname>
         </param>
         <briefdescription>
+<para>returns the copy of the coordinate </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="46" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="46" bodyend="49"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="67" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="67" bodyend="70"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
+<para>A 4D tuple representing either a point or vector in 3D space. </para>
     </briefdescription>
     <detaileddescription>
+<para>The 4th element distinguishes point (w=1.0) from vector (w=0.0).</para>
+<para>Use <computeroutput>point(x, y, z)</computeroutput> and <computeroutput>vector(x, y, z)</computeroutput> to create tuples. </para>
     </detaileddescription>
-    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="5" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="6" bodyend="50"/>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="15" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="16" bodyend="71"/>
     <listofallmembers>
       <member refid="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" prot="public" virt="non-virtual"><scope>tuple::tuple</scope><name>data</name></member>
       <member refid="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" prot="public" virt="non-virtual"><scope>tuple::tuple</scope><name>is_point</name></member>

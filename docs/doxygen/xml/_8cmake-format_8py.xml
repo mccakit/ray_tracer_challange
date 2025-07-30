@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="_8cmake-format_8py" kind="file" language="Python">
+    <compoundname>.cmake-format.py</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_8cmake-format_8py_1a4f6a7f253bdd17de45549df1fc71b8c0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool disable</definition>
+        <argsstring></argsstring>
+        <name>disable</name>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" line="8" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_8cmake-format_8py_1a5b5068114e71c53f803684b48ffa4b8f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int line_width</definition>
+        <argsstring></argsstring>
+        <name>line_width</name>
+        <initializer>=  135</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" line="11" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_8cmake-format_8py_1af634cb3f98b322229c1e701ada444e39" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int tab_size</definition>
+        <argsstring></argsstring>
+        <name>tab_size</name>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" line="14" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_8cmake-format_8py_1a5546a489bf01dfb0f0b6cbd434bc291d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool dangle_parens</definition>
+        <argsstring></argsstring>
+        <name>dangle_parens</name>
+        <initializer>=  True</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" line="18" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_8cmake-format_8py_1add95109445456c48a236fa50ced0b8b1" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool enable_markup</definition>
+        <argsstring></argsstring>
+        <name>enable_markup</name>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" line="25" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_8cmake-format_8py_1aa0c3d1f54a93bd873dfd8e9de8d677f4" prot="public" static="no" mutable="no">
+        <type><ref refid="structlist" kindref="compound">list</ref></type>
+        <definition>list disabled_codes</definition>
+        <argsstring></argsstring>
+        <name>disabled_codes</name>
+        <initializer>=  [&apos;C0111&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" line="33" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">#<sp/>See<sp/>https://cmake-format.readthedocs.io/en/latest/configuration.html<sp/>for<sp/>all<sp/>options</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">#<sp/>-----------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Options<sp/>affecting<sp/>formatting.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">#<sp/>-----------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>section(</highlight><highlight class="stringliteral">&quot;format&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>Disable<sp/>formatting<sp/>entirely,<sp/>making<sp/>cmake-format<sp/>a<sp/>no-op</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>disable<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>How<sp/>wide<sp/>to<sp/>allow<sp/>formatted<sp/>cmake<sp/>files</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>line_width<sp/>=<sp/>135</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>How<sp/>many<sp/>spaces<sp/>to<sp/>tab<sp/>for<sp/>indent</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>tab_size<sp/>=<sp/>2</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>If<sp/>a<sp/>statement<sp/>is<sp/>wrapped<sp/>to<sp/>more<sp/>than<sp/>one<sp/>line,<sp/>than<sp/>dangle<sp/>the<sp/>closing</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>parenthesis<sp/>on<sp/>its<sp/>own<sp/>line.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>dangle_parens<sp/>=<sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">#<sp/>------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Options<sp/>affecting<sp/>comment<sp/>reflow<sp/>and<sp/>formatting.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">#<sp/>------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>section(</highlight><highlight class="stringliteral">&quot;markup&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">#<sp/>enable<sp/>comment<sp/>markup<sp/>parsing<sp/>and<sp/>reflow</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>enable_markup<sp/>=<sp/></highlight><highlight class="keyword">False</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="comment">#<sp/>----------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Options<sp/>affecting<sp/>the<sp/>linter</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="comment">#<sp/>----------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>section(</highlight><highlight class="stringliteral">&quot;lint&quot;</highlight><highlight class="normal">):</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">#<sp/>a<sp/>list<sp/>of<sp/>lint<sp/>codes<sp/>to<sp/>disable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>disabled_codes<sp/>=<sp/>[</highlight><highlight class="stringliteral">&apos;C0111&apos;</highlight><highlight class="normal">]</highlight></codeline>
+    </programlisting>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/.cmake-format.py"/>
+  </compounddef>
+</doxygen>

@@ -1,14 +1,30 @@
 export module tuple;
 import std;
+/**
+ * @brief Namespace containing 3D tuple math types and operations.
+ */
 export namespace tuple
 {
+/**
+* @brief A 4D tuple representing either a point or vector in 3D space.
+*
+* The 4th element distinguishes point (w=1.0) from vector (w=0.0).
+*
+* Use `point(x, y, z)` and `vector(x, y, z)` to create tuples.
+*/
 class tuple
 {
   public:
     std::array<float, 4> data{};
+    /**
+     * @brief Constructs a tuple from a 4-element float array.
+     */
     tuple(const std::array<float, 4> &input_data) : data{input_data}
     {
     }
+    /**
+     * @brief Constructs a tuple from a 4-element initializer list
+     */
     tuple(const std::initializer_list<float> &input_data)
     {
         std::copy(input_data.begin(), input_data.end(), data.begin());
@@ -38,16 +54,26 @@ class tuple
     {
         return data[3];
     }
+    /**
+     * @brief returns a reference to coordinate
+     */
     float &operator[](const int i)
     {
         return data[i];
     }
-
+    /**
+     * @brief returns the copy of the coordinate
+     */
     float operator[](const int i) const
     {
         return data[i];
     }
 };
+/**
+ * @brief Creates a tuple representing a 3D point.
+ * @param args X, Y, Z coordinates.
+ * @return A tuple with w = 1.0.
+ */
 template <typename... Ts> constexpr tuple point(Ts... args)
 {
     const std::array<float, 3> input_data = {static_cast<float>(args)...};
@@ -59,6 +85,11 @@ template <typename... Ts> constexpr tuple point(Ts... args)
     output[3] = 1.0F;
     return tuple{output};
 }
+/**
+ * @brief Creates a tuple representing a 3D vector.
+ * @param args X, Y, Z coordinates.
+ * @return A tuple with w = 0.0.
+ */
 template <typename... Ts> constexpr tuple vector(Ts... args)
 {
     const std::array<float, 3> input_data = {static_cast<float>(args)...};
@@ -70,7 +101,9 @@ template <typename... Ts> constexpr tuple vector(Ts... args)
     output[3] = 0.0F;
     return tuple{output};
 }
-
+/**
+ * @brief Compares two tuples with epsilon 1e-5
+ */
 bool operator==(const tuple &ls_tuple, const tuple &rs_tuple)
 {
     for (int i{0}; i < 4; ++i)
@@ -82,6 +115,9 @@ bool operator==(const tuple &ls_tuple, const tuple &rs_tuple)
     }
     return true;
 }
+/**
+ * @brief Adds two tuples
+ */
 tuple operator+(const tuple &ls_tuple, const tuple &rs_tuple)
 {
     tuple result = ls_tuple;
@@ -91,6 +127,9 @@ tuple operator+(const tuple &ls_tuple, const tuple &rs_tuple)
     }
     return result;
 }
+/**
+ * @brief Subtracts two tuples
+ */
 tuple operator-(const tuple &ls_tuple, const tuple &rs_tuple)
 {
     tuple result = ls_tuple;
@@ -100,6 +139,9 @@ tuple operator-(const tuple &ls_tuple, const tuple &rs_tuple)
     }
     return result;
 }
+/**
+ * @brief Multiply a tuple with a scalar
+ */
 tuple operator*(const tuple &ls_tuple, const float num)
 {
     tuple result = ls_tuple;
@@ -109,6 +151,9 @@ tuple operator*(const tuple &ls_tuple, const float num)
     }
     return result;
 }
+/**
+ * @brief Divide a tuple with a scalar
+ */
 tuple operator/(const tuple &ls_tuple, const float num)
 {
     tuple result = ls_tuple;
@@ -118,6 +163,9 @@ tuple operator/(const tuple &ls_tuple, const float num)
     }
     return result;
 }
+/**
+ * @brief Returns the magnitude of a tuple
+ */
 float magnitude(const tuple &in_tuple)
 {
     float sum{0};
@@ -127,6 +175,9 @@ float magnitude(const tuple &in_tuple)
     }
     return std::sqrt(sum);
 }
+/**
+ * @brief Returns the normalized version of the tuple
+ */
 tuple normalize(const tuple &in_tuple)
 {
     float tuple_magnitude{magnitude(in_tuple)};
@@ -137,6 +188,9 @@ tuple normalize(const tuple &in_tuple)
     }
     return output;
 }
+/**
+ * @brief Computes the dot product of two tuples.
+ */
 float dot_product(const tuple &ls_tuple, const tuple &rs_tuple)
 {
     float sum{};
@@ -146,6 +200,9 @@ float dot_product(const tuple &ls_tuple, const tuple &rs_tuple)
     }
     return sum;
 }
+/**
+ * @brief Computes the cross product of two tuples.
+ */
 tuple cross_product(const tuple &ls_tuple, const tuple &rs_tuple)
 {
     tuple result = ls_tuple;

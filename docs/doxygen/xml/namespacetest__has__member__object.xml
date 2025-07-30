@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacetest__has__member__object" kind="namespace" language="C++">
+    <compoundname>test_has_member_object</compoundname>
+    <innerclass refid="structtest__has__member__object_1_1not__defined" prot="public">test_has_member_object::not_defined</innerclass>
+    <innerclass refid="classtest__has__member__object_1_1private__member__object__epsilon" prot="public">test_has_member_object::private_member_object_epsilon</innerclass>
+    <innerclass refid="classtest__has__member__object_1_1private__member__object__value" prot="public">test_has_member_object::private_member_object_value</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__member__function__epsilon" prot="public">test_has_member_object::public_member_function_epsilon</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__member__function__value" prot="public">test_has_member_object::public_member_function_value</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__member__object__epsilon" prot="public">test_has_member_object::public_member_object_epsilon</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__member__object__value" prot="public">test_has_member_object::public_member_object_value</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__static__member__function__epsilon" prot="public">test_has_member_object::public_static_member_function_epsilon</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__static__member__function__value" prot="public">test_has_member_object::public_static_member_function_value</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__static__member__object__epsilon" prot="public">test_has_member_object::public_static_member_object_epsilon</innerclass>
+    <innerclass refid="structtest__has__member__object_1_1public__static__member__object__value" prot="public">test_has_member_object::public_static_member_object_value</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="26" column="1"/>
+  </compounddef>
+</doxygen>

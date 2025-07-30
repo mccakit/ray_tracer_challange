@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classcfg_1_1reporter" kind="class" language="C++" prot="public">
+    <compoundname>cfg::reporter</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcfg_1_1reporter_1a5ea104ca73f7367d22dba84b54c6799d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::test_begin) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::test_begin</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="16" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a548a81af09c68162e1985bbe94768b7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::test_run) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::test_run</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="17" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a2c80d4488861156709fec11fae766924" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::test_skip) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::test_skip</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="18" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1adc2fc6730564735eae8b92fee26f04c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::test_end) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::test_end</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="19" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a6e256dd7fadb9bf867cccd01f947ef7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TMsg</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::log&lt; TMsg &gt;) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::log&lt; TMsg &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="21" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1af329a6d9a396967ac9299618d3601095" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TExpr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::assertion_pass&lt; TExpr &gt;) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::assertion_pass&lt; TExpr &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="23" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a066bde1e4748cd47b07d9e415a646674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TExpr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::assertion_fail&lt; TExpr &gt;) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::assertion_fail&lt; TExpr &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="25" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a962d7ad952cdc6c4c935ae673d51d8fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::fatal_assertion) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::fatal_assertion</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="26" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a7686bf6d8600e95dfe43af9ae37786ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::exception) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::exception</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="27" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a621df0c5e57f2515b78da78f6e99189d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::summary) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::summary</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="28" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1reporter_1a71cbd2bf1d8e97b646e2f36574f46ff5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::reporter::on</definition>
+        <argsstring>(ut::events::run_begin) -&gt; void</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::reporter::on</qualifiedname>
+        <param>
+          <type>ut::events::run_begin</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="29" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" line="14" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/reporter.cpp" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classcfg_1_1reporter_1a5ea104ca73f7367d22dba84b54c6799d" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a548a81af09c68162e1985bbe94768b7d" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a2c80d4488861156709fec11fae766924" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1adc2fc6730564735eae8b92fee26f04c3" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a6e256dd7fadb9bf867cccd01f947ef7d" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1af329a6d9a396967ac9299618d3601095" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a066bde1e4748cd47b07d9e415a646674" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a962d7ad952cdc6c4c935ae673d51d8fa" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a7686bf6d8600e95dfe43af9ae37786ec" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a621df0c5e57f2515b78da78f6e99189d" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+      <member refid="classcfg_1_1reporter_1a71cbd2bf1d8e97b646e2f36574f46ff5" prot="public" virt="non-virtual"><scope>cfg::reporter</scope><name>on</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,10 @@
+=============
+API Reference
+=============
+
+.. doxygenfile:: tuple.cpp
+    :project: ray_tracer_challange
+.. doxygenfile:: color.cpp
+    :project: ray_tracer_challange
+.. doxygenfile:: canvas.cpp
+    :project: ray_tracer_challange

@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="9" column="34" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="9" bodyend="9"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="23" column="34" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="23" bodyend="23"/>
       </memberdef>
       <memberdef kind="variable" id="classcanvas_1_1canvas_1a92489d7279b9c5d4bced9d3b6c28047b" prot="public" static="yes" constexpr="yes" mutable="no">
         <type>constexpr std::size_t</type>
@@ -33,7 +33,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="10" column="34" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="10" bodyend="10"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="24" column="34" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="24" bodyend="24"/>
       </memberdef>
       <memberdef kind="variable" id="classcanvas_1_1canvas_1a6231f1896e4101506462e492b8b7fe2e" prot="public" static="no" mutable="no">
         <type>std::array&lt; <ref refid="classcolor_1_1color" kindref="compound">color::color</ref>, width *height &gt;</type>
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="11" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="11" bodyend="11"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="26" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="26" bodyend="26"/>
       </memberdef>
       <memberdef kind="variable" id="classcanvas_1_1canvas_1adc1ada05588aeb70570cd40dd81e05b8" prot="public" static="no" mutable="no">
         <type>std::array&lt; char,(width *height *11)+30 &gt;</type>
@@ -63,7 +63,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="12" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="12" bodyend="12"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="27" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="27" bodyend="27"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
@@ -86,12 +86,13 @@
           <declname>input_color</declname>
         </param>
         <briefdescription>
+<para>Sets the pixel color at (x, y). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="13" column="10" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="13" bodyend="16"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="32" column="10" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="32" bodyend="35"/>
       </memberdef>
       <memberdef kind="function" id="classcanvas_1_1canvas_1afe86b2d3873049091edcf557dbddb9e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const <ref refid="classcolor_1_1color" kindref="compound">color::color</ref> &amp;</type>
@@ -108,12 +109,13 @@
           <declname>y</declname>
         </param>
         <briefdescription>
+<para>Returns the pixel color at (x, y). </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="17" column="24" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="17" bodyend="20"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="40" column="24" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="40" bodyend="43"/>
       </memberdef>
       <memberdef kind="function" id="classcanvas_1_1canvas_1aaf9180ed3e5f7f19014ff202c67e2bed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>const std::array&lt; char,(width *height *11)+30 &gt; &amp;</type>
@@ -122,12 +124,14 @@
         <name>to_ppm</name>
         <qualifiedname>canvas::canvas::to_ppm</qualifiedname>
         <briefdescription>
+<para>Converts the canvas pixel data to a PPM image string. </para>
         </briefdescription>
         <detaileddescription>
+<para>The returned string contains the PPM header and pixel RGB values. </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="21" column="22" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="21" bodyend="47"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="50" column="22" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="50" bodyend="76"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

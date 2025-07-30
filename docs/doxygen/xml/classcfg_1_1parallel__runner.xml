@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classcfg_1_1parallel__runner" kind="class" language="C++" prot="public">
+    <compoundname>cfg::parallel_runner</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::ut::runner&lt;&gt;</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcfg_1_1parallel__runner_1a2f7a920ca1ba114db6a0fa4ebebdcfa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::parallel_runner::on</definition>
+        <argsstring>(ut::events::test&lt; Ts... &gt; test)</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::parallel_runner::on</qualifiedname>
+        <param>
+          <type>ut::events::test&lt; Ts... &gt;</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" line="23" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1parallel__runner_1a28ffdfd844b4c36294bee2ae4218ef0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::parallel_runner::run</definition>
+        <argsstring>() -&gt; bool</argsstring>
+        <name>run</name>
+        <qualifiedname>cfg::parallel_runner::run</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" line="28" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" bodystart="28" bodyend="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>cfg::parallel_runner</label>
+        <link refid="classcfg_1_1parallel__runner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ut::runner&lt;&gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>cfg::parallel_runner</label>
+        <link refid="classcfg_1_1parallel__runner"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ut::runner&lt;&gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" line="18" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" bodystart="18" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classcfg_1_1parallel__runner_1a2f7a920ca1ba114db6a0fa4ebebdcfa8" prot="public" virt="non-virtual"><scope>cfg::parallel_runner</scope><name>on</name></member>
+      <member refid="classcfg_1_1parallel__runner_1a28ffdfd844b4c36294bee2ae4218ef0a" prot="public" virt="non-virtual"><scope>cfg::parallel_runner</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

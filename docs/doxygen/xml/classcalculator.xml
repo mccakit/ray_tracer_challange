@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classcalculator" kind="class" language="C++" prot="public">
+    <compoundname>calculator</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcalculator_1a16664c39efec21044353606ed5cea90b" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; calculator&lt; T &gt;::values_</definition>
+        <argsstring></argsstring>
+        <name>values_</name>
+        <qualifiedname>calculator::values_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="28" column="15" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcalculator_1aeee61015a0eba54442f39cc7b18f4939" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T calculator&lt; T &gt;::result_</definition>
+        <argsstring></argsstring>
+        <name>result_</name>
+        <qualifiedname>calculator::result_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="29" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcalculator_1a4a60ddcf4103d798ec184340cc463302" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto calculator&lt; T &gt;::enter</definition>
+        <argsstring>(const T &amp;value) -&gt; void</argsstring>
+        <name>enter</name>
+        <qualifiedname>calculator::enter</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="17" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classcalculator_1a13d1a78226a133be91686cd6a6fc98b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto calculator&lt; T &gt;::add</definition>
+        <argsstring>() -&gt; void</argsstring>
+        <name>add</name>
+        <qualifiedname>calculator::add</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="18" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classcalculator_1a5c5971d1e0547e32b33ee474b4ebee8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto calculator&lt; T &gt;::sub</definition>
+        <argsstring>() -&gt; void</argsstring>
+        <name>sub</name>
+        <qualifiedname>calculator::sub</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="21" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classcalculator_1ae62094ce2cdc110650a322991ecf217a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto calculator&lt; T &gt;::get</definition>
+        <argsstring>() const -&gt; T</argsstring>
+        <name>get</name>
+        <qualifiedname>calculator::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="25" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" line="15" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/gherkin.cpp" bodystart="15" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classcalculator_1a13d1a78226a133be91686cd6a6fc98b3" prot="public" virt="non-virtual"><scope>calculator</scope><name>add</name></member>
+      <member refid="classcalculator_1a4a60ddcf4103d798ec184340cc463302" prot="public" virt="non-virtual"><scope>calculator</scope><name>enter</name></member>
+      <member refid="classcalculator_1ae62094ce2cdc110650a322991ecf217a" prot="public" virt="non-virtual"><scope>calculator</scope><name>get</name></member>
+      <member refid="classcalculator_1aeee61015a0eba54442f39cc7b18f4939" prot="private" virt="non-virtual"><scope>calculator</scope><name>result_</name></member>
+      <member refid="classcalculator_1a5c5971d1e0547e32b33ee474b4ebee8a" prot="public" virt="non-virtual"><scope>calculator</scope><name>sub</name></member>
+      <member refid="classcalculator_1a16664c39efec21044353606ed5cea90b" prot="private" virt="non-virtual"><scope>calculator</scope><name>values_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

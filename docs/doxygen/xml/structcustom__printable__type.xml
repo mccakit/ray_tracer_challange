@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structcustom__printable__type" kind="struct" language="C++" prot="public">
+    <compoundname>custom_printable_type</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcustom__printable__type_1a11509bbce8bd8a511f9b3210cd307fd7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int custom_printable_type::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>custom_printable_type::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="367" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="367" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="366" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="366" bodyend="368"/>
+    <listofallmembers>
+      <member refid="structcustom__printable__type_1a11509bbce8bd8a511f9b3210cd307fd7" prot="public" virt="non-virtual"><scope>custom_printable_type</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

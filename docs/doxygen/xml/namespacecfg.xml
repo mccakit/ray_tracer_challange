@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacecfg" kind="namespace" language="C++">
+    <compoundname>cfg</compoundname>
+    <innerclass refid="classcfg_1_1parallel__runner" prot="public">cfg::parallel_runner</innerclass>
+    <innerclass refid="structcfg_1_1printer" prot="public">cfg::printer</innerclass>
+    <innerclass refid="classcfg_1_1reporter" prot="public">cfg::reporter</innerclass>
+    <innerclass refid="classcfg_1_1runner" prot="public">cfg::runner</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/parallel_runner.cpp" line="17" column="1"/>
+  </compounddef>
+</doxygen>

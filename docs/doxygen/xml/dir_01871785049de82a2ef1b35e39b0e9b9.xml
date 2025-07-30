@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="dir_01871785049de82a2ef1b35e39b0e9b9" kind="dir">
+    <compoundname>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg</compoundname>
+    <innerfile refid="parallel__runner_8cpp">parallel_runner.cpp</innerfile>
+    <innerfile refid="printer_8cpp">printer.cpp</innerfile>
+    <innerfile refid="reporter_8cpp">reporter.cpp</innerfile>
+    <innerfile refid="runner_8cpp">runner.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/"/>
+  </compounddef>
+</doxygen>

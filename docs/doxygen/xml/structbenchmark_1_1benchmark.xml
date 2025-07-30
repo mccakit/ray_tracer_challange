@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structbenchmark_1_1benchmark" kind="struct" language="C++" prot="public">
+    <compoundname>benchmark::benchmark</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::ut::detail::test</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structbenchmark_1_1benchmark_1aacfc5b29cfdc3b2f1ab8d5f0b79d545d" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>benchmark::benchmark::benchmark</definition>
+        <argsstring>(std::string_view _name)</argsstring>
+        <name>benchmark</name>
+        <qualifiedname>benchmark::benchmark::benchmark</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/benchmark.cpp" line="16" column="12" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/benchmark.cpp" bodystart="16" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structbenchmark_1_1benchmark_1a134450bdb5ba8426fc11ec65b23edf73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Test</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto benchmark::benchmark::operator=</definition>
+        <argsstring>(Test _test)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>benchmark::benchmark::operator=</qualifiedname>
+        <param>
+          <type>Test</type>
+          <declname>_test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/benchmark.cpp" line="20" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/benchmark.cpp" bodystart="20" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>benchmark::benchmark</label>
+        <link refid="structbenchmark_1_1benchmark"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>boost::ut::detail::test</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>benchmark::benchmark</label>
+        <link refid="structbenchmark_1_1benchmark"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>boost::ut::detail::test</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/benchmark.cpp" line="15" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/benchmark.cpp" bodystart="15" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structbenchmark_1_1benchmark_1aacfc5b29cfdc3b2f1ab8d5f0b79d545d" prot="public" virt="non-virtual"><scope>benchmark::benchmark</scope><name>benchmark</name></member>
+      <member refid="structbenchmark_1_1benchmark_1a134450bdb5ba8426fc11ec65b23edf73" prot="public" virt="non-virtual"><scope>benchmark::benchmark</scope><name>operator=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

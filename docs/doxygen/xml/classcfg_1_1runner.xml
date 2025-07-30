@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classcfg_1_1runner" kind="class" language="C++" prot="public">
+    <compoundname>cfg::runner</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcfg_1_1runner_1a8b7c815757d7a835adc13611670d29e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::runner::on</definition>
+        <argsstring>(ut::events::test&lt; Ts... &gt; test)</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::runner::on</qualifiedname>
+        <param>
+          <type>ut::events::test&lt; Ts... &gt;</type>
+          <declname>test</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" line="17" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" bodystart="17" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1runner_1a62af9296b4c7e88abfa31a1076d8b360" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::runner::on</definition>
+        <argsstring>(ut::events::skip&lt; Ts... &gt;)</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::runner::on</qualifiedname>
+        <param>
+          <type>ut::events::skip&lt; Ts... &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" line="21" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1runner_1a620a7fcc8f4ad2a9ff71be89acdcd49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TExpr</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::runner::on</definition>
+        <argsstring>(ut::events::assertion&lt; TExpr &gt;) -&gt; bool</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::runner::on</qualifiedname>
+        <param>
+          <type>ut::events::assertion&lt; TExpr &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" line="23" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1runner_1a9702bb615234634c446ff1948d6d3b2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto cfg::runner::on</definition>
+        <argsstring>(ut::events::fatal_assertion)</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::runner::on</qualifiedname>
+        <param>
+          <type>ut::events::fatal_assertion</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" line="26" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcfg_1_1runner_1ab174762b8639e3dd80f592b64809fed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class TMsg</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto cfg::runner::on</definition>
+        <argsstring>(ut::events::log&lt; TMsg &gt;)</argsstring>
+        <name>on</name>
+        <qualifiedname>cfg::runner::on</qualifiedname>
+        <param>
+          <type>ut::events::log&lt; TMsg &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" line="29" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" bodystart="29" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" line="14" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/cfg/runner.cpp" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classcfg_1_1runner_1a8b7c815757d7a835adc13611670d29e3" prot="public" virt="non-virtual"><scope>cfg::runner</scope><name>on</name></member>
+      <member refid="classcfg_1_1runner_1a62af9296b4c7e88abfa31a1076d8b360" prot="public" virt="non-virtual"><scope>cfg::runner</scope><name>on</name></member>
+      <member refid="classcfg_1_1runner_1a620a7fcc8f4ad2a9ff71be89acdcd49c" prot="public" virt="non-virtual"><scope>cfg::runner</scope><name>on</name></member>
+      <member refid="classcfg_1_1runner_1a9702bb615234634c446ff1948d6d3b2f" prot="public" virt="non-virtual"><scope>cfg::runner</scope><name>on</name></member>
+      <member refid="classcfg_1_1runner_1ab174762b8639e3dd80f592b64809fed0" prot="public" virt="non-virtual"><scope>cfg::runner</scope><name>on</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

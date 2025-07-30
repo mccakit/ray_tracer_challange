@@ -2,16 +2,33 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
   <compounddef id="tuple__test_8cpp" kind="file" language="C++">
     <compoundname>tuple_test.cpp</compoundname>
-    <includes local="no">boost.ut</includes>
+    <includes refid="ut_8cppm" local="no">boost.ut</includes>
     <incdepgraph>
+      <node id="2">
+        <label>boost.ut</label>
+        <link refid="ut_8cppm"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ut.hpp</label>
+        <link refid="ut_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
       <node id="1">
         <label>/home/mccakit/desktop/projects/ray_tracer_challange/tests/tuple_test.cpp</label>
         <link refid="tuple__test_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
       </node>
-      <node id="2">
-        <label>boost.ut</label>
+      <node id="5">
+        <label>std</label>
+      </node>
+      <node id="4">
+        <label>version</label>
       </node>
     </incdepgraph>
     <sectiondef kind="func">
@@ -34,7 +51,7 @@
     <detaileddescription>
     </detaileddescription>
     <programlisting>
-<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>boost.ut;</highlight></codeline>
+<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_boost_8ut" kindref="compound">boost.ut</ref>;</highlight></codeline>
 <codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_tuple" kindref="compound">tuple</ref>;</highlight></codeline>
 <codeline lineno="3"><highlight class="normal"></highlight></codeline>
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="tuple__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kindref="member">main</ref>()<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
@@ -44,18 +61,18 @@
 <codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;tuples&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;initialization&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_0{4.3F,<sp/>-4.2F,<sp/>3.1F,<sp/>1.0F};</highlight></codeline>
-<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_0.x()<sp/>==<sp/>4.3F<sp/>and<sp/>tuple_0.y()<sp/>==<sp/>-4.2F<sp/>and<sp/>tuple_0.z()<sp/>==<sp/>3.1F<sp/>and<sp/>tuple_0.w()<sp/>==<sp/>1.0F<sp/>and</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_0.x()<sp/>==<sp/>4.3F<sp/>and<sp/>tuple_0.y()<sp/>==<sp/>-4.2F<sp/>and<sp/>tuple_0.z()<sp/>==<sp/>3.1F<sp/>and<sp/>tuple_0.w()<sp/>==<sp/>1.0F<sp/>and</highlight></codeline>
 <codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tuple_0.is_point()<sp/>and<sp/>!tuple_0.is_vector());</highlight></codeline>
 <codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_1{4.3F,<sp/>-4.2F,<sp/>3.1F,<sp/>0.0F};</highlight></codeline>
-<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_1.x()<sp/>==<sp/>4.3F<sp/>and<sp/>tuple_1.y()<sp/>==<sp/>-4.2F<sp/>and<sp/>tuple_1.z()<sp/>==<sp/>3.1F<sp/>and<sp/>tuple_1.w()<sp/>==<sp/>0.0F<sp/>and</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_1.x()<sp/>==<sp/>4.3F<sp/>and<sp/>tuple_1.y()<sp/>==<sp/>-4.2F<sp/>and<sp/>tuple_1.z()<sp/>==<sp/>3.1F<sp/>and<sp/>tuple_1.w()<sp/>==<sp/>0.0F<sp/>and</highlight></codeline>
 <codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!tuple_1.is_point()<sp/>and<sp/>tuple_1.is_vector());</highlight></codeline>
 <codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="17"><highlight class="normal"></highlight></codeline>
 <codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;factory<sp/>functions&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_2{<ref refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kindref="member">tuple::point</ref>(4,<sp/>-4,<sp/>3)};</highlight></codeline>
-<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_2.x()<sp/>==<sp/>4.0F<sp/>and<sp/>tuple_2.y()<sp/>==<sp/>-4.0F<sp/>and<sp/>tuple_2.z()<sp/>==<sp/>3.0F<sp/>and<sp/>tuple_2.w()<sp/>==<sp/>1.0F);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_2.x()<sp/>==<sp/>4.0F<sp/>and<sp/>tuple_2.y()<sp/>==<sp/>-4.0F<sp/>and<sp/>tuple_2.z()<sp/>==<sp/>3.0F<sp/>and<sp/>tuple_2.w()<sp/>==<sp/>1.0F);</highlight></codeline>
 <codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_3{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(4,<sp/>-4,<sp/>3)};</highlight></codeline>
-<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_3.x()<sp/>==<sp/>4.0F<sp/>and<sp/>tuple_3.y()<sp/>==<sp/>-4.0F<sp/>and<sp/>tuple_3.z()<sp/>==<sp/>3.0F<sp/>and<sp/>tuple_3.w()<sp/>==<sp/>0.0F);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_3.x()<sp/>==<sp/>4.0F<sp/>and<sp/>tuple_3.y()<sp/>==<sp/>-4.0F<sp/>and<sp/>tuple_3.z()<sp/>==<sp/>3.0F<sp/>and<sp/>tuple_3.w()<sp/>==<sp/>0.0F);</highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="25"><highlight class="normal"></highlight></codeline>
@@ -64,56 +81,56 @@
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_0{3.0F,<sp/>-2.0F,<sp/>5.0F,<sp/>1.0F};</highlight></codeline>
 <codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_1{-2.0F,<sp/>3.0F,<sp/>1.0F,<sp/>0.0F};</highlight></codeline>
 <codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_2{1.0F,<sp/>1.0F,<sp/>6.0F,<sp/>1.0F};</highlight></codeline>
-<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_0<sp/>+<sp/>tuple_1<sp/>==<sp/>tuple_2);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_0<sp/>+<sp/>tuple_1<sp/>==<sp/>tuple_2);</highlight></codeline>
 <codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="33"><highlight class="normal"></highlight></codeline>
 <codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;subtraction&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_3{<ref refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kindref="member">tuple::point</ref>(3,<sp/>2,<sp/>1)};</highlight></codeline>
 <codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_4{<ref refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kindref="member">tuple::point</ref>(5,<sp/>6,<sp/>7)};</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_5{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(-2,<sp/>-4,<sp/>-6)};</highlight></codeline>
-<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_3<sp/>-<sp/>tuple_4<sp/>==<sp/>tuple_5);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_3<sp/>-<sp/>tuple_4<sp/>==<sp/>tuple_5);</highlight></codeline>
 <codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="40"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;negation&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_6{1,<sp/>-2,<sp/>3,<sp/>-4};</highlight></codeline>
 <codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_7{-1,<sp/>2,<sp/>-3,<sp/>4};</highlight></codeline>
-<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_6<sp/>*<sp/>-1<sp/>==<sp/>tuple_7);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_6<sp/>*<sp/>-1<sp/>==<sp/>tuple_7);</highlight></codeline>
 <codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="46"><highlight class="normal"></highlight></codeline>
 <codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;scalar<sp/>multiplication&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_8{1,<sp/>-2,<sp/>3,<sp/>-4};</highlight></codeline>
 <codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_9{3.5,<sp/>-7,<sp/>10.5,<sp/>-14};</highlight></codeline>
-<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_8<sp/>*<sp/>3.5<sp/>==<sp/>tuple_9);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_8<sp/>*<sp/>3.5<sp/>==<sp/>tuple_9);</highlight></codeline>
 <codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="52"><highlight class="normal"></highlight></codeline>
 <codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;scalar<sp/>division&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_10{1,<sp/>-2,<sp/>3,<sp/>-4};</highlight></codeline>
 <codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_11{0.5,<sp/>-1,<sp/>1.5,<sp/>-2};</highlight></codeline>
-<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(tuple_10<sp/>/<sp/>2<sp/>==<sp/>tuple_11);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(tuple_10<sp/>/<sp/>2<sp/>==<sp/>tuple_11);</highlight></codeline>
 <codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="58"><highlight class="normal"></highlight></codeline>
 <codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;magnitude&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_12{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(-1,<sp/>-2,<sp/>-3)};</highlight></codeline>
-<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(std::abs(<ref refid="namespacetuple_1a8a96856c45d7fd630882613deef86886" kindref="member">tuple::magnitude</ref>(tuple_12)<sp/>-<sp/>std::sqrt(14))<sp/>&lt;<sp/>1e-5);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(std::abs(<ref refid="namespacetuple_1a8a96856c45d7fd630882613deef86886" kindref="member">tuple::magnitude</ref>(tuple_12)<sp/>-<sp/>std::sqrt(14))<sp/>&lt;<sp/>1e-5);</highlight></codeline>
 <codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="63"><highlight class="normal"></highlight></codeline>
 <codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;normalization&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_13{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(1,<sp/>2,<sp/>3)};</highlight></codeline>
 <codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_14{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(1<sp/>/<sp/>std::sqrt(14),<sp/>2<sp/>/<sp/>std::sqrt(14),<sp/>3<sp/>/<sp/>std::sqrt(14))};</highlight></codeline>
-<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(<ref refid="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" kindref="member">tuple::normalize</ref>(tuple_13)<sp/>==<sp/>tuple_14);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(<ref refid="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" kindref="member">tuple::normalize</ref>(tuple_13)<sp/>==<sp/>tuple_14);</highlight></codeline>
 <codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="69"><highlight class="normal"></highlight></codeline>
 <codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;dot<sp/>product&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_15{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(1,<sp/>2,<sp/>3)};</highlight></codeline>
 <codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_16{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(2,<sp/>3,<sp/>4)};</highlight></codeline>
-<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(<ref refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kindref="member">tuple::dot_product</ref>(tuple_15,<sp/>tuple_16)<sp/>==<sp/>20.0F);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(<ref refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kindref="member">tuple::dot_product</ref>(tuple_15,<sp/>tuple_16)<sp/>==<sp/>20.0F);</highlight></codeline>
 <codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="75"><highlight class="normal"></highlight></codeline>
 <codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;cross<sp/>product&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
 <codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_17{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(1,<sp/>2,<sp/>3)};</highlight></codeline>
 <codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_18{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(2,<sp/>3,<sp/>4)};</highlight></codeline>
 <codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref><sp/>tuple_19{<ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">tuple::vector</ref>(-1,<sp/>2,<sp/>-1)};</highlight></codeline>
-<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expect(<ref refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kindref="member">tuple::cross_product</ref>(tuple_17,<sp/>tuple_18)<sp/>==<sp/>tuple_19);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(<ref refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kindref="member">tuple::cross_product</ref>(tuple_17,<sp/>tuple_18)<sp/>==<sp/>tuple_19);</highlight></codeline>
 <codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
 <codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>

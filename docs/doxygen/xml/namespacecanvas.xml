@@ -4,9 +4,10 @@
     <compoundname>canvas</compoundname>
     <innerclass refid="classcanvas_1_1canvas" prot="public">canvas::canvas</innerclass>
     <briefdescription>
+<para>Namespace for 2D drawing canvas functionality. </para>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="4" column="1"/>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="7" column="1"/>
   </compounddef>
 </doxygen>

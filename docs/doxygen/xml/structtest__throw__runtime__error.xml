@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtest__throw__runtime__error" kind="struct" language="C++" prot="public">
+    <compoundname>test_throw_runtime_error</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structtest__throw__runtime__error_1ac9d61b4a2ef5f63bf2def9d9da1b2a73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto test_throw_runtime_error::operator()</definition>
+        <argsstring>() -&gt; void</argsstring>
+        <name>operator()</name>
+        <qualifiedname>test_throw_runtime_error::operator()</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="214" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="214" bodyend="214"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="213" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="213" bodyend="215"/>
+    <listofallmembers>
+      <member refid="structtest__throw__runtime__error_1ac9d61b4a2ef5f63bf2def9d9da1b2a73" prot="public" virt="non-virtual"><scope>test_throw_runtime_error</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

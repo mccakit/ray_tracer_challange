@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="structtest__reporter" kind="struct" language="C++" prot="public">
+    <compoundname>test_reporter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">boost::ut::reporter&lt; ut::printer &gt;</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>test_reporter</label>
+        <link refid="structtest__reporter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ut::reporter&lt; ut::printer &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>test_reporter</label>
+        <link refid="structtest__reporter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ut::reporter&lt; ut::printer &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" line="192" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/test/ut/ut.cpp" bodystart="192" bodyend="196"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -6,6 +6,4 @@
    :maxdepth: 2
    :caption: Contents:
 
-   tuple.rst
-   color.rst
-   canvas.rst
+   api_reference

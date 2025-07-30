@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="macro_8cpp" kind="file" language="C++">
+    <compoundname>macro.cpp</compoundname>
+    <includes refid="ut_8hpp" local="no">boost/ut.hpp</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp</label>
+        <link refid="macro_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>boost/ut.hpp</label>
+        <link refid="ut_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>vector</label>
+      </node>
+      <node id="3">
+        <label>version</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" prot="public" static="no">
+        <name>EXPECT</name>
+        <param><defname>...</defname></param>
+        <initializer>  using namespace ::boost::ut; \
+  <ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">::boost::ut::expect</ref>(::boost::ut::that % __VA_ARGS__)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="11" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="define" id="macro_8cpp_1ac259c3f55c7c90396ea276c14641bc01" prot="public" static="no">
+        <name>SUITE</name>
+        <initializer>::boost::ut::suite <ref refid="run_8cpp_1aae35993f1d14ea7095c874d719a7e66e" kindref="member">_</ref> = []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="14" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" prot="public" static="no">
+        <name>TEST</name>
+        <param><defname>name</defname></param>
+        <initializer>::boost::ut::detail::test{&quot;test&quot;, name} = [=]() mutable</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="15" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="macro_8cpp_1a88325e11f751ec3d5a7a23f3d54a68b3" prot="public" static="no">
+        <name>TEST_P</name>
+        <param><defname>name</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>  using namespace ::boost::ut::operators; \
+  ::boost::ut::detail::test{&quot;test&quot;, name} = [=](__VA_ARGS__) mutable</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="16" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="16" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="macro_8cpp_1a58de638fe415745c47ccf5dc4b3f42b9" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SUITE</definition>
+        <argsstring></argsstring>
+        <name>SUITE</name>
+        <initializer>{
+  <ref refid="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" kindref="member">TEST</ref>(&quot;suite&quot;) { <ref refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kindref="member">EXPECT</ref>(42 == 42); }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="20" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="20" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="macro_8cpp_1a152ac1ebe3d02c30ebce1e971341e5cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>TEST_P</definition>
+        <argsstring>(&quot;parameterized&quot;, const auto &amp;arg)</argsstring>
+        <name>TEST_P</name>
+        <param>
+          <type>&quot;parameterized&quot;</type>
+        </param>
+        <param>
+          <type>const auto &amp;</type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="23" column="3" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="macro_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" line="29" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp" bodystart="29" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2019-2020<sp/>Kris<sp/>Jusiak<sp/>(kris<sp/>at<sp/>jusiak<sp/>dot<sp/>net)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Distributed<sp/>under<sp/>the<sp/>Boost<sp/>Software<sp/>License,<sp/>Version<sp/>1.0.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>(See<sp/>accompanying<sp/>file<sp/>LICENSE_1_0.txt<sp/>or<sp/>copy<sp/>at</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://www.boost.org/LICENSE_1_0.txt)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="ut_8hpp" kindref="compound">boost/ut.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXPECT(...)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"><sp/><sp/>using<sp/>namespace<sp/>::boost::ut;<sp/>\</highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor"><sp/><sp/>::boost::ut::expect(::boost::ut::that<sp/>%<sp/>__VA_ARGS__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SUITE<sp/>::boost::ut::suite<sp/>_<sp/>=<sp/>[]</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST(name)<sp/>::boost::ut::detail::test{&quot;test&quot;,<sp/>name}<sp/>=<sp/>[=]()<sp/>mutable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TEST_P(name,<sp/>...)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>\</highlight></codeline>
+<codeline lineno="17"><highlight class="preprocessor"><sp/><sp/>using<sp/>namespace<sp/>::boost::ut::operators;<sp/>\</highlight></codeline>
+<codeline lineno="18"><highlight class="preprocessor"><sp/><sp/>::boost::ut::detail::test{&quot;test&quot;,<sp/>name}<sp/>=<sp/>[=](__VA_ARGS__)<sp/>mutable</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="macro_8cpp_1ac259c3f55c7c90396ea276c14641bc01" kindref="member">SUITE</ref><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><ref refid="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" kindref="member">TEST</ref>(</highlight><highlight class="stringliteral">&quot;suite&quot;</highlight><highlight class="normal">)<sp/>{<sp/><ref refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kindref="member">EXPECT</ref>(42<sp/>==<sp/>42);<sp/>};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="macro_8cpp_1a88325e11f751ec3d5a7a23f3d54a68b3" kindref="member">TEST_P</ref>(</highlight><highlight class="stringliteral">&quot;parameterized&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>arg)<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kindref="member">EXPECT</ref>(arg<sp/>&gt;<sp/>0)<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;all<sp/>values<sp/>greater<sp/>than<sp/>0&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>|<sp/>std::vector{1,<sp/>2,<sp/>3};</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="macro_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" kindref="member">TEST</ref>(</highlight><highlight class="stringliteral">&quot;macro&quot;</highlight><highlight class="normal">)<sp/>{<sp/><ref refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kindref="member">EXPECT</ref>(1<sp/>!=<sp/>2);<sp/>};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" kindref="member">TEST</ref>(</highlight><highlight class="stringliteral">&quot;vector&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;int&gt;<sp/>v(5);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kindref="member">EXPECT</ref>((5u<sp/>==<sp/>std::size(v))<sp/>&gt;&gt;<sp/>fatal);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="macro_8cpp_1a45feb1f37ce559e49baf8655d769ef85" kindref="member">TEST</ref>(</highlight><highlight class="stringliteral">&quot;resize<sp/>bigger&quot;</highlight><highlight class="normal">)<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>v.resize(10);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="macro_8cpp_1ac413094c6761bf248dd8adc502a7ebab" kindref="member">EXPECT</ref>(10u<sp/>==<sp/>std::size(v));</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/deps/ut/example/macro.cpp"/>
+  </compounddef>
+</doxygen>
