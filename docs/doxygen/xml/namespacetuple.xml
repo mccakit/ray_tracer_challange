@@ -4,7 +4,7 @@
     <compoundname>tuple</compoundname>
     <innerclass refid="classtuple_1_1tuple" prot="public">tuple::tuple</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -12,8 +12,8 @@
             <defname>Ts</defname>
           </param>
         </templateparamlist>
-        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">constexpr</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>constexpr tuple tuple::point</definition>
+        <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">constexpr</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; 4 &gt;</type>
+        <definition>constexpr tuple&lt; 4 &gt; tuple::point</definition>
         <argsstring>(Ts... args)</argsstring>
         <name>point</name>
         <qualifiedname>tuple::point</qualifiedname>
@@ -42,7 +42,7 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="77" column="29" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="77" bodyend="87"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1a90ad13297430ff9228509271c63934e1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -50,8 +50,8 @@
             <defname>Ts</defname>
           </param>
         </templateparamlist>
-        <type>constexpr <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>constexpr tuple tuple::vector</definition>
+        <type>constexpr <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; 4 &gt;</type>
+        <definition>constexpr tuple&lt; 4 &gt; tuple::vector</definition>
         <argsstring>(Ts... args)</argsstring>
         <name>vector</name>
         <qualifiedname>tuple::vector</qualifiedname>
@@ -80,18 +80,25 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="93" column="29" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="93" bodyend="103"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">bool</ref></type>
+      <memberdef kind="function" id="namespacetuple_1a4a77219a132c57c2607bec78f9c6438b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">bool</ref></type>
         <definition>bool tuple::operator==</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>operator==</name>
         <qualifiedname>tuple::operator==</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -101,20 +108,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="107" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="107" bodyend="117"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="108" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="108" bodyend="118"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>tuple tuple::operator+</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1acd2febce3694239c8b4ee17c5fd3c6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator+</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>operator+</name>
         <qualifiedname>tuple::operator+</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -124,20 +138,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="121" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="121" bodyend="129"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="123" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="123" bodyend="131"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ab8721382f213f496c8d291019f979841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>tuple tuple::operator-</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1a21b409178b4269066162d66ca2de1511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator-</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>operator-</name>
         <qualifiedname>tuple::operator-</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -147,20 +168,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="133" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="133" bodyend="141"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="136" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="136" bodyend="144"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>tuple tuple::operator*</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const float num)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1afabd951b45dc1eeac3ea64d87555d786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator*</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const float num)</argsstring>
         <name>operator*</name>
         <qualifiedname>tuple::operator*</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">float</ref></type>
           <declname>num</declname>
         </param>
         <briefdescription>
@@ -170,20 +198,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="145" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="145" bodyend="153"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="149" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="149" bodyend="157"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>tuple tuple::operator/</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const float num)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1ab29fd9a4895c983992b34f99ec665ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator/</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const float num)</argsstring>
         <name>operator/</name>
         <qualifiedname>tuple::operator/</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">float</ref></type>
           <declname>num</declname>
         </param>
         <briefdescription>
@@ -193,16 +228,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="157" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="157" bodyend="165"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="162" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="162" bodyend="170"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a8a96856c45d7fd630882613deef86886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
+      <memberdef kind="function" id="namespacetuple_1a86782101bce1f49181cb190917b5359a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">float</ref></type>
         <definition>float tuple::magnitude</definition>
-        <argsstring>(const tuple &amp;in_tuple)</argsstring>
+        <argsstring>(const tuple&lt; N &gt; &amp;in_tuple)</argsstring>
         <name>magnitude</name>
         <qualifiedname>tuple::magnitude</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>in_tuple</declname>
         </param>
         <briefdescription>
@@ -212,16 +254,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="169" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="169" bodyend="177"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="175" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="175" bodyend="183"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>tuple tuple::normalize</definition>
-        <argsstring>(const tuple &amp;in_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1a57cafb06933427186473ea91d9e197e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::normalize</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;in_tuple)</argsstring>
         <name>normalize</name>
         <qualifiedname>tuple::normalize</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>in_tuple</declname>
         </param>
         <briefdescription>
@@ -231,20 +280,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="181" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="181" bodyend="190"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="188" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="188" bodyend="197"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">float</ref></type>
+      <memberdef kind="function" id="namespacetuple_1ae8a3c5721eea747e21d3bd0126c18dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">float</ref></type>
         <definition>float tuple::dot_product</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>dot_product</name>
         <qualifiedname>tuple::dot_product</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; <ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">N</ref> &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -254,20 +310,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="194" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="194" bodyend="202"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="202" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="202" bodyend="210"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref></type>
-        <definition>tuple tuple::cross_product</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1a955debf0a294656c7bd1655e106e7edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; 4 &gt;</type>
+        <definition>tuple&lt; 4 &gt; tuple::cross_product</definition>
+        <argsstring>(const tuple&lt; 4 &gt; &amp;ls_tuple, const tuple&lt; 4 &gt; &amp;rs_tuple)</argsstring>
         <name>cross_product</name>
         <qualifiedname>tuple::cross_product</qualifiedname>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; 4 &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type><ref refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref> &amp;</type>
+          <type><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">const</ref> <ref refid="classtuple_1_1tuple" kindref="compound">tuple</ref>&lt; 4 &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -277,7 +333,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="206" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="206" bodyend="213"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="214" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="214" bodyend="221"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

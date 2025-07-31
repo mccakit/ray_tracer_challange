@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classmatrix_1_1matrix" kind="class" language="C++" prot="public">
+    <compoundname>matrix::matrix</compoundname>
+    <templateparamlist>
+      <param>
+        <type>int</type>
+        <declname>X</declname>
+        <defname>X</defname>
+      </param>
+      <param>
+        <type>int</type>
+        <declname>Y</declname>
+        <defname>Y</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classmatrix_1_1matrix_1ac20c91d0c742b45e2fae472605d94488" prot="public" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; X &gt;, Y &gt;</type>
+        <definition>std::array&lt;tuple::tuple&lt;X&gt;, Y&gt; matrix::matrix&lt; X, Y &gt;::tuples</definition>
+        <argsstring></argsstring>
+        <name>tuples</name>
+        <qualifiedname>matrix::matrix::tuples</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="18" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="18" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a5f59d6d49f84e3e35739b20cb9c1dd6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>matrix::matrix&lt; X, Y &gt;::matrix</definition>
+        <argsstring>(const std::array&lt; tuple::tuple&lt; X &gt;, Y &gt; &amp;input_data)</argsstring>
+        <name>matrix</name>
+        <qualifiedname>matrix::matrix::matrix</qualifiedname>
+        <param>
+          <type>const std::array&lt; <ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; X &gt;, Y &gt; &amp;</type>
+          <declname>input_data</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a matrix from an array of tuples. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="22" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a220720b2f1aeb7f39a9642a5f48a3d98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>matrix::matrix&lt; X, Y &gt;::matrix</definition>
+        <argsstring>(const std::initializer_list&lt; tuple::tuple&lt; X &gt; &gt; &amp;input_data)</argsstring>
+        <name>matrix</name>
+        <qualifiedname>matrix::matrix::matrix</qualifiedname>
+        <param>
+          <type>const std::initializer_list&lt; <ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; X &gt; &gt; &amp;</type>
+          <declname>input_data</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a matrix from an initializer list of tuples. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="28" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a08d166d14d096e47cd345ea2aa73d1af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; X &gt; &amp;</type>
+        <definition>tuple::tuple&lt; X &gt; &amp; matrix::matrix&lt; X, Y &gt;::operator[]</definition>
+        <argsstring>(const int index)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>matrix::matrix::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="32" column="18" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1aef1a7de159d975cc62d1dd6857a0ea7b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; X &gt;</type>
+        <definition>tuple::tuple&lt; X &gt; matrix::matrix&lt; X, Y &gt;::operator[]</definition>
+        <argsstring>(const int index) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>matrix::matrix::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="36" column="18" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a10fae1873924c98ef46bd471cbda7ce2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float &amp;</type>
+        <definition>float &amp; matrix::matrix&lt; X, Y &gt;::operator[]</definition>
+        <argsstring>(const int tuple, const int element)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>matrix::matrix::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>tuple</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="40" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1af0f54a67e794d585fa4adddcff3db45c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float matrix::matrix&lt; X, Y &gt;::operator[]</definition>
+        <argsstring>(const int tuple, const int element) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>matrix::matrix::operator[]</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>tuple</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="44" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1ada9570a8452535029f7d9b85a123aa3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int matrix::matrix&lt; X, Y &gt;::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <qualifiedname>matrix::matrix::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="48" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a34b18e9b1955e8b889bfd93032113451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; Y, X &gt;</type>
+        <definition>matrix&lt; Y, X &gt; matrix::matrix&lt; X, Y &gt;::transpose</definition>
+        <argsstring>()</argsstring>
+        <name>transpose</name>
+        <qualifiedname>matrix::matrix::transpose</qualifiedname>
+        <briefdescription>
+<para>Tranposes a matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="55" column="12" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="55" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a5219b422faf79f8d817460e694e3a94b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void matrix::matrix&lt; X, Y &gt;::print</definition>
+        <argsstring>() const</argsstring>
+        <name>print</name>
+        <qualifiedname>matrix::matrix::print</qualifiedname>
+        <briefdescription>
+<para>Prints a matrix + new line. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="70" column="10" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="70" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1aa601258fc950f140ecd1f0152cef7d29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X - 1, Y - 1 &gt;</type>
+        <definition>matrix&lt; X - 1, Y - 1 &gt; matrix::matrix&lt; X, Y &gt;::submatrix</definition>
+        <argsstring>(const int ignore_row, const int ignore_col)</argsstring>
+        <name>submatrix</name>
+        <qualifiedname>matrix::matrix::submatrix</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>ignore_row</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>ignore_col</declname>
+        </param>
+        <briefdescription>
+<para>Returns the submatrix of a matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="85" column="12" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="85" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1ac9b4dc0a07060145cd6d00e80379a203" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float matrix::matrix&lt; X, Y &gt;::determinant</definition>
+        <argsstring>()</argsstring>
+        <name>determinant</name>
+        <qualifiedname>matrix::matrix::determinant</qualifiedname>
+        <briefdescription>
+<para>Returns the determinant of a matrix with cofactor expansion. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="104" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="104" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a8342947370e1844dc016b63afeb2875e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float matrix::matrix&lt; X, Y &gt;::minor</definition>
+        <argsstring>(const int ignore_row, const int ignore_col)</argsstring>
+        <name>minor</name>
+        <qualifiedname>matrix::matrix::minor</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>ignore_row</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>ignore_col</declname>
+        </param>
+        <briefdescription>
+<para>Returns the minor of a matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="127" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="127" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1ad8b841ffefd39816aaea78c0ebd08b18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float matrix::matrix&lt; X, Y &gt;::cofactor</definition>
+        <argsstring>(const int ignored_row, const int ignored_col)</argsstring>
+        <name>cofactor</name>
+        <qualifiedname>matrix::matrix::cofactor</qualifiedname>
+        <param>
+          <type>const int</type>
+          <declname>ignored_row</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>ignored_col</declname>
+        </param>
+        <briefdescription>
+<para>Returns the cofactor of a matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="134" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="134" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a6942c33ef236243d009f2e83bdf0712c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool matrix::matrix&lt; X, Y &gt;::invertible</definition>
+        <argsstring>()</argsstring>
+        <name>invertible</name>
+        <qualifiedname>matrix::matrix::invertible</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="142" column="10" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="142" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="function" id="classmatrix_1_1matrix_1a73604374e05f5afff7afb2b6e081e18e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref></type>
+        <definition>matrix matrix::matrix&lt; X, Y &gt;::inverse</definition>
+        <argsstring>()</argsstring>
+        <name>inverse</name>
+        <qualifiedname>matrix::matrix::inverse</qualifiedname>
+        <briefdescription>
+<para>Returns the inverse of a matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="149" column="12" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="149" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A generic matrix class supporting various dimensions. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>X</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of columns in the matrix. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of rows in the matrix. Each tuple are columns not rowss </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="15" column="14" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="16" bodyend="164"/>
+    <listofallmembers>
+      <member refid="classmatrix_1_1matrix_1ad8b841ffefd39816aaea78c0ebd08b18" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>cofactor</name></member>
+      <member refid="classmatrix_1_1matrix_1ac9b4dc0a07060145cd6d00e80379a203" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>determinant</name></member>
+      <member refid="classmatrix_1_1matrix_1a73604374e05f5afff7afb2b6e081e18e" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>inverse</name></member>
+      <member refid="classmatrix_1_1matrix_1a6942c33ef236243d009f2e83bdf0712c" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>invertible</name></member>
+      <member refid="classmatrix_1_1matrix_1a5f59d6d49f84e3e35739b20cb9c1dd6a" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>matrix</name></member>
+      <member refid="classmatrix_1_1matrix_1a220720b2f1aeb7f39a9642a5f48a3d98" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>matrix</name></member>
+      <member refid="classmatrix_1_1matrix_1a8342947370e1844dc016b63afeb2875e" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>minor</name></member>
+      <member refid="classmatrix_1_1matrix_1a08d166d14d096e47cd345ea2aa73d1af" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>operator[]</name></member>
+      <member refid="classmatrix_1_1matrix_1aef1a7de159d975cc62d1dd6857a0ea7b" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>operator[]</name></member>
+      <member refid="classmatrix_1_1matrix_1a10fae1873924c98ef46bd471cbda7ce2" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>operator[]</name></member>
+      <member refid="classmatrix_1_1matrix_1af0f54a67e794d585fa4adddcff3db45c" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>operator[]</name></member>
+      <member refid="classmatrix_1_1matrix_1a5219b422faf79f8d817460e694e3a94b" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>print</name></member>
+      <member refid="classmatrix_1_1matrix_1ada9570a8452535029f7d9b85a123aa3d" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>size</name></member>
+      <member refid="classmatrix_1_1matrix_1aa601258fc950f140ecd1f0152cef7d29" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>submatrix</name></member>
+      <member refid="classmatrix_1_1matrix_1a34b18e9b1955e8b889bfd93032113451" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>transpose</name></member>
+      <member refid="classmatrix_1_1matrix_1ac20c91d0c742b45e2fae472605d94488" prot="public" virt="non-virtual"><scope>matrix::matrix</scope><name>tuples</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

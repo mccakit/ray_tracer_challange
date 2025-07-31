@@ -12,18 +12,19 @@ export namespace tuple
 *
 * Use `point(x, y, z)` and `vector(x, y, z)` to create tuples.
 */
+template <int N>
 class tuple
 {
   public:
-    std::array<float, 4> data{};
+    std::array<float, N> data{};
     /**
-     * @brief Constructs a tuple from a 4-element float array.
+     * @brief Constructs a tuple from a float array.
      */
-    tuple(const std::array<float, 4> &input_data) : data{input_data}
+    tuple(const std::array<float, N> &input_data) : data{input_data}
     {
     }
     /**
-     * @brief Constructs a tuple from a 4-element initializer list
+     * @brief Constructs a tuple from an initializer list
      */
     tuple(const std::initializer_list<float> &input_data)
     {
@@ -33,7 +34,6 @@ class tuple
     {
         return data[3] == 1.0F;
     }
-
     constexpr bool is_vector()
     {
         return data[3] == 0.0F;
@@ -74,7 +74,7 @@ class tuple
  * @param args X, Y, Z coordinates.
  * @return A tuple with w = 1.0.
  */
-template <typename... Ts> constexpr tuple point(Ts... args)
+template <typename... Ts> constexpr tuple<4> point(Ts... args)
 {
     const std::array<float, 3> input_data = {static_cast<float>(args)...};
     std::array<float, 4> output{};
@@ -83,14 +83,14 @@ template <typename... Ts> constexpr tuple point(Ts... args)
         output[i] = input_data[i];
     }
     output[3] = 1.0F;
-    return tuple{output};
+    return tuple<4>{output};
 }
 /**
  * @brief Creates a tuple representing a 3D vector.
  * @param args X, Y, Z coordinates.
  * @return A tuple with w = 0.0.
  */
-template <typename... Ts> constexpr tuple vector(Ts... args)
+template <typename... Ts> constexpr tuple<4> vector(Ts... args)
 {
     const std::array<float, 3> input_data = {static_cast<float>(args)...};
     std::array<float, 4> output{};
@@ -99,14 +99,15 @@ template <typename... Ts> constexpr tuple vector(Ts... args)
         output[i] = input_data[i];
     }
     output[3] = 0.0F;
-    return tuple{output};
+    return tuple<4>{output};
 }
 /**
  * @brief Compares two tuples with epsilon 1e-5
  */
-bool operator==(const tuple &ls_tuple, const tuple &rs_tuple)
+template <int N>
+bool operator==(const tuple<N> &ls_tuple, const tuple<N> &rs_tuple)
 {
-    for (int i{0}; i < 4; ++i)
+    for (int i{0}; i < N; ++i)
     {
         if (std::abs(ls_tuple[i] - rs_tuple[i]) > 1e-5)
         {
@@ -118,10 +119,11 @@ bool operator==(const tuple &ls_tuple, const tuple &rs_tuple)
 /**
  * @brief Adds two tuples
  */
-tuple operator+(const tuple &ls_tuple, const tuple &rs_tuple)
+template <int N>
+tuple<N> operator+(const tuple<N> &ls_tuple, const tuple<N> &rs_tuple)
 {
     tuple result = ls_tuple;
-    for (int i{0}; i < 4; ++i)
+    for (int i{0}; i < N; ++i)
     {
         result[i] += rs_tuple[i];
     }
@@ -130,10 +132,11 @@ tuple operator+(const tuple &ls_tuple, const tuple &rs_tuple)
 /**
  * @brief Subtracts two tuples
  */
-tuple operator-(const tuple &ls_tuple, const tuple &rs_tuple)
+template <int N>
+tuple<N> operator-(const tuple<N> &ls_tuple, const tuple<N> &rs_tuple)
 {
     tuple result = ls_tuple;
-    for (int i{0}; i < 4; ++i)
+    for (int i{0}; i < N; ++i)
     {
         result[i] -= rs_tuple[i];
     }
@@ -142,7 +145,8 @@ tuple operator-(const tuple &ls_tuple, const tuple &rs_tuple)
 /**
  * @brief Multiply a tuple with a scalar
  */
-tuple operator*(const tuple &ls_tuple, const float num)
+template <int N>
+tuple<N> operator*(const tuple<N> &ls_tuple, const float num)
 {
     tuple result = ls_tuple;
     for (int i{0}; i < 4; ++i)
@@ -154,7 +158,8 @@ tuple operator*(const tuple &ls_tuple, const float num)
 /**
  * @brief Divide a tuple with a scalar
  */
-tuple operator/(const tuple &ls_tuple, const float num)
+template <int N>
+tuple<N> operator/(const tuple<N> &ls_tuple, const float num)
 {
     tuple result = ls_tuple;
     for (int i{0}; i < 4; ++i)
@@ -166,10 +171,11 @@ tuple operator/(const tuple &ls_tuple, const float num)
 /**
  * @brief Returns the magnitude of a tuple
  */
-float magnitude(const tuple &in_tuple)
+template <int N>
+float magnitude(const tuple<N> &in_tuple)
 {
     float sum{0};
-    for (int i{0}; i < 4; ++i)
+    for (int i{0}; i < N; ++i)
     {
         sum += std::pow(in_tuple[i], 2);
     }
@@ -178,11 +184,12 @@ float magnitude(const tuple &in_tuple)
 /**
  * @brief Returns the normalized version of the tuple
  */
-tuple normalize(const tuple &in_tuple)
+template <int N>
+tuple<N> normalize(const tuple<N> &in_tuple)
 {
     float tuple_magnitude{magnitude(in_tuple)};
-    tuple output{in_tuple};
-    for (int i{0}; i < 4; ++i)
+    tuple<N> output{in_tuple};
+    for (int i{0}; i < N; ++i)
     {
         output[i] /= tuple_magnitude;
     }
@@ -191,10 +198,11 @@ tuple normalize(const tuple &in_tuple)
 /**
  * @brief Computes the dot product of two tuples.
  */
-float dot_product(const tuple &ls_tuple, const tuple &rs_tuple)
+template <int N>
+float dot_product(const tuple<N> &ls_tuple, const tuple<N> &rs_tuple)
 {
     float sum{};
-    for (int i{0}; i < 4; ++i)
+    for (int i{0}; i < N; ++i)
     {
         sum += ls_tuple[i] * rs_tuple[i];
     }
@@ -203,7 +211,7 @@ float dot_product(const tuple &ls_tuple, const tuple &rs_tuple)
 /**
  * @brief Computes the cross product of two tuples.
  */
-tuple cross_product(const tuple &ls_tuple, const tuple &rs_tuple)
+tuple<4> cross_product(const tuple<4> &ls_tuple, const tuple<4> &rs_tuple)
 {
     tuple result = ls_tuple;
     result[0] = ls_tuple[1] * rs_tuple[2] - ls_tuple[2] * rs_tuple[1];

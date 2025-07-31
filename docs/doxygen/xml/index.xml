@@ -101,6 +101,24 @@
     <member refid="classmatcher_1a5b33f9e889acba6630559cce240e0b25" kind="function"><name>operator bool</name></member>
     <member refid="classmatcher_1a149540ae33a13bd95fa34051f39e9b03" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
+  <compound refid="classmatrix_1_1matrix" kind="class"><name>matrix::matrix</name>
+    <member refid="classmatrix_1_1matrix_1ac20c91d0c742b45e2fae472605d94488" kind="variable"><name>tuples</name></member>
+    <member refid="classmatrix_1_1matrix_1a5f59d6d49f84e3e35739b20cb9c1dd6a" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a220720b2f1aeb7f39a9642a5f48a3d98" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a08d166d14d096e47cd345ea2aa73d1af" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1aef1a7de159d975cc62d1dd6857a0ea7b" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1a10fae1873924c98ef46bd471cbda7ce2" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1af0f54a67e794d585fa4adddcff3db45c" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1ada9570a8452535029f7d9b85a123aa3d" kind="function"><name>size</name></member>
+    <member refid="classmatrix_1_1matrix_1a34b18e9b1955e8b889bfd93032113451" kind="function"><name>transpose</name></member>
+    <member refid="classmatrix_1_1matrix_1a5219b422faf79f8d817460e694e3a94b" kind="function"><name>print</name></member>
+    <member refid="classmatrix_1_1matrix_1aa601258fc950f140ecd1f0152cef7d29" kind="function"><name>submatrix</name></member>
+    <member refid="classmatrix_1_1matrix_1ac9b4dc0a07060145cd6d00e80379a203" kind="function"><name>determinant</name></member>
+    <member refid="classmatrix_1_1matrix_1a8342947370e1844dc016b63afeb2875e" kind="function"><name>minor</name></member>
+    <member refid="classmatrix_1_1matrix_1ad8b841ffefd39816aaea78c0ebd08b18" kind="function"><name>cofactor</name></member>
+    <member refid="classmatrix_1_1matrix_1a6942c33ef236243d009f2e83bdf0712c" kind="function"><name>invertible</name></member>
+    <member refid="classmatrix_1_1matrix_1a73604374e05f5afff7afb2b6e081e18e" kind="function"><name>inverse</name></member>
+  </compound>
   <compound refid="structtest__has__member__object_1_1not__defined" kind="struct"><name>test_has_member_object::not_defined</name>
   </compound>
   <compound refid="classcfg_1_1parallel__runner" kind="class"><name>cfg::parallel_runner</name>
@@ -220,17 +238,17 @@
     <member refid="structtest__throw__runtime__error_1ac9d61b4a2ef5f63bf2def9d9da1b2a73" kind="function"><name>operator()</name></member>
   </compound>
   <compound refid="classtuple_1_1tuple" kind="class"><name>tuple::tuple</name>
-    <member refid="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" kind="variable"><name>data</name></member>
-    <member refid="classtuple_1_1tuple_1a15163d952127e5a65184f7d8376fb780" kind="function"><name>tuple</name></member>
-    <member refid="classtuple_1_1tuple_1aff9a7a2f63fa5ed800cd02498745a897" kind="function"><name>tuple</name></member>
-    <member refid="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" kind="function"><name>is_point</name></member>
-    <member refid="classtuple_1_1tuple_1a8d54e202594b535034f27877da4e10ea" kind="function"><name>is_vector</name></member>
-    <member refid="classtuple_1_1tuple_1aa13409e279b8a744486ea7c35c9e89f0" kind="function"><name>x</name></member>
-    <member refid="classtuple_1_1tuple_1af1a14b1190894867622b314f7f63d7ba" kind="function"><name>y</name></member>
-    <member refid="classtuple_1_1tuple_1a35345c4d2926d1141f67b1c20fedd716" kind="function"><name>z</name></member>
-    <member refid="classtuple_1_1tuple_1ad1c3684b31700700e06ec5c60c5f307e" kind="function"><name>w</name></member>
-    <member refid="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" kind="function"><name>operator[]</name></member>
-    <member refid="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" kind="function"><name>operator[]</name></member>
+    <member refid="classtuple_1_1tuple_1a2e5bee3f5825a6cc2bbcc505ed9e2b39" kind="variable"><name>data</name></member>
+    <member refid="classtuple_1_1tuple_1a631f76d1f516b0256b29d635511e69b9" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1a9754b4f4f0ca7b0d967eae6c740b8742" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1a71a6de5da7a17f7e4f64f537ee791509" kind="function"><name>is_point</name></member>
+    <member refid="classtuple_1_1tuple_1a3edb1d5d5e4936ddf9960a2526a28e80" kind="function"><name>is_vector</name></member>
+    <member refid="classtuple_1_1tuple_1a9682c8690b13eb3bd177bdf2783c1512" kind="function"><name>x</name></member>
+    <member refid="classtuple_1_1tuple_1a7bd0bf8f3c9709dafb01486367d1ee87" kind="function"><name>y</name></member>
+    <member refid="classtuple_1_1tuple_1a5e2a551b2184fb74bcbc5f08fffb2979" kind="function"><name>z</name></member>
+    <member refid="classtuple_1_1tuple_1ad482956f3660ecb9e75209b425821ff4" kind="function"><name>w</name></member>
+    <member refid="classtuple_1_1tuple_1aade6842c7daac29cebbf2c0d0f3b6bea" kind="function"><name>operator[]</name></member>
+    <member refid="classtuple_1_1tuple_1a9d6ef4143ebb5097e53699ea6336dede" kind="function"><name>operator[]</name></member>
   </compound>
   <compound refid="namespace_0d48" kind="namespace"><name>@48</name>
   </compound>
@@ -262,6 +280,14 @@
   </compound>
   <compound refid="namespaceft" kind="namespace"><name>ft</name>
   </compound>
+  <compound refid="namespacematrix" kind="namespace"><name>matrix</name>
+    <member refid="namespacematrix_1ac651162195b4e95788c887ba9f034c2d" kind="function"><name>operator==</name></member>
+    <member refid="namespacematrix_1a3755e05b274a59c091f4c42b79c53ca6" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1ae66f4f9025b38a8874cada9e91c7707a" kind="function"><name>operator/</name></member>
+    <member refid="namespacematrix_1a5ab6c1ce2b9e875d3aa5bb88a34ba0fa" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1af83e30a6c845f896a24356adbfc6afc3" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kind="function"><name>identity_matrix</name></member>
+  </compound>
   <compound refid="namespacens" kind="namespace"><name>ns</name>
   </compound>
   <compound refid="namespacens_1_1_0d48" kind="namespace"><name>ns::@48</name>
@@ -271,17 +297,17 @@
   <compound refid="namespacetest__has__member__object" kind="namespace"><name>test_has_member_object</name>
   </compound>
   <compound refid="namespacetuple" kind="namespace"><name>tuple</name>
-    <member refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kind="function"><name>point</name></member>
-    <member refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kind="function"><name>vector</name></member>
-    <member refid="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" kind="function"><name>operator==</name></member>
-    <member refid="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" kind="function"><name>operator+</name></member>
-    <member refid="namespacetuple_1ab8721382f213f496c8d291019f979841" kind="function"><name>operator-</name></member>
-    <member refid="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" kind="function"><name>operator*</name></member>
-    <member refid="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" kind="function"><name>operator/</name></member>
-    <member refid="namespacetuple_1a8a96856c45d7fd630882613deef86886" kind="function"><name>magnitude</name></member>
-    <member refid="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" kind="function"><name>normalize</name></member>
-    <member refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kind="function"><name>dot_product</name></member>
-    <member refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kind="function"><name>cross_product</name></member>
+    <member refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kind="function"><name>point</name></member>
+    <member refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kind="function"><name>vector</name></member>
+    <member refid="namespacetuple_1a4a77219a132c57c2607bec78f9c6438b" kind="function"><name>operator==</name></member>
+    <member refid="namespacetuple_1acd2febce3694239c8b4ee17c5fd3c6f4" kind="function"><name>operator+</name></member>
+    <member refid="namespacetuple_1a21b409178b4269066162d66ca2de1511" kind="function"><name>operator-</name></member>
+    <member refid="namespacetuple_1afabd951b45dc1eeac3ea64d87555d786" kind="function"><name>operator*</name></member>
+    <member refid="namespacetuple_1ab29fd9a4895c983992b34f99ec665ddf" kind="function"><name>operator/</name></member>
+    <member refid="namespacetuple_1a86782101bce1f49181cb190917b5359a" kind="function"><name>magnitude</name></member>
+    <member refid="namespacetuple_1a57cafb06933427186473ea91d9e197e0" kind="function"><name>normalize</name></member>
+    <member refid="namespacetuple_1ae8a3c5721eea747e21d3bd0126c18dce" kind="function"><name>dot_product</name></member>
+    <member refid="namespacetuple_1a955debf0a294656c7bd1655e106e7edb" kind="function"><name>cross_product</name></member>
   </compound>
   <compound refid="apps_2main_8cpp" kind="file"><name>main.cpp</name>
     <member refid="apps_2main_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
@@ -480,6 +506,8 @@
   </compound>
   <compound refid="color_8cpp" kind="file"><name>color.cpp</name>
   </compound>
+  <compound refid="matrix_8cpp" kind="file"><name>matrix.cpp</name>
+  </compound>
   <compound refid="tuple_8cpp" kind="file"><name>tuple.cpp</name>
   </compound>
   <compound refid="canvas__test_8cpp" kind="file"><name>canvas_test.cpp</name>
@@ -488,6 +516,9 @@
   </compound>
   <compound refid="color__test_8cpp" kind="file"><name>color_test.cpp</name>
     <member refid="color__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="matrix__test_8cpp" kind="file"><name>matrix_test.cpp</name>
+    <member refid="matrix__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
   </compound>
   <compound refid="tuple__test_8cpp" kind="file"><name>tuple_test.cpp</name>
     <member refid="tuple__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
@@ -548,28 +579,52 @@
     <member refid="namespacecolor_1a683ea01fdaa3ebf831e5e248112abfde" kind="function"><name>operator/</name></member>
     <member refid="namespacecolor_1af0a551a079831b4b34a9069937afdd62" kind="function"><name>operator*</name></member>
   </compound>
+  <compound refid="module_matrix" kind="module"><name>matrix</name>
+    <member refid="classmatrix_1_1matrix_1ac20c91d0c742b45e2fae472605d94488" kind="variable"><name>tuples</name></member>
+    <member refid="classmatrix_1_1matrix_1a5f59d6d49f84e3e35739b20cb9c1dd6a" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a220720b2f1aeb7f39a9642a5f48a3d98" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a08d166d14d096e47cd345ea2aa73d1af" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1aef1a7de159d975cc62d1dd6857a0ea7b" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1a10fae1873924c98ef46bd471cbda7ce2" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1af0f54a67e794d585fa4adddcff3db45c" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1ada9570a8452535029f7d9b85a123aa3d" kind="function"><name>size</name></member>
+    <member refid="classmatrix_1_1matrix_1a34b18e9b1955e8b889bfd93032113451" kind="function"><name>transpose</name></member>
+    <member refid="classmatrix_1_1matrix_1a5219b422faf79f8d817460e694e3a94b" kind="function"><name>print</name></member>
+    <member refid="classmatrix_1_1matrix_1aa601258fc950f140ecd1f0152cef7d29" kind="function"><name>submatrix</name></member>
+    <member refid="classmatrix_1_1matrix_1ac9b4dc0a07060145cd6d00e80379a203" kind="function"><name>determinant</name></member>
+    <member refid="classmatrix_1_1matrix_1a8342947370e1844dc016b63afeb2875e" kind="function"><name>minor</name></member>
+    <member refid="classmatrix_1_1matrix_1ad8b841ffefd39816aaea78c0ebd08b18" kind="function"><name>cofactor</name></member>
+    <member refid="classmatrix_1_1matrix_1a6942c33ef236243d009f2e83bdf0712c" kind="function"><name>invertible</name></member>
+    <member refid="classmatrix_1_1matrix_1a73604374e05f5afff7afb2b6e081e18e" kind="function"><name>inverse</name></member>
+    <member refid="namespacematrix_1ac651162195b4e95788c887ba9f034c2d" kind="function"><name>operator==</name></member>
+    <member refid="namespacematrix_1a3755e05b274a59c091f4c42b79c53ca6" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1ae66f4f9025b38a8874cada9e91c7707a" kind="function"><name>operator/</name></member>
+    <member refid="namespacematrix_1a5ab6c1ce2b9e875d3aa5bb88a34ba0fa" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1af83e30a6c845f896a24356adbfc6afc3" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kind="function"><name>identity_matrix</name></member>
+  </compound>
   <compound refid="module_tuple" kind="module"><name>tuple</name>
-    <member refid="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" kind="variable"><name>data</name></member>
-    <member refid="classtuple_1_1tuple_1a15163d952127e5a65184f7d8376fb780" kind="function"><name>tuple</name></member>
-    <member refid="classtuple_1_1tuple_1aff9a7a2f63fa5ed800cd02498745a897" kind="function"><name>tuple</name></member>
-    <member refid="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" kind="function"><name>is_point</name></member>
-    <member refid="classtuple_1_1tuple_1a8d54e202594b535034f27877da4e10ea" kind="function"><name>is_vector</name></member>
-    <member refid="classtuple_1_1tuple_1aa13409e279b8a744486ea7c35c9e89f0" kind="function"><name>x</name></member>
-    <member refid="classtuple_1_1tuple_1af1a14b1190894867622b314f7f63d7ba" kind="function"><name>y</name></member>
-    <member refid="classtuple_1_1tuple_1a35345c4d2926d1141f67b1c20fedd716" kind="function"><name>z</name></member>
-    <member refid="classtuple_1_1tuple_1ad1c3684b31700700e06ec5c60c5f307e" kind="function"><name>w</name></member>
-    <member refid="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" kind="function"><name>operator[]</name></member>
-    <member refid="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" kind="function"><name>operator[]</name></member>
-    <member refid="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" kind="function"><name>point</name></member>
-    <member refid="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" kind="function"><name>vector</name></member>
-    <member refid="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" kind="function"><name>operator==</name></member>
-    <member refid="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" kind="function"><name>operator+</name></member>
-    <member refid="namespacetuple_1ab8721382f213f496c8d291019f979841" kind="function"><name>operator-</name></member>
-    <member refid="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" kind="function"><name>operator*</name></member>
-    <member refid="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" kind="function"><name>operator/</name></member>
-    <member refid="namespacetuple_1a8a96856c45d7fd630882613deef86886" kind="function"><name>magnitude</name></member>
-    <member refid="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" kind="function"><name>normalize</name></member>
-    <member refid="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" kind="function"><name>dot_product</name></member>
-    <member refid="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" kind="function"><name>cross_product</name></member>
+    <member refid="classtuple_1_1tuple_1a2e5bee3f5825a6cc2bbcc505ed9e2b39" kind="variable"><name>data</name></member>
+    <member refid="classtuple_1_1tuple_1a631f76d1f516b0256b29d635511e69b9" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1a9754b4f4f0ca7b0d967eae6c740b8742" kind="function"><name>tuple</name></member>
+    <member refid="classtuple_1_1tuple_1a71a6de5da7a17f7e4f64f537ee791509" kind="function"><name>is_point</name></member>
+    <member refid="classtuple_1_1tuple_1a3edb1d5d5e4936ddf9960a2526a28e80" kind="function"><name>is_vector</name></member>
+    <member refid="classtuple_1_1tuple_1a9682c8690b13eb3bd177bdf2783c1512" kind="function"><name>x</name></member>
+    <member refid="classtuple_1_1tuple_1a7bd0bf8f3c9709dafb01486367d1ee87" kind="function"><name>y</name></member>
+    <member refid="classtuple_1_1tuple_1a5e2a551b2184fb74bcbc5f08fffb2979" kind="function"><name>z</name></member>
+    <member refid="classtuple_1_1tuple_1ad482956f3660ecb9e75209b425821ff4" kind="function"><name>w</name></member>
+    <member refid="classtuple_1_1tuple_1aade6842c7daac29cebbf2c0d0f3b6bea" kind="function"><name>operator[]</name></member>
+    <member refid="classtuple_1_1tuple_1a9d6ef4143ebb5097e53699ea6336dede" kind="function"><name>operator[]</name></member>
+    <member refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kind="function"><name>point</name></member>
+    <member refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kind="function"><name>vector</name></member>
+    <member refid="namespacetuple_1a4a77219a132c57c2607bec78f9c6438b" kind="function"><name>operator==</name></member>
+    <member refid="namespacetuple_1acd2febce3694239c8b4ee17c5fd3c6f4" kind="function"><name>operator+</name></member>
+    <member refid="namespacetuple_1a21b409178b4269066162d66ca2de1511" kind="function"><name>operator-</name></member>
+    <member refid="namespacetuple_1afabd951b45dc1eeac3ea64d87555d786" kind="function"><name>operator*</name></member>
+    <member refid="namespacetuple_1ab29fd9a4895c983992b34f99ec665ddf" kind="function"><name>operator/</name></member>
+    <member refid="namespacetuple_1a86782101bce1f49181cb190917b5359a" kind="function"><name>magnitude</name></member>
+    <member refid="namespacetuple_1a57cafb06933427186473ea91d9e197e0" kind="function"><name>normalize</name></member>
+    <member refid="namespacetuple_1ae8a3c5721eea747e21d3bd0126c18dce" kind="function"><name>dot_product</name></member>
+    <member refid="namespacetuple_1a955debf0a294656c7bd1655e106e7edb" kind="function"><name>cross_product</name></member>
   </compound>
 </doxygenindex>

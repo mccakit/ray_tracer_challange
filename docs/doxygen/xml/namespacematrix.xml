@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespacematrix" kind="namespace" language="C++">
+    <compoundname>matrix</compoundname>
+    <innerclass refid="classmatrix_1_1matrix" prot="public">matrix::matrix</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacematrix_1ac651162195b4e95788c887ba9f034c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>X</declname>
+            <defname>X</defname>
+          </param>
+          <param>
+            <type>int</type>
+            <declname>Y</declname>
+            <defname>Y</defname>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool matrix::operator==</definition>
+        <argsstring>(const matrix&lt; X, Y &gt; &amp;lhs_matrix, const matrix&lt; X, Y &gt; &amp;rhs_matrix)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>matrix::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <declname>lhs_matrix</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <declname>rhs_matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="165" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="165" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacematrix_1a3755e05b274a59c091f4c42b79c53ca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>X</declname>
+            <defname>X</defname>
+          </param>
+          <param>
+            <type>int</type>
+            <declname>Y</declname>
+            <defname>Y</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt;</type>
+        <definition>matrix&lt; X, Y &gt; matrix::operator*</definition>
+        <argsstring>(const matrix&lt; X, Y &gt; &amp;ls_matrix, const float num)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>matrix::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <declname>ls_matrix</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="177" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="177" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacematrix_1ae66f4f9025b38a8874cada9e91c7707a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>X</declname>
+            <defname>X</defname>
+          </param>
+          <param>
+            <type>int</type>
+            <declname>Y</declname>
+            <defname>Y</defname>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt;</type>
+        <definition>matrix&lt; X, Y &gt; matrix::operator/</definition>
+        <argsstring>(const matrix&lt; X, Y &gt; &amp;ls_matrix, const float num)</argsstring>
+        <name>operator/</name>
+        <qualifiedname>matrix::operator/</qualifiedname>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <declname>ls_matrix</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="190" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="190" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacematrix_1a5ab6c1ce2b9e875d3aa5bb88a34ba0fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; 4 &gt;</type>
+        <definition>tuple::tuple&lt; 4 &gt; matrix::operator*</definition>
+        <argsstring>(const matrix&lt; 4, 4 &gt; &amp;ls_matrix, const tuple::tuple&lt; 4 &gt; &amp;rs_tuple)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>matrix::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; 4, 4 &gt; &amp;</type>
+          <declname>ls_matrix</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; 4 &gt; &amp;</type>
+          <declname>rs_tuple</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="202" column="14" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="202" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacematrix_1af83e30a6c845f896a24356adbfc6afc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; 4, 4 &gt;</type>
+        <definition>matrix&lt; 4, 4 &gt; matrix::operator*</definition>
+        <argsstring>(const matrix&lt; 4, 4 &gt; &amp;ls_matrix, const matrix&lt; 4, 4 &gt; &amp;rs_matrix)</argsstring>
+        <name>operator*</name>
+        <qualifiedname>matrix::operator*</qualifiedname>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; 4, 4 &gt; &amp;</type>
+          <declname>ls_matrix</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; 4, 4 &gt; &amp;</type>
+          <declname>rs_matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="211" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="211" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; 4, 4 &gt;</type>
+        <definition>matrix&lt; 4, 4 &gt; matrix::identity_matrix</definition>
+        <argsstring>()</argsstring>
+        <name>identity_matrix</name>
+        <qualifiedname>matrix::identity_matrix</qualifiedname>
+        <briefdescription>
+<para>Returns 4x4 identity matrix. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="229" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="229" bodyend="232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Namespace containing matrix types and operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="7" column="1"/>
+  </compounddef>
+</doxygen>

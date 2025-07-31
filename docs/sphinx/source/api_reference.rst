@@ -8,3 +8,5 @@ API Reference
     :project: ray_tracer_challange
 .. doxygenfile:: canvas.cpp
     :project: ray_tracer_challange
+.. doxygenfile:: matrix.cpp
+    :project: ray_tracer_challange

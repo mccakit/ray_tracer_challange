@@ -5,9 +5,9 @@
     <innerfile refid="tuple_8cpp">tuple.cpp</innerfile>
     <innerclass refid="classtuple_1_1tuple" prot="public">tuple::tuple</innerclass>
     <sectiondef kind="var">
-      <memberdef kind="variable" id="classtuple_1_1tuple_1a16dec1bba3d1422956ad4d012291e475" prot="public" static="no" mutable="no">
-        <type>std::array&lt; float, 4 &gt;</type>
-        <definition>std::array&lt;float, 4&gt; tuple::tuple::data</definition>
+      <memberdef kind="variable" id="classtuple_1_1tuple_1a2e5bee3f5825a6cc2bbcc505ed9e2b39" prot="public" static="no" mutable="no">
+        <type>std::array&lt; float, N &gt;</type>
+        <definition>std::array&lt;float, N&gt; tuple::tuple&lt; N &gt;::data</definition>
         <argsstring></argsstring>
         <name>data</name>
         <qualifiedname>tuple::tuple::data</qualifiedname>
@@ -18,32 +18,32 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="18" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="18" bodyend="18"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="19" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="19" bodyend="19"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="func">
-      <memberdef kind="function" id="classtuple_1_1tuple_1a15163d952127e5a65184f7d8376fb780" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a631f76d1f516b0256b29d635511e69b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>tuple::tuple::tuple</definition>
-        <argsstring>(const std::array&lt; float, 4 &gt; &amp;input_data)</argsstring>
+        <definition>tuple::tuple&lt; N &gt;::tuple</definition>
+        <argsstring>(const std::array&lt; float, N &gt; &amp;input_data)</argsstring>
         <name>tuple</name>
         <qualifiedname>tuple::tuple::tuple</qualifiedname>
         <param>
-          <type>const std::array&lt; float, 4 &gt; &amp;</type>
+          <type>const std::array&lt; float, N &gt; &amp;</type>
           <declname>input_data</declname>
         </param>
         <briefdescription>
-<para>Constructs a tuple from a 4-element float array. </para>
+<para>Constructs a tuple from a float array. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="22" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="22" bodyend="24"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="23" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="23" bodyend="25"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1aff9a7a2f63fa5ed800cd02498745a897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a9754b4f4f0ca7b0d967eae6c740b8742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
-        <definition>tuple::tuple::tuple</definition>
+        <definition>tuple::tuple&lt; N &gt;::tuple</definition>
         <argsstring>(const std::initializer_list&lt; float &gt; &amp;input_data)</argsstring>
         <name>tuple</name>
         <qualifiedname>tuple::tuple::tuple</qualifiedname>
@@ -52,17 +52,17 @@
           <declname>input_data</declname>
         </param>
         <briefdescription>
-<para>Constructs a tuple from a 4-element initializer list. </para>
+<para>Constructs a tuple from an initializer list. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="28" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="28" bodyend="31"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="29" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="29" bodyend="32"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1addec10cd38839f82da1cadb8938befaf" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a71a6de5da7a17f7e4f64f537ee791509" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr bool</type>
-        <definition>constexpr bool tuple::tuple::is_point</definition>
+        <definition>constexpr bool tuple::tuple&lt; N &gt;::is_point</definition>
         <argsstring>()</argsstring>
         <name>is_point</name>
         <qualifiedname>tuple::tuple::is_point</qualifiedname>
@@ -72,11 +72,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="32" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="32" bodyend="35"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="33" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1a8d54e202594b535034f27877da4e10ea" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a3edb1d5d5e4936ddf9960a2526a28e80" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr bool</type>
-        <definition>constexpr bool tuple::tuple::is_vector</definition>
+        <definition>constexpr bool tuple::tuple&lt; N &gt;::is_vector</definition>
         <argsstring>()</argsstring>
         <name>is_vector</name>
         <qualifiedname>tuple::tuple::is_vector</qualifiedname>
@@ -88,9 +88,9 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="37" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="37" bodyend="40"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1aa13409e279b8a744486ea7c35c9e89f0" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a9682c8690b13eb3bd177bdf2783c1512" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr float</type>
-        <definition>constexpr float tuple::tuple::x</definition>
+        <definition>constexpr float tuple::tuple&lt; N &gt;::x</definition>
         <argsstring>()</argsstring>
         <name>x</name>
         <qualifiedname>tuple::tuple::x</qualifiedname>
@@ -102,9 +102,9 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="41" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="41" bodyend="44"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1af1a14b1190894867622b314f7f63d7ba" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a7bd0bf8f3c9709dafb01486367d1ee87" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr float</type>
-        <definition>constexpr float tuple::tuple::y</definition>
+        <definition>constexpr float tuple::tuple&lt; N &gt;::y</definition>
         <argsstring>()</argsstring>
         <name>y</name>
         <qualifiedname>tuple::tuple::y</qualifiedname>
@@ -116,9 +116,9 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="45" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="45" bodyend="48"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1a35345c4d2926d1141f67b1c20fedd716" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a5e2a551b2184fb74bcbc5f08fffb2979" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr float</type>
-        <definition>constexpr float tuple::tuple::z</definition>
+        <definition>constexpr float tuple::tuple&lt; N &gt;::z</definition>
         <argsstring>()</argsstring>
         <name>z</name>
         <qualifiedname>tuple::tuple::z</qualifiedname>
@@ -130,9 +130,9 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="49" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="49" bodyend="52"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1ad1c3684b31700700e06ec5c60c5f307e" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1ad482956f3660ecb9e75209b425821ff4" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>constexpr float</type>
-        <definition>constexpr float tuple::tuple::w</definition>
+        <definition>constexpr float tuple::tuple&lt; N &gt;::w</definition>
         <argsstring>()</argsstring>
         <name>w</name>
         <qualifiedname>tuple::tuple::w</qualifiedname>
@@ -144,9 +144,9 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="53" column="21" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="53" bodyend="56"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1a5ebcb68cd5c3c8e5cb02c39f9ac8f72d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1aade6842c7daac29cebbf2c0d0f3b6bea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>float &amp;</type>
-        <definition>float &amp; tuple::tuple::operator[]</definition>
+        <definition>float &amp; tuple::tuple&lt; N &gt;::operator[]</definition>
         <argsstring>(const int i)</argsstring>
         <name>operator[]</name>
         <qualifiedname>tuple::tuple::operator[]</qualifiedname>
@@ -163,9 +163,9 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="60" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="60" bodyend="63"/>
       </memberdef>
-      <memberdef kind="function" id="classtuple_1_1tuple_1a87105be1dd9ea704e143241c5a9dd8ec" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="classtuple_1_1tuple_1a9d6ef4143ebb5097e53699ea6336dede" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
         <type>float</type>
-        <definition>float tuple::tuple::operator[]</definition>
+        <definition>float tuple::tuple&lt; N &gt;::operator[]</definition>
         <argsstring>(const int i) const</argsstring>
         <name>operator[]</name>
         <qualifiedname>tuple::tuple::operator[]</qualifiedname>
@@ -182,7 +182,7 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="67" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="67" bodyend="70"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a73ad4fbfb9bcd7c0d2128e4c35d4c8ed" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -190,8 +190,8 @@
             <defname>Ts</defname>
           </param>
         </templateparamlist>
-        <type>constexpr tuple</type>
-        <definition>constexpr tuple tuple::point</definition>
+        <type>constexpr tuple&lt; 4 &gt;</type>
+        <definition>constexpr tuple&lt; 4 &gt; tuple::point</definition>
         <argsstring>(Ts... args)</argsstring>
         <name>point</name>
         <qualifiedname>tuple::point</qualifiedname>
@@ -220,7 +220,7 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="77" column="29" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="77" bodyend="87"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a72eece7f7cb532d59602b6d4e142d478" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1a90ad13297430ff9228509271c63934e1" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>typename...</type>
@@ -228,8 +228,8 @@
             <defname>Ts</defname>
           </param>
         </templateparamlist>
-        <type>constexpr tuple</type>
-        <definition>constexpr tuple tuple::vector</definition>
+        <type>constexpr tuple&lt; 4 &gt;</type>
+        <definition>constexpr tuple&lt; 4 &gt; tuple::vector</definition>
         <argsstring>(Ts... args)</argsstring>
         <name>vector</name>
         <qualifiedname>tuple::vector</qualifiedname>
@@ -258,18 +258,25 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="93" column="29" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="93" bodyend="103"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ac3e3e742e69f2ebbe713027b0abbbe49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1a4a77219a132c57c2607bec78f9c6438b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
         <type>bool</type>
         <definition>bool tuple::operator==</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>operator==</name>
         <qualifiedname>tuple::operator==</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -279,20 +286,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="107" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="107" bodyend="117"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="108" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="108" bodyend="118"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a7c33d95bd3a0c1d404108774b8a2eb48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>tuple</type>
-        <definition>tuple tuple::operator+</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1acd2febce3694239c8b4ee17c5fd3c6f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>tuple&lt; N &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator+</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>operator+</name>
         <qualifiedname>tuple::operator+</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -302,20 +316,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="121" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="121" bodyend="129"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="123" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="123" bodyend="131"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ab8721382f213f496c8d291019f979841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>tuple</type>
-        <definition>tuple tuple::operator-</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1a21b409178b4269066162d66ca2de1511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>tuple&lt; N &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator-</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>operator-</name>
         <qualifiedname>tuple::operator-</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -325,16 +346,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="133" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="133" bodyend="141"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="136" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="136" bodyend="144"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a1f01243ee6cde029d50c9a279c41c156" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>tuple</type>
-        <definition>tuple tuple::operator*</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const float num)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1afabd951b45dc1eeac3ea64d87555d786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>tuple&lt; N &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator*</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const float num)</argsstring>
         <name>operator*</name>
         <qualifiedname>tuple::operator*</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
@@ -348,16 +376,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="145" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="145" bodyend="153"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="149" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="149" bodyend="157"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ae3f021723ea7480bc2c407c03d10d80e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>tuple</type>
-        <definition>tuple tuple::operator/</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const float num)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1ab29fd9a4895c983992b34f99ec665ddf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>tuple&lt; N &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::operator/</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const float num)</argsstring>
         <name>operator/</name>
         <qualifiedname>tuple::operator/</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
@@ -371,16 +406,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="157" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="157" bodyend="165"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="162" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="162" bodyend="170"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a8a96856c45d7fd630882613deef86886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1a86782101bce1f49181cb190917b5359a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
         <type>float</type>
         <definition>float tuple::magnitude</definition>
-        <argsstring>(const tuple &amp;in_tuple)</argsstring>
+        <argsstring>(const tuple&lt; N &gt; &amp;in_tuple)</argsstring>
         <name>magnitude</name>
         <qualifiedname>tuple::magnitude</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>in_tuple</declname>
         </param>
         <briefdescription>
@@ -390,16 +432,23 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="169" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="169" bodyend="177"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="175" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="175" bodyend="183"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a61b07dbe4adfbf99d8d70ce0ee03712e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>tuple</type>
-        <definition>tuple tuple::normalize</definition>
-        <argsstring>(const tuple &amp;in_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1a57cafb06933427186473ea91d9e197e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
+        <type>tuple&lt; N &gt;</type>
+        <definition>tuple&lt; N &gt; tuple::normalize</definition>
+        <argsstring>(const tuple&lt; N &gt; &amp;in_tuple)</argsstring>
         <name>normalize</name>
         <qualifiedname>tuple::normalize</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>in_tuple</declname>
         </param>
         <briefdescription>
@@ -409,20 +458,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="181" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="181" bodyend="190"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="188" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="188" bodyend="197"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1a6affaa4680f5fcbd5105798cc63deac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacetuple_1ae8a3c5721eea747e21d3bd0126c18dce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>int</type>
+            <declname>N</declname>
+            <defname>N</defname>
+          </param>
+        </templateparamlist>
         <type>float</type>
         <definition>float tuple::dot_product</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+        <argsstring>(const tuple&lt; N &gt; &amp;ls_tuple, const tuple&lt; N &gt; &amp;rs_tuple)</argsstring>
         <name>dot_product</name>
         <qualifiedname>tuple::dot_product</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; N &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -432,20 +488,20 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="194" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="194" bodyend="202"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="202" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="202" bodyend="210"/>
       </memberdef>
-      <memberdef kind="function" id="namespacetuple_1ab638b91b2b5f2fc662b0c38e6980de1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>tuple</type>
-        <definition>tuple tuple::cross_product</definition>
-        <argsstring>(const tuple &amp;ls_tuple, const tuple &amp;rs_tuple)</argsstring>
+      <memberdef kind="function" id="namespacetuple_1a955debf0a294656c7bd1655e106e7edb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple&lt; 4 &gt;</type>
+        <definition>tuple&lt; 4 &gt; tuple::cross_product</definition>
+        <argsstring>(const tuple&lt; 4 &gt; &amp;ls_tuple, const tuple&lt; 4 &gt; &amp;rs_tuple)</argsstring>
         <name>cross_product</name>
         <qualifiedname>tuple::cross_product</qualifiedname>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; 4 &gt; &amp;</type>
           <declname>ls_tuple</declname>
         </param>
         <param>
-          <type>const tuple &amp;</type>
+          <type>const tuple&lt; 4 &gt; &amp;</type>
           <declname>rs_tuple</declname>
         </param>
         <briefdescription>
@@ -455,7 +511,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="206" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="206" bodyend="213"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" line="214" column="7" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/tuple.cpp" bodystart="214" bodyend="221"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
