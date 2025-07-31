@@ -1,12 +1,19 @@
 add_executable(tuple_test tuple_test.cpp)
 target_link_libraries(tuple_test PRIVATE tuple Boost::ut_module)
 add_test(NAME tuple_test COMMAND tuple_test)
+
 add_executable(color_test color_test.cpp)
 target_link_libraries(color_test PRIVATE color Boost::ut_module)
 add_test(NAME color_test COMMAND color_test)
+
 add_executable(canvas_test canvas_test.cpp)
 target_link_libraries(canvas_test PRIVATE canvas Boost::ut_module)
 add_test(NAME canvas_test COMMAND canvas_test)
+
 add_executable(matrix_test matrix_test.cpp)
 target_link_libraries(matrix_test PRIVATE matrix Boost::ut_module)
 add_test(NAME matrix_test COMMAND matrix_test)
+
+add_executable(matrix_transformations_test matrix_transformations_test.cpp)
+target_link_libraries(matrix_transformations_test PRIVATE matrix_transformations Boost::ut_module)
+add_test(NAME matrix_transformations_test COMMAND matrix_transformations_test)

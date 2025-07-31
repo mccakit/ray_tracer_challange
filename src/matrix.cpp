@@ -8,42 +8,42 @@ export namespace matrix
 {
 /**
 * @brief A generic matrix class supporting various dimensions.
-* @tparam X The number of columns in the matrix.
-* @tparam Y The number of rows in the matrix.
+* @tparam row_c The number of columns in the matrix.
+* @tparam col_c The number of rows in the matrix.
 * Each tuple are columns not rowss
 */
-template <int X, int Y> class matrix
+template <int row_c, int col_c> class matrix
 {
   public:
-    std::array<tuple::tuple<X>, Y> tuples{};
+    std::array<tuple::tuple<row_c>, col_c> tuples{};
     /**
      * @brief Constructs a matrix from an array of tuples.
      */
-    matrix(const std::array<tuple::tuple<X>, Y> &input_data) : tuples{input_data}
+    matrix(const std::array<tuple::tuple<row_c>, col_c> &input_data) : tuples{input_data}
     {
     }
     /**
      * @brief Constructs a matrix from an initializer list of tuples.
      */
-    matrix(const std::initializer_list<tuple::tuple<X>> &input_data)
+    matrix(const std::initializer_list<tuple::tuple<row_c>> &input_data)
     {
         std::copy(input_data.begin(), input_data.end(), tuples.begin());
     }
-    tuple::tuple<X> &operator[](const int index)
+    tuple::tuple<row_c> &operator[](const int index)
     {
         return tuples[index];
     }
-    tuple::tuple<X> operator[](const int index) const
+    tuple::tuple<row_c> operator[](const int index) const
     {
         return tuples[index];
     }
-    float &operator[](const int tuple, const int element)
+    float &operator()(const int row, const int col)
     {
-        return tuples[element][tuple];
+        return tuples[col][row];
     }
-    float operator[](const int tuple, const int element) const
+    float operator()(const int row, const int col) const
     {
-        return tuples[element][tuple];
+        return tuples[col][row];
     }
     int size()
     {
@@ -52,14 +52,14 @@ template <int X, int Y> class matrix
     /**
      * @brief Tranposes a matrix
      */
-    matrix<Y, X> transpose()
+    matrix<col_c, row_c> transpose()
     {
-        matrix<Y, X> result{};
-        for (int col{0}; col < Y; ++col)
+        matrix<col_c, row_c> result{};
+        for (int col{0}; col < row_c; ++col)
         {
-            for (int row{0}; row < X; ++row)
+            for (int row{0}; row < col_c; ++row)
             {
-                result[col][row] = tuples[row][col];
+                result.tuples[col][row] = tuples[row][col];
             }
         }
         return result;
@@ -69,10 +69,10 @@ template <int X, int Y> class matrix
      */
     void print() const
     {
-        for (int row = 0; row < Y; ++row)
+        for (int row = 0; row < col_c; ++row)
         {
             std::cout << "| ";
-            for (int col = 0; col < X; ++col)
+            for (int col = 0; col < row_c; ++col)
             {
                 std::cout << tuples[row][col] << " ";
             }
@@ -82,12 +82,12 @@ template <int X, int Y> class matrix
     /**
      * @brief Returns the submatrix of a matrix
      */
-    matrix<X - 1, Y - 1> submatrix(const int ignore_row, const int ignore_col)
+    matrix<row_c - 1, col_c - 1> submatrix(const int ignore_row, const int ignore_col)
     {
-        matrix<X - 1, Y - 1> result{};
-        for (int row{0}; row < X; ++row)
+        matrix<row_c - 1, col_c - 1> result{};
+        for (int row{0}; row < row_c; ++row)
         {
-            for (int col{0}; col < Y; ++col)
+            for (int col{0}; col < col_c; ++col)
             {
                 if (row == ignore_row || col == ignore_col)
                 {
@@ -103,7 +103,7 @@ template <int X, int Y> class matrix
      */
     float determinant()
     {
-        if constexpr (X == 1)
+        if constexpr (row_c == 1)
         {
             return tuples[0][0];
         }
@@ -114,7 +114,7 @@ template <int X, int Y> class matrix
         else
         {
             float result{0};
-            for (int col{0}; col < Y; ++col)
+            for (int col{0}; col < col_c; ++col)
             {
                 result += this->cofactor(0, col) * tuples[0][col];
             }
@@ -148,10 +148,10 @@ template <int X, int Y> class matrix
      */
     matrix inverse()
     {
-        matrix<X, Y> output {};
-        for (int col{}; col < Y; ++col)
+        matrix<row_c, col_c> output {};
+        for (int col{}; col < col_c; ++col)
         {
-            for (int row{}; row < X; ++row)
+            for (int row{}; row < row_c; ++row)
             {
                 output[row][col] = this->cofactor(row, col);
             }
@@ -162,9 +162,9 @@ template <int X, int Y> class matrix
     }
 
 };
-template <int X, int Y> bool operator==(const matrix<X, Y> &lhs_matrix, const matrix<X, Y> &rhs_matrix)
+template <int row_c, int col_c> bool operator==(const matrix<row_c, col_c> &lhs_matrix, const matrix<row_c, col_c> &rhs_matrix)
 {
-    for (int i{0}; i < Y; ++i)
+    for (int i{0}; i < col_c; ++i)
     {
         if (lhs_matrix[i] != rhs_matrix[i])
         {
@@ -173,26 +173,26 @@ template <int X, int Y> bool operator==(const matrix<X, Y> &lhs_matrix, const ma
     }
     return true;
 }
-template <int X, int Y>
-matrix<X, Y> operator*(const matrix<X, Y>& ls_matrix, const float num)
+template <int row_c, int col_c>
+matrix<row_c, col_c> operator*(const matrix<row_c, col_c>& ls_matrix, const float num)
 {
-    matrix<X, Y> result {ls_matrix};
-    for (int col{}; col < Y; ++col)
+    matrix<row_c, col_c> result {ls_matrix};
+    for (int col{}; col < col_c; ++col)
     {
-        for (int row{}; row < X; ++row)
+        for (int row{}; row < row_c; ++row)
         {
             result[row][col] *= num;
         }
     }
     return result;
 }
-template <int X, int Y>
-matrix<X, Y> operator/(const matrix<X, Y>& ls_matrix, const float num)
+template <int row_c, int col_c>
+matrix<row_c, col_c> operator/(const matrix<row_c, col_c>& ls_matrix, const float num)
 {
-    matrix<X, Y> result{ls_matrix};
+    matrix<row_c, col_c> result{ls_matrix};
     for (auto& row : result.tuples)
     {
-        for (int i = 0; i < X; ++i)
+        for (int i = 0; i < row_c; ++i)
         {
             row[i] /= num;
         }
@@ -208,6 +208,9 @@ tuple::tuple<4> operator*(const matrix<4, 4> &ls_matrix, const tuple::tuple<4> &
     }
     return output;
 }
+/**
+ * @brief Multiplication order is reversed because I use column vectors
+ */
 matrix<4, 4> operator*(const matrix<4, 4> &ls_matrix, const matrix<4, 4> &rs_matrix)
 {
     matrix<4, 4> output{std::array<tuple::tuple<4>, 4>{}};

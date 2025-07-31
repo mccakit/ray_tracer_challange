@@ -5,6 +5,7 @@
     <innerfile refid="canvas_8cpp">canvas.cpp</innerfile>
     <innerfile refid="color_8cpp">color.cpp</innerfile>
     <innerfile refid="matrix_8cpp">matrix.cpp</innerfile>
+    <innerfile refid="matrix__transformations_8cpp">matrix_transformations.cpp</innerfile>
     <innerfile refid="tuple_8cpp">tuple.cpp</innerfile>
     <briefdescription>
     </briefdescription>

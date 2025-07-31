@@ -1,0 +1,9 @@
+[33md6a7ad5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m matrices
+[33ma169564[m github pages deployment 2
+[33mf4d8b6d[m github pages deployment
+[33m38011b9[m api reference
+[33m4965433[m auto documentation
+[33m1cb626b[m canvas
+[33m6d94978[m chapter 1
+[33mb17a094[m init 0, ut/docs/modules
+[33mf47576e[m modules on by default, don't specify cpp standard if modules are on, cpp26 and cpp23 doesn't work together.

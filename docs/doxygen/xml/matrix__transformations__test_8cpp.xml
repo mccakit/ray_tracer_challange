@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="matrix__transformations__test_8cpp" kind="file" language="C++">
+    <compoundname>matrix_transformations_test.cpp</compoundname>
+    <includes local="no">numbers</includes>
+    <includes refid="ut_8cppm" local="no">boost.ut</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>boost.ut</label>
+        <link refid="ut_8cppm"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>ut.hpp</label>
+        <link refid="ut_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/mccakit/desktop/projects/ray_tracer_challange/tests/matrix_transformations_test.cpp</label>
+        <link refid="matrix__transformations__test_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>numbers</label>
+      </node>
+      <node id="6">
+        <label>std</label>
+      </node>
+      <node id="5">
+        <label>version</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="matrix__transformations__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto main</definition>
+        <argsstring>() -&gt; int</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/tests/matrix_transformations_test.cpp" line="7" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/tests/matrix_transformations_test.cpp" bodystart="7" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;numbers&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_boost_8ut" kindref="compound">boost.ut</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_matrix__transformations" kindref="compound">matrix_transformations</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_matrix" kindref="compound">matrix</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_tuple" kindref="compound">tuple</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="matrix__transformations__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kindref="member">main</ref>()<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost::ut;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Multiplying<sp/>by<sp/>a<sp/>translation<sp/>matrix&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>transform<sp/>{<ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(5,<sp/>-3,<sp/>2)};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(-3,<sp/>4,<sp/>5)};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>1,<sp/>7));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Multiplying<sp/>by<sp/>the<sp/>inverse<sp/>of<sp/>a<sp/>translation<sp/>matrix&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>transform<sp/>{<ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(5,<sp/>-3,<sp/>2)};</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>inv<sp/>{transform.<ref refid="classmatrix_1_1matrix_1a2422dff1a3cccde4ee8483aa3bee34c1" kindref="member">inverse</ref>()};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(-3,<sp/>4,<sp/>5)};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(inv<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(-8,<sp/>7,<sp/>3));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Translation<sp/>does<sp/>not<sp/>affect<sp/>vectors&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>transform<sp/>{<ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(5,<sp/>-3,<sp/>2)};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>v<sp/>{<ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(-3,<sp/>4,<sp/>5)};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>v<sp/>==<sp/>v);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>scaling<sp/>matrix<sp/>applied<sp/>to<sp/>a<sp/>vector&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>transform<sp/>{<ref refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kindref="member">matrix_transformations::scaling</ref>(2,<sp/>3,<sp/>4)};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>inv<sp/>{transform.<ref refid="classmatrix_1_1matrix_1a2422dff1a3cccde4ee8483aa3bee34c1" kindref="member">inverse</ref>()};</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>v<sp/>{<ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(-4,<sp/>6,<sp/>8)};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(inv<sp/>*<sp/>v<sp/>==<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(-2,<sp/>2,<sp/>2));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Multiplying<sp/>by<sp/>the<sp/>inverse<sp/>of<sp/>a<sp/>scaling<sp/>matrix&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>transform{<sp/><ref refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kindref="member">matrix_transformations::scaling</ref>(2,<sp/>3,<sp/>4)<sp/>};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>inv{<sp/>transform.<ref refid="classmatrix_1_1matrix_1a2422dff1a3cccde4ee8483aa3bee34c1" kindref="member">inverse</ref>()<sp/>};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>v{<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(-4,<sp/>6,<sp/>8)<sp/>};</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(inv<sp/>*<sp/>v<sp/>==<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(-2,<sp/>2,<sp/>2));</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Reflection<sp/>is<sp/>scaling<sp/>by<sp/>a<sp/>negative<sp/>value&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>transform{<sp/><ref refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kindref="member">matrix_transformations::scaling</ref>(-1,<sp/>1,<sp/>1)<sp/>};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p{<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4)<sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(-2,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>rotation<sp/>matrix<sp/>around<sp/>the<sp/>X<sp/>axis<sp/>and<sp/>its<sp/>inverse&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>1,<sp/>0);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>half_quarter<sp/>=<sp/><ref refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kindref="member">matrix_transformations::rotation_x</ref>(std::numbers::pi<sp/>/<sp/>4);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>inv<sp/>=<sp/>half_quarter.<ref refid="classmatrix_1_1matrix_1a2422dff1a3cccde4ee8483aa3bee34c1" kindref="member">inverse</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>expected<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>std::sqrt(2)<sp/>/<sp/>2,<sp/>-std::sqrt(2)<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(inv<sp/>*<sp/>p<sp/>==<sp/>expected);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>point<sp/>rotated<sp/>around<sp/>the<sp/>y<sp/>axis&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>half_quarter<sp/>=<sp/><ref refid="namespacematrix__transformations_1a6908bc14fc6761c121060b15b5b84bdb" kindref="member">matrix_transformations::rotation_y</ref>(std::numbers::pi_v&lt;float&gt;<sp/>/<sp/>4);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>full_quarter<sp/>=<sp/><ref refid="namespacematrix__transformations_1a6908bc14fc6761c121060b15b5b84bdb" kindref="member">matrix_transformations::rotation_y</ref>(std::numbers::pi_v&lt;float&gt;<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(half_quarter<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(std::sqrt(2)<sp/>/<sp/>2,<sp/>0,<sp/>std::sqrt(2)<sp/>/<sp/>2));</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(full_quarter<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>point<sp/>rotated<sp/>around<sp/>the<sp/>z<sp/>axis&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>1,<sp/>0);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>half_quarter<sp/>=<sp/><ref refid="namespacematrix__transformations_1ac492bdb3c4c5ac0ba38d6f2422075eba" kindref="member">matrix_transformations::rotation_z</ref>(std::numbers::pi_v&lt;float&gt;<sp/>/<sp/>4);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>full_quarter<sp/>=<sp/><ref refid="namespacematrix__transformations_1ac492bdb3c4c5ac0ba38d6f2422075eba" kindref="member">matrix_transformations::rotation_z</ref>(std::numbers::pi_v&lt;float&gt;<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(half_quarter<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(-std::sqrt(2)<sp/>/<sp/>2,<sp/>std::sqrt(2)<sp/>/<sp/>2,<sp/>0));</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(full_quarter<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(-1,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;shearing<sp/>moves<sp/>x<sp/>in<sp/>proportion<sp/>to<sp/>y&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>transform<sp/>=<sp/><ref refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kindref="member">matrix_transformations::shearing</ref>(1,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(5,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;shearing<sp/>moves<sp/>x<sp/>in<sp/>proportion<sp/>to<sp/>z&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>transform<sp/>=<sp/><ref refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kindref="member">matrix_transformations::shearing</ref>(0,<sp/>1,<sp/>0,<sp/>0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(6,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;shearing<sp/>moves<sp/>y<sp/>in<sp/>proportion<sp/>to<sp/>x&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>transform<sp/>=<sp/><ref refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kindref="member">matrix_transformations::shearing</ref>(0,<sp/>0,<sp/>1,<sp/>0,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>5,<sp/>4));</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;shearing<sp/>moves<sp/>y<sp/>in<sp/>proportion<sp/>to<sp/>z&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>transform<sp/>=<sp/><ref refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kindref="member">matrix_transformations::shearing</ref>(0,<sp/>0,<sp/>0,<sp/>1,<sp/>0,<sp/>0);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>7,<sp/>4));</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;shearing<sp/>moves<sp/>z<sp/>in<sp/>proportion<sp/>to<sp/>x&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>transform<sp/>=<sp/><ref refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kindref="member">matrix_transformations::shearing</ref>(0,<sp/>0,<sp/>0,<sp/>0,<sp/>1,<sp/>0);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>6));</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;shearing<sp/>moves<sp/>z<sp/>in<sp/>proportion<sp/>to<sp/>y&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>transform<sp/>=<sp/><ref refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kindref="member">matrix_transformations::shearing</ref>(0,<sp/>0,<sp/>0,<sp/>0,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(transform<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>7));</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;individual<sp/>transformations<sp/>applied<sp/>in<sp/>sequence&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>a<sp/>=<sp/><ref refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kindref="member">matrix_transformations::rotation_x</ref>(std::numbers::pi<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>b<sp/>=<sp/><ref refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kindref="member">matrix_transformations::scaling</ref>(5,<sp/>5,<sp/>5);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>c<sp/>=<sp/><ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(10,<sp/>5,<sp/>7);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p2<sp/>=<sp/>a<sp/>*<sp/>p;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(p2<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>-1,<sp/>0));</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p3<sp/>=<sp/>b<sp/>*<sp/>p2;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(p3<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(5,<sp/>-5,<sp/>0));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p4<sp/>=<sp/>c<sp/>*<sp/>p3;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(p4<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(15,<sp/>0,<sp/>7));</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;chained<sp/>transformations<sp/>applied<sp/>in<sp/>reverse<sp/>order&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>p<sp/>=<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>0,<sp/>1);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>a<sp/>=<sp/><ref refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kindref="member">matrix_transformations::rotation_x</ref>(std::numbers::pi<sp/>/<sp/>2);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>b<sp/>=<sp/><ref refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kindref="member">matrix_transformations::scaling</ref>(5,<sp/>5,<sp/>5);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>c<sp/>=<sp/><ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(10,<sp/>5,<sp/>7);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4,4&gt;</ref><sp/>t<sp/>=<sp/>a<sp/>*<sp/>b<sp/>*<sp/>c;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(t<sp/>*<sp/>p<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(15,<sp/>0,<sp/>7));</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/tests/matrix_transformations_test.cpp"/>
+  </compounddef>
+</doxygen>

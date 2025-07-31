@@ -4,30 +4,30 @@
     <compoundname>matrix</compoundname>
     <innerclass refid="classmatrix_1_1matrix" prot="public">matrix::matrix</innerclass>
     <sectiondef kind="func">
-      <memberdef kind="function" id="namespacematrix_1ac651162195b4e95788c887ba9f034c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacematrix_1af74410b8fba816290428fe3030165328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>int</type>
-            <declname>X</declname>
-            <defname>X</defname>
+            <declname>row_c</declname>
+            <defname>row_c</defname>
           </param>
           <param>
             <type>int</type>
-            <declname>Y</declname>
-            <defname>Y</defname>
+            <declname>col_c</declname>
+            <defname>col_c</defname>
           </param>
         </templateparamlist>
         <type>bool</type>
         <definition>bool matrix::operator==</definition>
-        <argsstring>(const matrix&lt; X, Y &gt; &amp;lhs_matrix, const matrix&lt; X, Y &gt; &amp;rhs_matrix)</argsstring>
+        <argsstring>(const matrix&lt; row_c, col_c &gt; &amp;lhs_matrix, const matrix&lt; row_c, col_c &gt; &amp;rhs_matrix)</argsstring>
         <name>operator==</name>
         <qualifiedname>matrix::operator==</qualifiedname>
         <param>
-          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; row_c, col_c &gt; &amp;</type>
           <declname>lhs_matrix</declname>
         </param>
         <param>
-          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; row_c, col_c &gt; &amp;</type>
           <declname>rhs_matrix</declname>
         </param>
         <briefdescription>
@@ -38,26 +38,26 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="165" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="165" bodyend="175"/>
       </memberdef>
-      <memberdef kind="function" id="namespacematrix_1a3755e05b274a59c091f4c42b79c53ca6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacematrix_1a42721c0c2722d9e7505083fa11c0b505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>int</type>
-            <declname>X</declname>
-            <defname>X</defname>
+            <declname>row_c</declname>
+            <defname>row_c</defname>
           </param>
           <param>
             <type>int</type>
-            <declname>Y</declname>
-            <defname>Y</defname>
+            <declname>col_c</declname>
+            <defname>col_c</defname>
           </param>
         </templateparamlist>
-        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt;</type>
-        <definition>matrix&lt; X, Y &gt; matrix::operator*</definition>
-        <argsstring>(const matrix&lt; X, Y &gt; &amp;ls_matrix, const float num)</argsstring>
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; row_c, col_c &gt;</type>
+        <definition>matrix&lt; row_c, col_c &gt; matrix::operator*</definition>
+        <argsstring>(const matrix&lt; row_c, col_c &gt; &amp;ls_matrix, const float num)</argsstring>
         <name>operator*</name>
         <qualifiedname>matrix::operator*</qualifiedname>
         <param>
-          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; row_c, col_c &gt; &amp;</type>
           <declname>ls_matrix</declname>
         </param>
         <param>
@@ -72,26 +72,26 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="177" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="177" bodyend="188"/>
       </memberdef>
-      <memberdef kind="function" id="namespacematrix_1ae66f4f9025b38a8874cada9e91c7707a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacematrix_1aa49e7bb28ebff93ae5e0e383fa6e01bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <templateparamlist>
           <param>
             <type>int</type>
-            <declname>X</declname>
-            <defname>X</defname>
+            <declname>row_c</declname>
+            <defname>row_c</defname>
           </param>
           <param>
             <type>int</type>
-            <declname>Y</declname>
-            <defname>Y</defname>
+            <declname>col_c</declname>
+            <defname>col_c</defname>
           </param>
         </templateparamlist>
-        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt;</type>
-        <definition>matrix&lt; X, Y &gt; matrix::operator/</definition>
-        <argsstring>(const matrix&lt; X, Y &gt; &amp;ls_matrix, const float num)</argsstring>
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; row_c, col_c &gt;</type>
+        <definition>matrix&lt; row_c, col_c &gt; matrix::operator/</definition>
+        <argsstring>(const matrix&lt; row_c, col_c &gt; &amp;ls_matrix, const float num)</argsstring>
         <name>operator/</name>
         <qualifiedname>matrix::operator/</qualifiedname>
         <param>
-          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; X, Y &gt; &amp;</type>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix</ref>&lt; row_c, col_c &gt; &amp;</type>
           <declname>ls_matrix</declname>
         </param>
         <param>

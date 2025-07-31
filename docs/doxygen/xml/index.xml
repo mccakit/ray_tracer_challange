@@ -102,22 +102,22 @@
     <member refid="classmatcher_1a149540ae33a13bd95fa34051f39e9b03" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
   <compound refid="classmatrix_1_1matrix" kind="class"><name>matrix::matrix</name>
-    <member refid="classmatrix_1_1matrix_1ac20c91d0c742b45e2fae472605d94488" kind="variable"><name>tuples</name></member>
-    <member refid="classmatrix_1_1matrix_1a5f59d6d49f84e3e35739b20cb9c1dd6a" kind="function"><name>matrix</name></member>
-    <member refid="classmatrix_1_1matrix_1a220720b2f1aeb7f39a9642a5f48a3d98" kind="function"><name>matrix</name></member>
-    <member refid="classmatrix_1_1matrix_1a08d166d14d096e47cd345ea2aa73d1af" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1aef1a7de159d975cc62d1dd6857a0ea7b" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1a10fae1873924c98ef46bd471cbda7ce2" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1af0f54a67e794d585fa4adddcff3db45c" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1ada9570a8452535029f7d9b85a123aa3d" kind="function"><name>size</name></member>
-    <member refid="classmatrix_1_1matrix_1a34b18e9b1955e8b889bfd93032113451" kind="function"><name>transpose</name></member>
-    <member refid="classmatrix_1_1matrix_1a5219b422faf79f8d817460e694e3a94b" kind="function"><name>print</name></member>
-    <member refid="classmatrix_1_1matrix_1aa601258fc950f140ecd1f0152cef7d29" kind="function"><name>submatrix</name></member>
-    <member refid="classmatrix_1_1matrix_1ac9b4dc0a07060145cd6d00e80379a203" kind="function"><name>determinant</name></member>
-    <member refid="classmatrix_1_1matrix_1a8342947370e1844dc016b63afeb2875e" kind="function"><name>minor</name></member>
-    <member refid="classmatrix_1_1matrix_1ad8b841ffefd39816aaea78c0ebd08b18" kind="function"><name>cofactor</name></member>
-    <member refid="classmatrix_1_1matrix_1a6942c33ef236243d009f2e83bdf0712c" kind="function"><name>invertible</name></member>
-    <member refid="classmatrix_1_1matrix_1a73604374e05f5afff7afb2b6e081e18e" kind="function"><name>inverse</name></member>
+    <member refid="classmatrix_1_1matrix_1a2be4a97e59037b0659e35d9c9edaff22" kind="variable"><name>tuples</name></member>
+    <member refid="classmatrix_1_1matrix_1a3df0203d7e5202fc69d8e94d312742ed" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a8cd335ba15e0167ab1a4147c8b15ee98" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a06dce4ab805df4bf3d31d406adc0a6b7" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1a2781b6f658c54864f0905dd766d10cc4" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1a2f36911acf0c22ea352a7ef224888a28" kind="function"><name>operator()</name></member>
+    <member refid="classmatrix_1_1matrix_1a7ad612e5701dba1826ccb384472dd2c1" kind="function"><name>operator()</name></member>
+    <member refid="classmatrix_1_1matrix_1a749f8f07460e6907b054ec0e02691d9c" kind="function"><name>size</name></member>
+    <member refid="classmatrix_1_1matrix_1a79f06aec646c57eee002f30a458bef7a" kind="function"><name>transpose</name></member>
+    <member refid="classmatrix_1_1matrix_1ad3267204bb25a86d608035e658010f4f" kind="function"><name>print</name></member>
+    <member refid="classmatrix_1_1matrix_1ab6870459391d3f41fe6dbaf10c521aa4" kind="function"><name>submatrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a7afaac91a15858f89a67924c661697b0" kind="function"><name>determinant</name></member>
+    <member refid="classmatrix_1_1matrix_1a31668e3fa7e3487ab3ddf9950381a8f3" kind="function"><name>minor</name></member>
+    <member refid="classmatrix_1_1matrix_1a6d18723da0211c922c7ce1bf9a90d1e4" kind="function"><name>cofactor</name></member>
+    <member refid="classmatrix_1_1matrix_1ad03dde66faa0052a9c9d8474452dd8f4" kind="function"><name>invertible</name></member>
+    <member refid="classmatrix_1_1matrix_1a2422dff1a3cccde4ee8483aa3bee34c1" kind="function"><name>inverse</name></member>
   </compound>
   <compound refid="structtest__has__member__object_1_1not__defined" kind="struct"><name>test_has_member_object::not_defined</name>
   </compound>
@@ -281,12 +281,20 @@
   <compound refid="namespaceft" kind="namespace"><name>ft</name>
   </compound>
   <compound refid="namespacematrix" kind="namespace"><name>matrix</name>
-    <member refid="namespacematrix_1ac651162195b4e95788c887ba9f034c2d" kind="function"><name>operator==</name></member>
-    <member refid="namespacematrix_1a3755e05b274a59c091f4c42b79c53ca6" kind="function"><name>operator*</name></member>
-    <member refid="namespacematrix_1ae66f4f9025b38a8874cada9e91c7707a" kind="function"><name>operator/</name></member>
+    <member refid="namespacematrix_1af74410b8fba816290428fe3030165328" kind="function"><name>operator==</name></member>
+    <member refid="namespacematrix_1a42721c0c2722d9e7505083fa11c0b505" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1aa49e7bb28ebff93ae5e0e383fa6e01bd" kind="function"><name>operator/</name></member>
     <member refid="namespacematrix_1a5ab6c1ce2b9e875d3aa5bb88a34ba0fa" kind="function"><name>operator*</name></member>
     <member refid="namespacematrix_1af83e30a6c845f896a24356adbfc6afc3" kind="function"><name>operator*</name></member>
     <member refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kind="function"><name>identity_matrix</name></member>
+  </compound>
+  <compound refid="namespacematrix__transformations" kind="namespace"><name>matrix_transformations</name>
+    <member refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kind="function"><name>translation</name></member>
+    <member refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kind="function"><name>scaling</name></member>
+    <member refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kind="function"><name>rotation_x</name></member>
+    <member refid="namespacematrix__transformations_1a6908bc14fc6761c121060b15b5b84bdb" kind="function"><name>rotation_y</name></member>
+    <member refid="namespacematrix__transformations_1ac492bdb3c4c5ac0ba38d6f2422075eba" kind="function"><name>rotation_z</name></member>
+    <member refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kind="function"><name>shearing</name></member>
   </compound>
   <compound refid="namespacens" kind="namespace"><name>ns</name>
   </compound>
@@ -508,6 +516,8 @@
   </compound>
   <compound refid="matrix_8cpp" kind="file"><name>matrix.cpp</name>
   </compound>
+  <compound refid="matrix__transformations_8cpp" kind="file"><name>matrix_transformations.cpp</name>
+  </compound>
   <compound refid="tuple_8cpp" kind="file"><name>tuple.cpp</name>
   </compound>
   <compound refid="canvas__test_8cpp" kind="file"><name>canvas_test.cpp</name>
@@ -519,6 +529,9 @@
   </compound>
   <compound refid="matrix__test_8cpp" kind="file"><name>matrix_test.cpp</name>
     <member refid="matrix__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="matrix__transformations__test_8cpp" kind="file"><name>matrix_transformations_test.cpp</name>
+    <member refid="matrix__transformations__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
   </compound>
   <compound refid="tuple__test_8cpp" kind="file"><name>tuple_test.cpp</name>
     <member refid="tuple__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
@@ -580,28 +593,36 @@
     <member refid="namespacecolor_1af0a551a079831b4b34a9069937afdd62" kind="function"><name>operator*</name></member>
   </compound>
   <compound refid="module_matrix" kind="module"><name>matrix</name>
-    <member refid="classmatrix_1_1matrix_1ac20c91d0c742b45e2fae472605d94488" kind="variable"><name>tuples</name></member>
-    <member refid="classmatrix_1_1matrix_1a5f59d6d49f84e3e35739b20cb9c1dd6a" kind="function"><name>matrix</name></member>
-    <member refid="classmatrix_1_1matrix_1a220720b2f1aeb7f39a9642a5f48a3d98" kind="function"><name>matrix</name></member>
-    <member refid="classmatrix_1_1matrix_1a08d166d14d096e47cd345ea2aa73d1af" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1aef1a7de159d975cc62d1dd6857a0ea7b" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1a10fae1873924c98ef46bd471cbda7ce2" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1af0f54a67e794d585fa4adddcff3db45c" kind="function"><name>operator[]</name></member>
-    <member refid="classmatrix_1_1matrix_1ada9570a8452535029f7d9b85a123aa3d" kind="function"><name>size</name></member>
-    <member refid="classmatrix_1_1matrix_1a34b18e9b1955e8b889bfd93032113451" kind="function"><name>transpose</name></member>
-    <member refid="classmatrix_1_1matrix_1a5219b422faf79f8d817460e694e3a94b" kind="function"><name>print</name></member>
-    <member refid="classmatrix_1_1matrix_1aa601258fc950f140ecd1f0152cef7d29" kind="function"><name>submatrix</name></member>
-    <member refid="classmatrix_1_1matrix_1ac9b4dc0a07060145cd6d00e80379a203" kind="function"><name>determinant</name></member>
-    <member refid="classmatrix_1_1matrix_1a8342947370e1844dc016b63afeb2875e" kind="function"><name>minor</name></member>
-    <member refid="classmatrix_1_1matrix_1ad8b841ffefd39816aaea78c0ebd08b18" kind="function"><name>cofactor</name></member>
-    <member refid="classmatrix_1_1matrix_1a6942c33ef236243d009f2e83bdf0712c" kind="function"><name>invertible</name></member>
-    <member refid="classmatrix_1_1matrix_1a73604374e05f5afff7afb2b6e081e18e" kind="function"><name>inverse</name></member>
-    <member refid="namespacematrix_1ac651162195b4e95788c887ba9f034c2d" kind="function"><name>operator==</name></member>
-    <member refid="namespacematrix_1a3755e05b274a59c091f4c42b79c53ca6" kind="function"><name>operator*</name></member>
-    <member refid="namespacematrix_1ae66f4f9025b38a8874cada9e91c7707a" kind="function"><name>operator/</name></member>
+    <member refid="classmatrix_1_1matrix_1a2be4a97e59037b0659e35d9c9edaff22" kind="variable"><name>tuples</name></member>
+    <member refid="classmatrix_1_1matrix_1a3df0203d7e5202fc69d8e94d312742ed" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a8cd335ba15e0167ab1a4147c8b15ee98" kind="function"><name>matrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a06dce4ab805df4bf3d31d406adc0a6b7" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1a2781b6f658c54864f0905dd766d10cc4" kind="function"><name>operator[]</name></member>
+    <member refid="classmatrix_1_1matrix_1a2f36911acf0c22ea352a7ef224888a28" kind="function"><name>operator()</name></member>
+    <member refid="classmatrix_1_1matrix_1a7ad612e5701dba1826ccb384472dd2c1" kind="function"><name>operator()</name></member>
+    <member refid="classmatrix_1_1matrix_1a749f8f07460e6907b054ec0e02691d9c" kind="function"><name>size</name></member>
+    <member refid="classmatrix_1_1matrix_1a79f06aec646c57eee002f30a458bef7a" kind="function"><name>transpose</name></member>
+    <member refid="classmatrix_1_1matrix_1ad3267204bb25a86d608035e658010f4f" kind="function"><name>print</name></member>
+    <member refid="classmatrix_1_1matrix_1ab6870459391d3f41fe6dbaf10c521aa4" kind="function"><name>submatrix</name></member>
+    <member refid="classmatrix_1_1matrix_1a7afaac91a15858f89a67924c661697b0" kind="function"><name>determinant</name></member>
+    <member refid="classmatrix_1_1matrix_1a31668e3fa7e3487ab3ddf9950381a8f3" kind="function"><name>minor</name></member>
+    <member refid="classmatrix_1_1matrix_1a6d18723da0211c922c7ce1bf9a90d1e4" kind="function"><name>cofactor</name></member>
+    <member refid="classmatrix_1_1matrix_1ad03dde66faa0052a9c9d8474452dd8f4" kind="function"><name>invertible</name></member>
+    <member refid="classmatrix_1_1matrix_1a2422dff1a3cccde4ee8483aa3bee34c1" kind="function"><name>inverse</name></member>
+    <member refid="namespacematrix_1af74410b8fba816290428fe3030165328" kind="function"><name>operator==</name></member>
+    <member refid="namespacematrix_1a42721c0c2722d9e7505083fa11c0b505" kind="function"><name>operator*</name></member>
+    <member refid="namespacematrix_1aa49e7bb28ebff93ae5e0e383fa6e01bd" kind="function"><name>operator/</name></member>
     <member refid="namespacematrix_1a5ab6c1ce2b9e875d3aa5bb88a34ba0fa" kind="function"><name>operator*</name></member>
     <member refid="namespacematrix_1af83e30a6c845f896a24356adbfc6afc3" kind="function"><name>operator*</name></member>
     <member refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kind="function"><name>identity_matrix</name></member>
+  </compound>
+  <compound refid="module_matrix__transformations" kind="module"><name>matrix_transformations</name>
+    <member refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kind="function"><name>translation</name></member>
+    <member refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kind="function"><name>scaling</name></member>
+    <member refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kind="function"><name>rotation_x</name></member>
+    <member refid="namespacematrix__transformations_1a6908bc14fc6761c121060b15b5b84bdb" kind="function"><name>rotation_y</name></member>
+    <member refid="namespacematrix__transformations_1ac492bdb3c4c5ac0ba38d6f2422075eba" kind="function"><name>rotation_z</name></member>
+    <member refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kind="function"><name>shearing</name></member>
   </compound>
   <compound refid="module_tuple" kind="module"><name>tuple</name>
     <member refid="classtuple_1_1tuple_1a2e5bee3f5825a6cc2bbcc505ed9e2b39" kind="variable"><name>data</name></member>
