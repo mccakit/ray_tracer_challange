@@ -92,6 +92,11 @@
     <member refid="structfoo_1acbf8e57aec555112e00cf9f5131c1e8d" kind="function"><name>operator!=</name></member>
     <member refid="structfoo_1afcd30a3edc9aa71160eca9154ad6674f" kind="friend"><name>operator&lt;&lt;</name></member>
   </compound>
+  <compound refid="classray__sphere__intersections_1_1intersection" kind="class"><name>ray_sphere_intersections::intersection</name>
+    <member refid="classray__sphere__intersections_1_1intersection_1acfccd89adf3d41989e28bf774913c00b" kind="variable"><name>time</name></member>
+    <member refid="classray__sphere__intersections_1_1intersection_1abc4c02fc55445eea8f41f70ae9b7ad16" kind="variable"><name>object</name></member>
+    <member refid="classray__sphere__intersections_1_1intersection_1a98fa8bc0665669afda6f7e0daccfcc2b" kind="function"><name>intersection</name></member>
+  </compound>
   <compound refid="structlist" kind="struct"><name>list</name>
   </compound>
   <compound refid="classmatcher" kind="class"><name>matcher</name>
@@ -160,6 +165,13 @@
   <compound refid="structtest__has__member__object_1_1public__static__member__object__value" kind="struct"><name>test_has_member_object::public_static_member_object_value</name>
     <member refid="structtest__has__member__object_1_1public__static__member__object__value_1acd1efffa9ade34e934e2b507a6f2f909" kind="variable"><name>value</name></member>
   </compound>
+  <compound refid="classray__sphere__intersections_1_1ray" kind="class"><name>ray_sphere_intersections::ray</name>
+    <member refid="classray__sphere__intersections_1_1ray_1a7492db958974e0098850072364375997" kind="variable"><name>origin</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1a038dae6bb7ec2082bf6e16a019010028" kind="variable"><name>direction</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1af74e4d392bbd9dd43a6283b04cacafbc" kind="function"><name>ray</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1aed78ff0705b55c1b254a7a2deb074477" kind="function"><name>position</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1a92139d905108d25dd7d8b66850d9de4d" kind="function"><name>transform</name></member>
+  </compound>
   <compound refid="classcfg_1_1reporter" kind="class"><name>cfg::reporter</name>
     <member refid="classcfg_1_1reporter_1a5ea104ca73f7367d22dba84b54c6799d" kind="function"><name>on</name></member>
     <member refid="classcfg_1_1reporter_1a548a81af09c68162e1985bbe94768b7d" kind="function"><name>on</name></member>
@@ -182,6 +194,15 @@
   </compound>
   <compound refid="structft_1_1runner" kind="struct"><name>ft::runner</name>
     <member refid="structft_1_1runner_1af7ee6e0a6a6ccfecd3e8ba81dda6edf3" kind="function"><name>on</name></member>
+  </compound>
+  <compound refid="classray__sphere__intersections_1_1sphere" kind="class"><name>ray_sphere_intersections::sphere</name>
+    <member refid="classray__sphere__intersections_1_1sphere_1a46324d4d76cdb94d2ec46edff053053d" kind="variable"><name>id</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a98e1d0ff1fa98aabf551b6f2dc636f9f" kind="variable"><name>origin</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a341c6d1bdfede53982922b489e343338" kind="variable"><name>radious</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1aec646a7838c472500f0a1f27324c74ce" kind="variable"><name>transform</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1adf060ac043e771f22a8f1c2e497dd1cc" kind="function"><name>sphere</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a8bbeca24d1f1dc953342cb8488d07e66" kind="function"><name>set_transform</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a15532f4c1a207348602b339bd6437325" kind="function"><name>intersect</name></member>
   </compound>
   <compound refid="structtest__assertion__false" kind="struct"><name>test_assertion_false</name>
     <member refid="structtest__assertion__false_1aee66bedd360e573f6dbe0f1b151ef73e" kind="variable"><name>run</name></member>
@@ -290,7 +311,7 @@
   </compound>
   <compound refid="namespacematrix__transformations" kind="namespace"><name>matrix_transformations</name>
     <member refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kind="function"><name>translation</name></member>
-    <member refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kind="function"><name>scaling</name></member>
+    <member refid="namespacematrix__transformations_1a6b3f171f064cb5ca8a0010eae3e90fb5" kind="function"><name>scaling</name></member>
     <member refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kind="function"><name>rotation_x</name></member>
     <member refid="namespacematrix__transformations_1a6908bc14fc6761c121060b15b5b84bdb" kind="function"><name>rotation_y</name></member>
     <member refid="namespacematrix__transformations_1ac492bdb3c4c5ac0ba38d6f2422075eba" kind="function"><name>rotation_z</name></member>
@@ -299,6 +320,13 @@
   <compound refid="namespacens" kind="namespace"><name>ns</name>
   </compound>
   <compound refid="namespacens_1_1_0d48" kind="namespace"><name>ns::@48</name>
+  </compound>
+  <compound refid="namespaceray__sphere__intersections" kind="namespace"><name>ray_sphere_intersections</name>
+    <member refid="namespaceray__sphere__intersections_1acf7af95574c32693f9c4a352d7ae7359" kind="function"><name>operator==</name></member>
+    <member refid="namespaceray__sphere__intersections_1a4d2f477e54d13cf688868733d812fcb7" kind="function"><name>operator==</name></member>
+    <member refid="namespaceray__sphere__intersections_1a0da96e05b7adeda81f139e07d9197b8f" kind="function"><name>intersections</name></member>
+    <member refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kind="function"><name>hit</name></member>
+    <member refid="namespaceray__sphere__intersections_1ab4913b129a6a9fa992ad9ddcbbe45183" kind="function"><name>hit</name></member>
   </compound>
   <compound refid="namespacestd" kind="namespace"><name>std</name>
   </compound>
@@ -518,6 +546,8 @@
   </compound>
   <compound refid="matrix__transformations_8cpp" kind="file"><name>matrix_transformations.cpp</name>
   </compound>
+  <compound refid="ray__sphere__intersections_8cpp" kind="file"><name>ray_sphere_intersections.cpp</name>
+  </compound>
   <compound refid="tuple_8cpp" kind="file"><name>tuple.cpp</name>
   </compound>
   <compound refid="canvas__test_8cpp" kind="file"><name>canvas_test.cpp</name>
@@ -532,6 +562,9 @@
   </compound>
   <compound refid="matrix__transformations__test_8cpp" kind="file"><name>matrix_transformations_test.cpp</name>
     <member refid="matrix__transformations__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="ray__sphere__intersections__test_8cpp" kind="file"><name>ray_sphere_intersections_test.cpp</name>
+    <member refid="ray__sphere__intersections__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
   </compound>
   <compound refid="tuple__test_8cpp" kind="file"><name>tuple_test.cpp</name>
     <member refid="tuple__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kind="function"><name>main</name></member>
@@ -618,11 +651,33 @@
   </compound>
   <compound refid="module_matrix__transformations" kind="module"><name>matrix_transformations</name>
     <member refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kind="function"><name>translation</name></member>
-    <member refid="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" kind="function"><name>scaling</name></member>
+    <member refid="namespacematrix__transformations_1a6b3f171f064cb5ca8a0010eae3e90fb5" kind="function"><name>scaling</name></member>
     <member refid="namespacematrix__transformations_1ae339ff686e1f13986b4d78e3fd739baa" kind="function"><name>rotation_x</name></member>
     <member refid="namespacematrix__transformations_1a6908bc14fc6761c121060b15b5b84bdb" kind="function"><name>rotation_y</name></member>
     <member refid="namespacematrix__transformations_1ac492bdb3c4c5ac0ba38d6f2422075eba" kind="function"><name>rotation_z</name></member>
     <member refid="namespacematrix__transformations_1afc8ce33bee9bf3fca0c7564995d192bb" kind="function"><name>shearing</name></member>
+  </compound>
+  <compound refid="module_ray__sphere__intersections" kind="module"><name>ray_sphere_intersections</name>
+    <member refid="classray__sphere__intersections_1_1ray_1a7492db958974e0098850072364375997" kind="variable"><name>origin</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1a038dae6bb7ec2082bf6e16a019010028" kind="variable"><name>direction</name></member>
+    <member refid="classray__sphere__intersections_1_1intersection_1acfccd89adf3d41989e28bf774913c00b" kind="variable"><name>time</name></member>
+    <member refid="classray__sphere__intersections_1_1intersection_1abc4c02fc55445eea8f41f70ae9b7ad16" kind="variable"><name>object</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a46324d4d76cdb94d2ec46edff053053d" kind="variable"><name>id</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a98e1d0ff1fa98aabf551b6f2dc636f9f" kind="variable"><name>origin</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a341c6d1bdfede53982922b489e343338" kind="variable"><name>radious</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1aec646a7838c472500f0a1f27324c74ce" kind="variable"><name>transform</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1af74e4d392bbd9dd43a6283b04cacafbc" kind="function"><name>ray</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1aed78ff0705b55c1b254a7a2deb074477" kind="function"><name>position</name></member>
+    <member refid="classray__sphere__intersections_1_1ray_1a92139d905108d25dd7d8b66850d9de4d" kind="function"><name>transform</name></member>
+    <member refid="classray__sphere__intersections_1_1intersection_1a98fa8bc0665669afda6f7e0daccfcc2b" kind="function"><name>intersection</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1adf060ac043e771f22a8f1c2e497dd1cc" kind="function"><name>sphere</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a8bbeca24d1f1dc953342cb8488d07e66" kind="function"><name>set_transform</name></member>
+    <member refid="classray__sphere__intersections_1_1sphere_1a15532f4c1a207348602b339bd6437325" kind="function"><name>intersect</name></member>
+    <member refid="namespaceray__sphere__intersections_1acf7af95574c32693f9c4a352d7ae7359" kind="function"><name>operator==</name></member>
+    <member refid="namespaceray__sphere__intersections_1a4d2f477e54d13cf688868733d812fcb7" kind="function"><name>operator==</name></member>
+    <member refid="namespaceray__sphere__intersections_1a0da96e05b7adeda81f139e07d9197b8f" kind="function"><name>intersections</name></member>
+    <member refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kind="function"><name>hit</name></member>
+    <member refid="namespaceray__sphere__intersections_1ab4913b129a6a9fa992ad9ddcbbe45183" kind="function"><name>hit</name></member>
   </compound>
   <compound refid="module_tuple" kind="module"><name>tuple</name>
     <member refid="classtuple_1_1tuple_1a2e5bee3f5825a6cc2bbcc505ed9e2b39" kind="variable"><name>data</name></member>

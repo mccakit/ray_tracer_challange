@@ -204,26 +204,26 @@
 <codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
 <codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
 <codeline lineno="210"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="211"><highlight class="normal">matrix&lt;4,<sp/>4&gt;<sp/><ref refid="namespacematrix_1a42721c0c2722d9e7505083fa11c0b505" kindref="member">operator*</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>matrix&lt;4,<sp/>4&gt;<sp/>&amp;ls_matrix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>matrix&lt;4,<sp/>4&gt;<sp/>&amp;rs_matrix)</highlight></codeline>
-<codeline lineno="212"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/>matrix&lt;4,<sp/>4&gt;<sp/>output{std::array&lt;tuple::tuple&lt;4&gt;,<sp/>4&gt;{}};</highlight></codeline>
-<codeline lineno="214"><highlight class="normal"></highlight></codeline>
-<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col{0};<sp/>col<sp/>&lt;<sp/>4;<sp/>++col)</highlight></codeline>
-<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>column<sp/>=<sp/>rs_matrix[col];</highlight></codeline>
-<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row{0};<sp/>row<sp/>&lt;<sp/>4;<sp/>++row)</highlight></codeline>
-<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
-<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>left_row{ls_matrix[0][row],<sp/>ls_matrix[1][row],<sp/>ls_matrix[2][row],<sp/>ls_matrix[3][row]};</highlight></codeline>
-<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output[col][row]<sp/>=<sp/><ref refid="namespacetuple_1ae8a3c5721eea747e21d3bd0126c18dce" kindref="member">tuple::dot_product</ref>(left_row,<sp/>column);</highlight></codeline>
-<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
-<codeline lineno="225"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="229"><highlight class="normal">matrix&lt;4,<sp/>4&gt;<sp/><ref refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kindref="member">identity_matrix</ref>()</highlight></codeline>
-<codeline lineno="230"><highlight class="normal">{</highlight></codeline>
-<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{{1,<sp/>0,<sp/>0,<sp/>0},<sp/>{0,<sp/>1,<sp/>0,<sp/>0},<sp/>{0,<sp/>0,<sp/>1,<sp/>0},<sp/>{0,<sp/>0,<sp/>0,<sp/>1}};</highlight></codeline>
-<codeline lineno="232"><highlight class="normal">}</highlight></codeline>
-<codeline lineno="233"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>matrix</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal">matrix&lt;4,<sp/>4&gt;<sp/><ref refid="namespacematrix_1a42721c0c2722d9e7505083fa11c0b505" kindref="member">operator*</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>matrix&lt;4,<sp/>4&gt;<sp/>&amp;ls_matrix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>matrix&lt;4,<sp/>4&gt;<sp/>&amp;rs_matrix)</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>matrix&lt;4,<sp/>4&gt;<sp/>output{std::array&lt;tuple::tuple&lt;4&gt;,<sp/>4&gt;{}};</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>col{0};<sp/>col<sp/>&lt;<sp/>4;<sp/>++col)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>column<sp/>=<sp/>rs_matrix[col];</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>row{0};<sp/>row<sp/>&lt;<sp/>4;<sp/>++row)</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>left_row{ls_matrix[0][row],<sp/>ls_matrix[1][row],<sp/>ls_matrix[2][row],<sp/>ls_matrix[3][row]};</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>output[col][row]<sp/>=<sp/><ref refid="namespacetuple_1ae8a3c5721eea747e21d3bd0126c18dce" kindref="member">tuple::dot_product</ref>(left_row,<sp/>column);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>output;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="232"><highlight class="normal">matrix&lt;4,<sp/>4&gt;<sp/><ref refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kindref="member">identity_matrix</ref>()</highlight></codeline>
+<codeline lineno="233"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{{1,<sp/>0,<sp/>0,<sp/>0},<sp/>{0,<sp/>1,<sp/>0,<sp/>0},<sp/>{0,<sp/>0,<sp/>1,<sp/>0},<sp/>{0,<sp/>0,<sp/>0,<sp/>1}};</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>matrix</highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
     <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp"/>
   </compounddef>

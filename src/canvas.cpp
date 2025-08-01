@@ -50,10 +50,11 @@ template <std::size_t w, std::size_t h> class canvas
     const std::array<char, (width * height * 11) + 30> &to_ppm()
     {
         std::size_t pos = 0;
-        std::string_view header = std::format("P3\n{} {}\n255\n", width, height);
-        std::copy(header.begin(), header.end(), ppm_string.begin());
-        pos += header.size();
-
+        std::array<char, 30> header_buffer{};
+        std::snprintf(header_buffer.data(), header_buffer.size(), "P3\n%zu %zu\n255\n", width, height);
+        std::string_view header_view(header_buffer.data());
+        std::copy(header_view.begin(), header_view.end(), ppm_string.begin());
+        pos += header_view.size();
         std::array<char, 16> buffer{};
         for (const auto &color : pixels)
         {

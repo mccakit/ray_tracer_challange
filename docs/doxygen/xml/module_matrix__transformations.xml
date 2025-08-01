@@ -30,22 +30,22 @@
         </inbodydescription>
         <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix_transformations.cpp" line="8" column="16" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix_transformations.cpp" bodystart="8" bodyend="15"/>
       </memberdef>
-      <memberdef kind="function" id="namespacematrix__transformations_1ac3427c3fea8a64f2e63b0ba2b7e839ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="namespacematrix__transformations_1a6b3f171f064cb5ca8a0010eae3e90fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix</ref>&lt; 4, 4 &gt;</type>
         <definition>matrix::matrix&lt; 4, 4 &gt; matrix_transformations::scaling</definition>
-        <argsstring>(const int x, const int y, const int z)</argsstring>
+        <argsstring>(const float x, const float y, const float z)</argsstring>
         <name>scaling</name>
         <qualifiedname>matrix_transformations::scaling</qualifiedname>
         <param>
-          <type>const int</type>
+          <type>const float</type>
           <declname>x</declname>
         </param>
         <param>
-          <type>const int</type>
+          <type>const float</type>
           <declname>y</declname>
         </param>
         <param>
-          <type>const int</type>
+          <type>const float</type>
           <declname>z</declname>
         </param>
         <briefdescription>

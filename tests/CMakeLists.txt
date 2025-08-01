@@ -17,3 +17,7 @@ add_test(NAME matrix_test COMMAND matrix_test)
 add_executable(matrix_transformations_test matrix_transformations_test.cpp)
 target_link_libraries(matrix_transformations_test PRIVATE matrix_transformations Boost::ut_module)
 add_test(NAME matrix_transformations_test COMMAND matrix_transformations_test)
+
+add_executable(ray_sphere_intersections_test ray_sphere_intersections_test.cpp)
+target_link_libraries(ray_sphere_intersections_test PRIVATE ray_sphere_intersections Boost::ut_module)
+add_test(NAME ray_sphere_intersections_test COMMAND ray_sphere_intersections_test)

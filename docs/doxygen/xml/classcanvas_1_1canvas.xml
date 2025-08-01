@@ -143,7 +143,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="50" column="22" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="50" bodyend="76"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="50" column="22" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="50" bodyend="77"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -157,7 +157,7 @@
 </para>
 <para>Internally stores pixel data as an array of <computeroutput><ref refid="classcolor_1_1color" kindref="compound">color::color</ref></computeroutput>. Provides methods to write pixels, read pixels, and export the canvas as a PPM image string. </para>
     </detaileddescription>
-    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="20" column="14" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="21" bodyend="77"/>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" line="20" column="14" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/canvas.cpp" bodystart="21" bodyend="78"/>
     <listofallmembers>
       <member refid="classcanvas_1_1canvas_1a92489d7279b9c5d4bced9d3b6c28047b" prot="public" virt="non-virtual"><scope>canvas::canvas</scope><name>height</name></member>
       <member refid="classcanvas_1_1canvas_1afe86b2d3873049091edcf557dbddb9e6" prot="public" virt="non-virtual"><scope>canvas::canvas</scope><name>pixel_at</name></member>

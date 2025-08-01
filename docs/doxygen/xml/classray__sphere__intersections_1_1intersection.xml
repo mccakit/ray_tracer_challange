@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classray__sphere__intersections_1_1intersection" kind="class" language="C++" prot="public">
+    <compoundname>ray_sphere_intersections::intersection</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classray__sphere__intersections_1_1intersection_1acfccd89adf3d41989e28bf774913c00b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ray_sphere_intersections::intersection::time</definition>
+        <argsstring></argsstring>
+        <name>time</name>
+        <qualifiedname>ray_sphere_intersections::intersection::time</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="35" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="variable" id="classray__sphere__intersections_1_1intersection_1abc4c02fc55445eea8f41f70ae9b7ad16" prot="public" static="no" mutable="no">
+        <type>std::reference_wrapper&lt; <ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">sphere</ref> &gt;</type>
+        <definition>std::reference_wrapper&lt;sphere&gt; ray_sphere_intersections::intersection::object</definition>
+        <argsstring></argsstring>
+        <name>object</name>
+        <qualifiedname>ray_sphere_intersections::intersection::object</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="36" column="28" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="36" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classray__sphere__intersections_1_1intersection_1a98fa8bc0665669afda6f7e0daccfcc2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ray_sphere_intersections::intersection::intersection</definition>
+        <argsstring>(float time, sphere &amp;object)</argsstring>
+        <name>intersection</name>
+        <qualifiedname>ray_sphere_intersections::intersection::intersection</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>time</declname>
+        </param>
+        <param>
+          <type><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">sphere</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+<para>Constructs an intersection given time and the intersected sphere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="40" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="40" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="32" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="33" bodyend="43"/>
+    <listofallmembers>
+      <member refid="classray__sphere__intersections_1_1intersection_1a98fa8bc0665669afda6f7e0daccfcc2b" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::intersection</scope><name>intersection</name></member>
+      <member refid="classray__sphere__intersections_1_1intersection_1abc4c02fc55445eea8f41f70ae9b7ad16" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::intersection</scope><name>object</name></member>
+      <member refid="classray__sphere__intersections_1_1intersection_1acfccd89adf3d41989e28bf774913c00b" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::intersection</scope><name>time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="namespaceray__sphere__intersections" kind="namespace" language="C++">
+    <compoundname>ray_sphere_intersections</compoundname>
+    <innerclass refid="classray__sphere__intersections_1_1intersection" prot="public">ray_sphere_intersections::intersection</innerclass>
+    <innerclass refid="classray__sphere__intersections_1_1ray" prot="public">ray_sphere_intersections::ray</innerclass>
+    <innerclass refid="classray__sphere__intersections_1_1sphere" prot="public">ray_sphere_intersections::sphere</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceray__sphere__intersections_1acf7af95574c32693f9c4a352d7ae7359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ray_sphere_intersections::operator==</definition>
+        <argsstring>(const sphere &amp;ls_sphere, const sphere &amp;rs_sphere)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ray_sphere_intersections::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">sphere</ref> &amp;</type>
+          <declname>ls_sphere</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">sphere</ref> &amp;</type>
+          <declname>rs_sphere</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="86" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceray__sphere__intersections_1a4d2f477e54d13cf688868733d812fcb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ray_sphere_intersections::operator==</definition>
+        <argsstring>(const intersection &amp;lhs, const intersection &amp;rhs)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>ray_sphere_intersections::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &amp;</type>
+          <declname>lhs</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &amp;</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="90" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="90" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceray__sphere__intersections_1a0da96e05b7adeda81f139e07d9197b8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &gt;</type>
+        <definition>std::vector&lt; intersection &gt; ray_sphere_intersections::intersections</definition>
+        <argsstring>(const Ts &amp;...args)</argsstring>
+        <name>intersections</name>
+        <qualifiedname>ray_sphere_intersections::intersections</qualifiedname>
+        <param>
+          <type>const Ts &amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Combines multiple intersections and returns them sorted by time. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="97" column="25" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="97" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Ts</declname>
+            <defname>Ts</defname>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &gt;</type>
+        <definition>std::optional&lt; intersection &gt; ray_sphere_intersections::hit</definition>
+        <argsstring>(Ts &amp;...args)</argsstring>
+        <name>hit</name>
+        <qualifiedname>ray_sphere_intersections::hit</qualifiedname>
+        <param>
+          <type>Ts &amp;...</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+<para>Finds the hit (closest non-negative intersection) from a list of intersections passed as arguments. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>Ts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variadic template parameter pack of intersections </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>args</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Intersection objects to evaluate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Optional intersection if a valid hit exists, nullopt otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="115" column="27" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="115" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceray__sphere__intersections_1ab4913b129a6a9fa992ad9ddcbbe45183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::optional&lt; <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &gt;</type>
+        <definition>std::optional&lt; intersection &gt; ray_sphere_intersections::hit</definition>
+        <argsstring>(std::vector&lt; intersection &gt; &amp;intersections)</argsstring>
+        <name>hit</name>
+        <qualifiedname>ray_sphere_intersections::hit</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &gt; &amp;</type>
+          <declname>intersections</declname>
+        </param>
+        <briefdescription>
+<para>Finds the hit (closest non-negative intersection) from a vector of intersections. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>intersections</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Vector of intersections to evaluate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Optional intersection if a valid hit exists, nullopt otherwise </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="137" column="15" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="137" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="6" column="1"/>
+  </compounddef>
+</doxygen>

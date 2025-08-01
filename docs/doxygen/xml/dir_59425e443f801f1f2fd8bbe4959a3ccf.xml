@@ -6,6 +6,7 @@
     <innerfile refid="color__test_8cpp">color_test.cpp</innerfile>
     <innerfile refid="matrix__test_8cpp">matrix_test.cpp</innerfile>
     <innerfile refid="matrix__transformations__test_8cpp">matrix_transformations_test.cpp</innerfile>
+    <innerfile refid="ray__sphere__intersections__test_8cpp">ray_sphere_intersections_test.cpp</innerfile>
     <innerfile refid="tuple__test_8cpp">tuple_test.cpp</innerfile>
     <briefdescription>
     </briefdescription>

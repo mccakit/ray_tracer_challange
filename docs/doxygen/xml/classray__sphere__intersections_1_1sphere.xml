@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classray__sphere__intersections_1_1sphere" kind="class" language="C++" prot="public">
+    <compoundname>ray_sphere_intersections::sphere</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classray__sphere__intersections_1_1sphere_1a46324d4d76cdb94d2ec46edff053053d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ray_sphere_intersections::sphere::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>ray_sphere_intersections::sphere::id</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="48" column="9" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="variable" id="classray__sphere__intersections_1_1sphere_1a98e1d0ff1fa98aabf551b6f2dc636f9f" prot="public" static="no" mutable="no">
+        <type><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple</ref>&lt; 4 &gt;</type>
+        <definition>tuple::tuple&lt;4&gt; ray_sphere_intersections::sphere::origin</definition>
+        <argsstring></argsstring>
+        <name>origin</name>
+        <qualifiedname>ray_sphere_intersections::sphere::origin</qualifiedname>
+        <initializer>{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0, 0, 0)}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="49" column="18" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="variable" id="classray__sphere__intersections_1_1sphere_1a341c6d1bdfede53982922b489e343338" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ray_sphere_intersections::sphere::radious</definition>
+        <argsstring></argsstring>
+        <name>radious</name>
+        <qualifiedname>ray_sphere_intersections::sphere::radious</qualifiedname>
+        <initializer>{1}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="50" column="11" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="classray__sphere__intersections_1_1sphere_1aec646a7838c472500f0a1f27324c74ce" prot="public" static="no" mutable="no">
+        <type><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix</ref>&lt; 4, 4 &gt;</type>
+        <definition>matrix::matrix&lt;4, 4&gt; ray_sphere_intersections::sphere::transform</definition>
+        <argsstring></argsstring>
+        <name>transform</name>
+        <qualifiedname>ray_sphere_intersections::sphere::transform</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="51" column="20" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classray__sphere__intersections_1_1sphere_1adf060ac043e771f22a8f1c2e497dd1cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ray_sphere_intersections::sphere::sphere</definition>
+        <argsstring>(int id)</argsstring>
+        <name>sphere</name>
+        <qualifiedname>ray_sphere_intersections::sphere::sphere</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="52" column="5" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="52" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classray__sphere__intersections_1_1sphere_1a8bbeca24d1f1dc953342cb8488d07e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ray_sphere_intersections::sphere::set_transform</definition>
+        <argsstring>(const matrix::matrix&lt; 4, 4 &gt; &amp;t)</argsstring>
+        <name>set_transform</name>
+        <qualifiedname>ray_sphere_intersections::sphere::set_transform</qualifiedname>
+        <param>
+          <type>const <ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix</ref>&lt; 4, 4 &gt; &amp;</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Sets the transformation matrix for the sphere. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="58" column="10" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classray__sphere__intersections_1_1sphere_1a15532f4c1a207348602b339bd6437325" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">intersection</ref> &gt;</type>
+        <definition>std::vector&lt; intersection &gt; ray_sphere_intersections::sphere::intersect</definition>
+        <argsstring>(const ray &amp;ray)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>ray_sphere_intersections::sphere::intersect</qualifiedname>
+        <param>
+          <type>const <ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray</ref> &amp;</type>
+          <declname>ray</declname>
+        </param>
+        <briefdescription>
+<para>Computes intersections of a ray with this sphere. Transforms the ray into object space and solves the quadratic equation.ns. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="66" column="17" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="66" bodyend="84"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>matrix::matrix&lt; 4, 4 &gt;</label>
+        <link refid="classmatrix_1_1matrix"/>
+      </node>
+      <node id="1">
+        <label>ray_sphere_intersections::sphere</label>
+        <link refid="classray__sphere__intersections_1_1sphere"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>origin</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>transform</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>tuple::tuple&lt; 4 &gt;</label>
+        <link refid="classtuple_1_1tuple"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" line="45" column="1" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/ray_sphere_intersections.cpp" bodystart="46" bodyend="85"/>
+    <listofallmembers>
+      <member refid="classray__sphere__intersections_1_1sphere_1a46324d4d76cdb94d2ec46edff053053d" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>id</name></member>
+      <member refid="classray__sphere__intersections_1_1sphere_1a15532f4c1a207348602b339bd6437325" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>intersect</name></member>
+      <member refid="classray__sphere__intersections_1_1sphere_1a98e1d0ff1fa98aabf551b6f2dc636f9f" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>origin</name></member>
+      <member refid="classray__sphere__intersections_1_1sphere_1a341c6d1bdfede53982922b489e343338" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>radious</name></member>
+      <member refid="classray__sphere__intersections_1_1sphere_1a8bbeca24d1f1dc953342cb8488d07e66" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>set_transform</name></member>
+      <member refid="classray__sphere__intersections_1_1sphere_1adf060ac043e771f22a8f1c2e497dd1cc" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>sphere</name></member>
+      <member refid="classray__sphere__intersections_1_1sphere_1aec646a7838c472500f0a1f27324c74ce" prot="public" virt="non-virtual"><scope>ray_sphere_intersections::sphere</scope><name>transform</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

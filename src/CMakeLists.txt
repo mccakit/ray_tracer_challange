@@ -15,3 +15,7 @@ target_link_libraries(matrix PRIVATE tuple)
 add_library(matrix_transformations STATIC)
 target_sources(matrix_transformations PUBLIC FILE_SET CXX_MODULES FILES matrix_transformations.cpp)
 target_link_libraries(matrix_transformations PRIVATE matrix)
+
+add_library(ray_sphere_intersections STATIC)
+target_sources(ray_sphere_intersections PUBLIC FILE_SET CXX_MODULES FILES ray_sphere_intersections.cpp)
+target_link_libraries(ray_sphere_intersections PRIVATE matrix matrix_transformations)

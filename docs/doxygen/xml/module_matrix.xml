@@ -436,12 +436,13 @@
           <declname>rs_matrix</declname>
         </param>
         <briefdescription>
+<para>Multiplication order is reversed because I use column vectors. </para>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="211" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="211" bodyend="225"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="214" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="214" bodyend="228"/>
       </memberdef>
       <memberdef kind="function" id="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>matrix&lt; 4, 4 &gt;</type>
@@ -456,7 +457,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="229" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="229" bodyend="232"/>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" line="232" column="8" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/src/matrix.cpp" bodystart="232" bodyend="235"/>
       </memberdef>
     </sectiondef>
     <briefdescription>

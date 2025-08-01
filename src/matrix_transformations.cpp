@@ -13,7 +13,7 @@ matrix::matrix<4, 4> translation(const int x, const int y, const int z)
     output(3, 2) = z;
     return output;
 }
-matrix::matrix<4, 4> scaling(const int x, const int y, const int z)
+matrix::matrix<4, 4> scaling(const float x, const float y, const float z)
 {
     matrix::matrix<4, 4> output{matrix::identity_matrix()};
     output(0, 0) = x;

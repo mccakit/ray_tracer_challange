@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="ray__sphere__intersections__test_8cpp" kind="file" language="C++">
+    <compoundname>ray_sphere_intersections_test.cpp</compoundname>
+    <includes refid="ut_8cppm" local="no">boost.ut</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>boost.ut</label>
+        <link refid="ut_8cppm"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>ut.hpp</label>
+        <link refid="ut_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>/home/mccakit/desktop/projects/ray_tracer_challange/tests/ray_sphere_intersections_test.cpp</label>
+        <link refid="ray__sphere__intersections__test_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>std</label>
+      </node>
+      <node id="4">
+        <label>version</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="ray__sphere__intersections__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto main</definition>
+        <argsstring>() -&gt; int</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mccakit/desktop/projects/ray_tracer_challange/tests/ray_sphere_intersections_test.cpp" line="7" column="6" bodyfile="/home/mccakit/desktop/projects/ray_tracer_challange/tests/ray_sphere_intersections_test.cpp" bodystart="7" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_boost_8ut" kindref="compound">boost.ut</ref>;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_ray__sphere__intersections" kindref="compound">ray_sphere_intersections</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_tuple" kindref="compound">tuple</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_matrix" kindref="compound">matrix</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/><ref refid="module_matrix__transformations" kindref="compound">matrix_transformations</ref>;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="ray__sphere__intersections__test_8cpp_1a8216c1645620cdb2f629cde3ac02ffef" kindref="member">main</ref>()<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal">boost::ut;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Creating<sp/>and<sp/>querying<sp/>a<sp/>ray&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>origin{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>2,<sp/>3)};</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classtuple_1_1tuple" kindref="compound">tuple::tuple&lt;4&gt;</ref><sp/>direction{<ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(4,<sp/>5,<sp/>6)};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{origin,<sp/>direction};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(ray.origin<sp/>==<sp/>origin<sp/>and<sp/>ray.direction<sp/>==<sp/>direction);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Computing<sp/>a<sp/>point<sp/>from<sp/>a<sp/>distance&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(1,<sp/>0,<sp/>0)};</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(ray.position(0)<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(ray.position(1)<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(3,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(ray.position(-1)<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(ray.position(2.5)<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(4.5,<sp/>3,<sp/>4));</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>ray<sp/>intersects<sp/>a<sp/>sphere<sp/>at<sp/>two<sp/>points&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>-5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>sphere{0};</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(sphere.intersect(ray)[0].time<sp/>==<sp/>4.0<sp/>and<sp/>sphere.intersect(ray)[1].time<sp/>==<sp/>6.0);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>ray<sp/>intersects<sp/>a<sp/>sphere<sp/>at<sp/>a<sp/>tangent&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>1,<sp/>-5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>sphere{0};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(sphere.intersect(ray)[0].time<sp/>==<sp/>5.0<sp/>and<sp/>sphere.intersect(ray)[1].time<sp/>==<sp/>5.0);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>ray<sp/>misses<sp/>a<sp/>sphere&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>2,<sp/>-5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>sphere{0};</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(sphere.intersect(ray).size()<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>ray<sp/>originates<sp/>inside<sp/>a<sp/>sphere&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>0),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>sphere{0};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(sphere.intersect(ray)[0].time<sp/>==<sp/>-1.0<sp/>and<sp/>sphere.intersect(ray)[1].time<sp/>==<sp/>1.0);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>sphere<sp/>is<sp/>behind<sp/>a<sp/>ray&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>sphere{0};</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(sphere.intersect(ray)[0].time<sp/>==<sp/>-6.0<sp/>and<sp/>sphere.intersect(ray)[1].time<sp/>==<sp/>-4.0);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;An<sp/>intersection<sp/>encapsulates<sp/>t<sp/>and<sp/>object&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>intersection{3.5,<sp/>s};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(intersection.time<sp/>==<sp/>3.5);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(intersection.object<sp/>==<sp/>s);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Aggregating<sp/>intersections&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i1{1,<sp/>s};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i2{2,<sp/>s};</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xs{<ref refid="namespaceray__sphere__intersections_1a0da96e05b7adeda81f139e07d9197b8f" kindref="member">ray_sphere_intersections::intersections</ref>(i1,<sp/>i2)};</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs[0].time<sp/>==<sp/>1);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs[1].time<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Intersect<sp/>sets<sp/>the<sp/>object<sp/>on<sp/>the<sp/>intersection&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>r{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>-5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;ray_sphere_intersections::intersection&gt;<sp/>xs<sp/>=<sp/>s.<ref refid="classray__sphere__intersections_1_1sphere_1a15532f4c1a207348602b339bd6437325" kindref="member">intersect</ref>(r);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs.size()<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs[0].</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>==<sp/>s);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs[1].</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>==<sp/>s);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;The<sp/>hit,<sp/>when<sp/>all<sp/>intersections<sp/>have<sp/>positive<sp/>t&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i1{1,<sp/>s};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i2{2,<sp/>s};</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kindref="member">hit</ref><sp/>=<sp/><ref refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kindref="member">ray_sphere_intersections::hit</ref>(i2,<sp/>i1);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(hit<sp/>==<sp/>i1);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;The<sp/>hit,<sp/>when<sp/>some<sp/>intersections<sp/>have<sp/>negative<sp/>t&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i1{-1,<sp/>s};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i2{1,<sp/>s};</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kindref="member">hit</ref><sp/>=<sp/><ref refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kindref="member">ray_sphere_intersections::hit</ref>(i2,<sp/>i1);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(hit<sp/>==<sp/>i2);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;The<sp/>hit,<sp/>when<sp/>all<sp/>intersections<sp/>have<sp/>negative<sp/>t&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i1{-2,<sp/>s};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i2{-1,<sp/>s};</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>h<sp/>=<sp/><ref refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kindref="member">ray_sphere_intersections::hit</ref>(i2,<sp/>i1);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(std::nullopt<sp/>==<sp/>h);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;The<sp/>hit<sp/>is<sp/>always<sp/>the<sp/>lowest<sp/>nonnegative<sp/>intersection&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i1{5,<sp/>s};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i2{7,<sp/>s};</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i3{-3,<sp/>s};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1intersection" kindref="compound">ray_sphere_intersections::intersection</ref><sp/>i4{2,<sp/>s};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;ray_sphere_intersections::intersection&gt;<sp/>xs{<ref refid="namespaceray__sphere__intersections_1a0da96e05b7adeda81f139e07d9197b8f" kindref="member">ray_sphere_intersections::intersections</ref>(i1,<sp/>i2,<sp/>i3,<sp/>i4)};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>h<sp/>=<sp/><ref refid="namespaceray__sphere__intersections_1a76ccb9b7a9634cca8903200b5278abcf" kindref="member">ray_sphere_intersections::hit</ref>(xs);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(h.has_value());</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(h.value()<sp/>==<sp/>i4);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Translating<sp/>a<sp/>ray&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>ray<sp/>{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>2,<sp/>3),<ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>1,<sp/>0)};</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>m<sp/>{<ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(3,<sp/>4,<sp/>5)};</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>ray2<sp/>{ray.transform(m)};</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(ray2.origin<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(4,<sp/>6,<sp/>8)<sp/>and<sp/>ray2.direction<sp/>==<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>1,<sp/>0));</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Scaling<sp/>a<sp/>ray&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>r<sp/>{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(1,<sp/>2,<sp/>3),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>1,<sp/>0)};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classmatrix_1_1matrix" kindref="compound">matrix::matrix&lt;4, 4&gt;</ref><sp/>m<sp/>{<ref refid="namespacematrix__transformations_1a6b3f171f064cb5ca8a0010eae3e90fb5" kindref="member">matrix_transformations::scaling</ref>(2,<sp/>3,<sp/>4)};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>r2<sp/>=<sp/>r.transform(m);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(r2.origin<sp/>==<sp/><ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(2,<sp/>6,<sp/>12)<sp/>&amp;&amp;<sp/>r2.direction<sp/>==<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>3,<sp/>0));</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;A<sp/>sphere&apos;s<sp/>default<sp/>transformation&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(s.transform<sp/>==<sp/><ref refid="namespacematrix_1ac1569d058e5bf01e82d84c01ff30e034" kindref="member">matrix::identity_matrix</ref>());</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Changing<sp/>a<sp/>sphere&apos;s<sp/>transformation&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{0};</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>t<sp/>=<sp/><ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(2,<sp/>3,<sp/>4);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.set_transform(t);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(s.transform<sp/>==<sp/>t);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Intersecting<sp/>a<sp/>scaled<sp/>sphere<sp/>with<sp/>a<sp/>ray&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>r{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>-5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{1};</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="classray__sphere__intersections_1_1sphere_1a8bbeca24d1f1dc953342cb8488d07e66" kindref="member">set_transform</ref>(<ref refid="namespacematrix__transformations_1a6b3f171f064cb5ca8a0010eae3e90fb5" kindref="member">matrix_transformations::scaling</ref>(2,<sp/>2,<sp/>2));</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xs<sp/>=<sp/>s.intersect(r);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs.size()<sp/>==<sp/>2);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs[0].time<sp/>==<sp/>3);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs[1].time<sp/>==<sp/>7);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;Intersecting<sp/>a<sp/>translated<sp/>sphere<sp/>with<sp/>a<sp/>ray&quot;</highlight><highlight class="normal">_test<sp/>=<sp/>[]<sp/>{</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1ray" kindref="compound">ray_sphere_intersections::ray</ref><sp/>r{<ref refid="namespacetuple_1ac5c930222bb77139eb2f130fc9a62c04" kindref="member">tuple::point</ref>(0,<sp/>0,<sp/>-5),<sp/><ref refid="namespacetuple_1a90ad13297430ff9228509271c63934e1" kindref="member">tuple::vector</ref>(0,<sp/>0,<sp/>1)};</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classray__sphere__intersections_1_1sphere" kindref="compound">ray_sphere_intersections::sphere</ref><sp/>s{2};</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>s.<ref refid="classray__sphere__intersections_1_1sphere_1a8bbeca24d1f1dc953342cb8488d07e66" kindref="member">set_transform</ref>(<ref refid="namespacematrix__transformations_1a428872b3569e9c5b802ed30bb09219e3" kindref="member">matrix_transformations::translation</ref>(5,<sp/>0,<sp/>0));</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>xs<sp/>=<sp/>s.intersect(r);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="attr_8cpp_1a6d7a86c23770c79c113444caa7b5fd88" kindref="member">expect</ref>(xs.size()<sp/>==<sp/>0);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/mccakit/desktop/projects/ray_tracer_challange/tests/ray_sphere_intersections_test.cpp"/>
+  </compounddef>
+</doxygen>
