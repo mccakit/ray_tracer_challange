@@ -14,3 +14,5 @@ API Reference
     :project: ray_tracer_challange
 .. doxygenfile:: ray_sphere_intersections.cpp
     :project: ray_tracer_challange
+.. doxygenfile:: light_and_shading.cpp
+    :project: ray_tracer_challange

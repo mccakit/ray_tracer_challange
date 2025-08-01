@@ -2,6 +2,7 @@ export module ray_sphere_intersections;
 import std;
 import tuple;
 import matrix;
+import light_and_shading;
 
 export namespace ray_sphere_intersections
 {
@@ -49,6 +50,7 @@ class sphere
     tuple::tuple<4> origin{tuple::point(0, 0, 0)};
     float radious{1};
     matrix::matrix<4, 4> transform;
+    light_and_shading::material material{};
     sphere(int id) : id{id}, transform(matrix::identity_matrix())
     {
     }
@@ -81,6 +83,14 @@ class sphere
             float t2{(-b + std::sqrt(discriminant)) / (2 * a)};
             return {{t1, *this}, {t2, *this}};
         }
+    }
+    tuple::tuple<4> normal_at(tuple::tuple<4> point)
+    {
+        auto object_point = transform.inverse() * point;
+        auto object_normal = object_point - tuple::point(0, 0, 0);
+        auto world_normal = transform.inverse().transpose() * object_normal;
+        world_normal[3] = 0.0f;
+        return tuple::normalize(world_normal);
     }
 };
 bool operator==(const sphere &ls_sphere, const sphere &rs_sphere)

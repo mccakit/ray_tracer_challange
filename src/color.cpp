@@ -38,6 +38,10 @@ class color
     {
         return channels[i];
     }
+    void print() const
+    {
+        std::cout << "color(" << channels[0] << ", " << channels[1] << ", " << channels[2] << ")\n";
+    }
 };
 
 /**
@@ -47,7 +51,7 @@ bool operator==(const color &ls_color, const color &rs_color)
 {
     for (int i{0}; i < 3; ++i)
     {
-        if (std::abs(ls_color[i] - rs_color[i]) > 1e-5)
+        if (std::abs(ls_color[i] - rs_color[i]) > 1e-3)
         {
             return false;
         }

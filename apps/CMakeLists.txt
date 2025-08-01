@@ -8,4 +8,5 @@ target_link_libraries(
         matrix_transformations
         ray_sphere_intersections
         canvas
+        light_and_shading
 )

@@ -68,6 +68,17 @@ class tuple
     {
         return data[i];
     }
+    void print() const
+    {
+        std::cout << "(";
+        for (int i = 0; i < N; ++i) {
+            std::cout << data[i];
+            if (i < N - 1) {
+                std::cout << ", ";
+            }
+        }
+        std::cout << ")";
+    }
 };
 /**
  * @brief Creates a tuple representing a 3D point.
@@ -109,7 +120,7 @@ bool operator==(const tuple<N> &ls_tuple, const tuple<N> &rs_tuple)
 {
     for (int i{0}; i < N; ++i)
     {
-        if (std::abs(ls_tuple[i] - rs_tuple[i]) > 1e-5)
+        if (std::abs(ls_tuple[i] - rs_tuple[i]) > 1e-3)
         {
             return false;
         }

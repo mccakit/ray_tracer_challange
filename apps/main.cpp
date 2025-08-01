@@ -5,7 +5,7 @@ import color;
 import canvas;
 import matrix_transformations;
 import ray_sphere_intersections;
-
+import light_and_shading;
 auto main() -> int
 {
     constexpr float wall_size{7.0};
@@ -17,9 +17,10 @@ auto main() -> int
     color::color red{1, 0, 0};
     ray_sphere_intersections::ray ray{tuple::point(0, 0, -5), tuple::vector(1, 0, 0)};
     ray_sphere_intersections::sphere shape{0};
-    shape.set_transform(matrix_transformations::scaling(1, 0.5, 1) *
-                        matrix_transformations::rotation_z(std::numbers::pi / 4) *
-                        matrix_transformations::shearing(1, 0, 0, 0, 0, 0));
+    shape.material.color = {1, 0.2, 1};
+    tuple::tuple<4> light_position{tuple::point(-10, 10, 10)};
+    color::color light_color{1, 1, 1};
+    light_and_shading::light light{light_color, light_position};
     float world_y{};
     float world_x{};
     for (int row{0}; row < canvas.height; ++row)
@@ -36,13 +37,13 @@ auto main() -> int
             {
                 if (intersection.time >= 0)
                 {
-                    hit_found = true;
+                    auto point {r.origin + r.direction * intersection.time};
+                    auto normal{shape.normal_at(point)};
+                    auto eye{r.direction * -1};
+                    auto color {light_and_shading::lighting(shape.material, light, point, eye, normal)};
+                    canvas.write_pixel(col, row, color);
                     break;
                 }
-            }
-            if (hit_found)
-            {
-                canvas.write_pixel(col, row, red);
             }
         }
     }

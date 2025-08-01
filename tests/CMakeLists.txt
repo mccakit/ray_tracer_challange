@@ -21,3 +21,7 @@ add_test(NAME matrix_transformations_test COMMAND matrix_transformations_test)
 add_executable(ray_sphere_intersections_test ray_sphere_intersections_test.cpp)
 target_link_libraries(ray_sphere_intersections_test PRIVATE ray_sphere_intersections Boost::ut_module)
 add_test(NAME ray_sphere_intersections_test COMMAND ray_sphere_intersections_test)
+
+add_executable(light_and_shading_test light_and_shading_test.cpp)
+target_link_libraries(light_and_shading_test PRIVATE light_and_shading ray_sphere_intersections Boost::ut_module)
+add_test(NAME light_and_shading_test COMMAND light_and_shading_test)
