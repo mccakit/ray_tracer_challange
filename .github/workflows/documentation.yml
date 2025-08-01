@@ -11,9 +11,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-      - name: Install dependencies
+      - name: Install dependencies and Doxygen
         run: |
+          # Update apt-get and install Doxygen
+          sudo apt-get update
+          sudo apt-get install -y doxygen
+          # Install Python dependencies for Sphinx
           pip install sphinx breathe
+      - name: Generate Doxygen documentation
+        run: |
+          # Change directory to docs/doxygen
+          cd docs/doxygen
+          # Run Doxygen to generate documentation
+          doxygen
+          # Return to the original directory (repository root)
+          cd -
       - name: Sphinx build
         run: |
           sphinx-build docs/sphinx/source docs/sphinx/build
