@@ -1,0 +1,6 @@
+project('ray_tracer_challange', ['c', 'cpp'], version : '1.0')
+subdir('deps')
+subdir('src')
+subdir('apps')
+subdir('tests')
+subdir('docs')
