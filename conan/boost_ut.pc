@@ -1,4 +1,4 @@
-prefix=/home/mccakit/dev/conan/p/b/boost3c1c458b6643c/p
+prefix=/home/mccakit/dev/conan/p/b/boost91691c87c78f7/p
 libdir=${prefix}/lib
 
 Name: boost_ut
